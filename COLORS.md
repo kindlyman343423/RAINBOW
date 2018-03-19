@@ -4,10 +4,23 @@
 ### In LINUX:
 ```
  #include "colors.h"
+ #include <stdio.h>
  int main()
  {
- 	printf("%sThis is a green color",GREEN);
+ 	printf("%sThis is a green color",GREEN); //this will print green color text
  }
+```
+
+## USAGE IN C++
+### In LINUX:
+```
+#include "colors.h"
+#include <iostream>
+using namespace std;
+int main()
+{
+   cout << GREEN << "This is a green color"; //this will print green color text
+}
 ```
 
 ## FORMATTING TEXT
