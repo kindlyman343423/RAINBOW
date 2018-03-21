@@ -1,4 +1,6 @@
-This is a library for using colors in c in your terminal or UI.
+# COLORS-IN-C
+This is a library for using colors in C in your terminal or UI. For knowing the supported colors see
+[COLORS](COLORS.md)
 
 # COMPILE AND BUILD
 ## USAGE IN C
