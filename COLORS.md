@@ -1,28 +1,4 @@
-# MANUAL IS FOR USING colors.h file:
-
-## USAGE IN C
-### In LINUX:
-```
- #include "colors.h"
- #include <stdio.h>
- int main()
- {
- 	printf("%sThis is a green color",GREEN); //this will print green color text
- }
-```
-
-## USAGE IN C++
-### In LINUX:
-```
-#include "colors.h"
-#include <iostream>
-using namespace std;
-int main()
-{
-   cout << GREEN << "This is a green color"; //this will print green color text
-}
-```
-
+# SHOWING DIFFERENT COLORS.
 ## FORMATTING TEXT
  USED VARIABLE | COLOR CODE | OUTPUT
 ---------------|------------|--------------
