@@ -2,9 +2,9 @@
 This is a library for using colors in C in your terminal or UI. For knowing the supported colors see
 [COLORS](COLORS.md)
 
-# COMPILE AND BUILD
-## USAGE IN C
-### In LINUX:
+## COMPILE AND BUILD
+### USAGE IN C
+#### In LINUX:
 ```
  #include "colors.h"
  #include <stdio.h>
@@ -14,8 +14,8 @@ This is a library for using colors in C in your terminal or UI. For knowing the 
  }
 ```
 
-## USAGE IN C++
-### In LINUX:
+### USAGE IN C++
+#### In LINUX:
 ```
 #include "colors.h"
 #include <iostream>
@@ -26,10 +26,10 @@ int main()
 }
 ```
 
-# DEPENDANCIES
+## DEPENDANCIES
 1. gcc complier
 2. Text Editor like atom,gedit,etc;
 
-# SUPPORTED LANGUAGES
+## SUPPORTED LANGUAGES
 1. C
 2. C++
