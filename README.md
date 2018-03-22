@@ -5,6 +5,10 @@ This is a library for using colors in C in your terminal or UI. For knowing the 
 ## COMPILE AND BUILD
 ### USAGE IN C
 #### In LINUX:
+1. Download ZIP or clone the repository using
+> git clone https://github.com/GauravWalia19/COLORS-IN-C.git
+
+2.
 ```
  #include "colors.h"
  #include <stdio.h>
