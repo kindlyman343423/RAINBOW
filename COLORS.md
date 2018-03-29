@@ -96,3 +96,5 @@
 ![BGWHITE](img/BGWHITE.png)
 
 ## CUSTOMIZATION
+1. [FORMATTING COLORS](formattingcolors.md)
+2. [FORMATTING BACKGROUND](formattingbg.md)
