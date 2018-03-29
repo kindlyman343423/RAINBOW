@@ -168,6 +168,33 @@
 #### UBLUE
 ![UBLUE](img/UBLUE.png)
 
+#### BMAGENTA
+![BMAGENTA](img/BMAGENTA.png)
+
+#### IMAGENTA
+![IMAGENTA](img/IMAGENTA.png)
+
+#### UMAGENTA
+![UMAGENTA](img/UMAGENTA.png)
+
+#### BCYAN
+![BCYAN](img/BCYAN.png)
+
+#### ICYAN
+![ICYAN](img/ICYAN.png)
+
+#### UCYAN
+![UCYAN](img/UCYAN.png)
+
+#### BWHITE
+![BWHITE](img/BWHITE.png)
+
+#### IWHITE
+![IWHITE](img/IWHITE.png)
+
+#### UWHITE
+![UWHITE](img/UWHITE.png)
+
 ## FORMATTING WITH BACKGROUND
  USED VARIABLE | COLOR CODE | OUTPUT
 ---------------|------------|--------------
