@@ -162,6 +162,12 @@
 #### BBLUE
 ![BBLUE](img/BBLUE.png)
 
+#### IBLUE
+![IBLUE](img/IBLUE.png)
+
+#### UBLUE
+![UBLUE](img/UBLUE.png)
+
 ## FORMATTING WITH BACKGROUND
  USED VARIABLE | COLOR CODE | OUTPUT
 ---------------|------------|--------------
