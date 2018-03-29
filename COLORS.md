@@ -122,6 +122,45 @@
  BWHITE | "\x1B[1;37m" | BOLD WHITE
  IWHITE | "\x1B[3;37m" | ITALIC WHITE
  UWHITE | "\x1B[4;37m" | UNDERLINE WHITE
+### OUTPUT
+#### Bgreen
+![Bgreen](img/Bgreen.png)
+
+#### Igreen
+![Igreen](img/Igreen.png)
+
+#### Ugreen
+![Ugreen](img/Ugreen.png)
+
+#### BRED
+![BRED](img/BRED.png)
+
+#### IRED
+![IRED](img/IRED.png)
+
+#### URED
+![URED](img/URED.png)
+
+#### BGREEN
+![BGREEN](img/BGREEN.png)
+
+#### IGREEN
+![IGREEN](img/IGREEN.png)
+
+#### UGREEN
+![UGREEN](img/UGREEN.png)
+
+#### BYELLOW
+![BYELLOW](img/BYELLOW.png)
+
+#### IYELLOW
+![IYELLOW](img/IYELLOW.png)
+
+#### UYELLOW
+![UYELLOW](img/UYELLOW.png)
+
+#### BBLUE
+![BBLUE](img/BBLUE.png)
 
 ## FORMATTING WITH BACKGROUND
  USED VARIABLE | COLOR CODE | OUTPUT
