@@ -1,0 +1,5 @@
+# IGNORING FILES
+
+*.c.swp
+*.out
+
