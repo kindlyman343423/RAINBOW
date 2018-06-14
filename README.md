@@ -3,9 +3,9 @@
 This is a library for using colors in C ,C++ & JAVA in your terminal or UI. For knowing the supported colors see
 [COLORS](docs/COLORS.md).
 
-## COMPILE AND RUN
+## :rocket: COMPILE AND RUN
 
-### USAGE IN C (:octocat: LINUX :octocat:)
+### :rocket: USAGE IN C (:octocat: LINUX :octocat:)
 
 #### 1. Download ZIP and extract or clone the repository using
 
@@ -49,7 +49,7 @@ gcc hello.c -o hello
 ./hello
 ```
 
-### USAGE IN C++ (:octocat: LINUX :octocat:)
+### :rocket: USAGE IN C++ (:octocat: LINUX :octocat:)
 
 #### 1. Download ZIP or clone the repository using
 
@@ -87,14 +87,14 @@ int main()
 }
 ```
 
-#### 4. Compile and Run using commands
+#### 4. Compile and run using commands
 
 ```bash
 g++ hello.cpp -o hello.out
 ./hello.out
 ```
 
-### USAGE IN JAVA (:octocat: LINUX :octocat:)
+### :rocket: USAGE IN JAVA (:octocat: LINUX :octocat:)
 
 #### 1. Download the ZIP or clone the repository using
 
@@ -143,17 +143,26 @@ javac hello.java
 java hello
 ```
 
-## DEPENDANCIES
+## :rocket: DEPENDANCIES
 
 1. gcc complier/g++ complier/javac compiler
 2. Text Editor like atom,gedit,etc;
 
-## SUPPORTED LANGUAGES
+## :rocket: SUPPORTED LANGUAGES
 
 1. C
 2. C++
 3. JAVA
 
-## AUTHOR
+## :rocket: CONTRIBUTING
+
+* See [CONTRIBUTION](CONTRIBUTING.md)
+* See [CODE OF CONDUCT](CODE_OF_CONDUCT.md)
+* For pull request follow [PULL REQUEST TEMPLATE](.github/PULL_REQUEST_TEMPLATE.md)
+* For making ISSUE
+  * [BUG REPORT](.github/ISSUE_TEMPLATE/bug_report.md)
+  * [FEATURE REQUEST](.github/ISSUE_TEMPLATE/feature_request.md)
+
+## :rocket: AUTHOR
 
 :copyright: Gaurav Walia

@@ -1,4 +1,4 @@
-# SHOWING DIFFERENT COLORS.
+# SHOWING DIFFERENT COLORS
 
 ## FORMATTING TEXT
 
@@ -13,19 +13,19 @@
 
 #### RESET
 
-![RESET](img/RESET.png)
+![RESET](../img/RESET.png)
 
 #### BOLD
 
-![BOLD](img/BOLD.png)
+![BOLD](../img/BOLD.png)
 
 #### ITALIC
 
-![ITALIC](img/ITALIC.png)
+![ITALIC](../img/ITALIC.png)
 
 #### UNDERLINE
 
-![UNDERLINE](img/UNDERLINE.png)
+![UNDERLINE](../img/UNDERLINE.png)
 
 ## TEXT COLORS
 
@@ -45,39 +45,39 @@
 
 #### green
 
-![green](img/green.png)
+![green](../img/green.png)
 
 #### BLACK
 
-![BLACK](img/BLACK.png)
+![BLACK](../img/BLACK.png)
 
 #### RED
 
-![RED](img/RED.png)
+![RED](../img/RED.png)
 
 #### GREEN
 
-![GREEN](img/GREEN.png)
+![GREEN](../img/GREEN.png)
 
 #### YELLOW
 
-![YELLOW](img/YELLOW.png)
+![YELLOW](../img/YELLOW.png)
 
 #### BLUE
 
-![BLUE](img/BLUE.png)
+![BLUE](../img/BLUE.png)
 
 #### MAGENTA
 
-![MAGENTA](img/MAGENTA.png)
+![MAGENTA](../img/MAGENTA.png)
 
 #### CYAN
 
-![CYAN](img/CYAN.png)
+![CYAN](../img/CYAN.png)
 
 #### WHITE
 
-![WHITE](img/WHITE.png)
+![WHITE](../img/WHITE.png)
 
 ## BACKGROUND COLORS
 
@@ -96,35 +96,35 @@
 
 #### BGGREENISH
 
-![BGGREENISH](img/BGGREENISH.png)
+![BGGREENISH](../img/BGGREENISH.png)
 
 #### BGRED
 
-![BGRED](img/BGRED.png)
+![BGRED](../img/BGRED.png)
 
 #### BGLGREEN
 
-![BGLGREEN](img/BGLGREEN.png)
+![BGLGREEN](../img/BGLGREEN.png)
 
 #### BGORANGE
 
-![BGORANGE](img/BGORANGE.png)
+![BGORANGE](../img/BGORANGE.png)
 
 #### BGLBLUE
 
-![BGLBLUE](img/BGLBLUE.png)
+![BGLBLUE](../img/BGLBLUE.png)
 
 #### BGPINK
 
-![BGPINK](img/BGPINK.png)
+![BGPINK](../img/BGPINK.png)
 
 #### BGDGREEN
 
-![BGDGREEN](img/BGDGREEN.png)
+![BGDGREEN](../img/BGDGREEN.png)
 
 #### BGWHITE
 
-![BGWHITE](img/BGWHITE.png)
+![BGWHITE](../img/BGWHITE.png)
 
 ## CUSTOMIZATION
 
