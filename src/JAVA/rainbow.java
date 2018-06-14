@@ -1,4 +1,4 @@
-public class getcolor
+public class rainbow
 {
     //COLOR MANUAL
     //FORMATTING TEXT
@@ -291,4 +291,78 @@ public class getcolor
     {
         return (UBGRED+str);
     }
+    public String getBBGLGREEN(String str)
+    {
+        return (BBGLGREEN+str);
+    }
+    public String getIBGLGREEN(String str)
+    {
+        return (IBGLGREEN+str);
+    }
+    public String getUBGLGREEN(String str)
+    {
+        return (UBGLGREEN+str);
+    }
+    public String getBBGORANGE(String str)
+    {
+        return (BBGORANGE+str);
+    }
+    public String getIBGORANGE(String str)
+    {
+        return (IBGORANGE+str);
+    }
+    public String getUBGORANGE(String str)
+    {
+        return (UBGORANGE+str);
+    }
+    public String getBBGLBLUE(String str)
+    {
+        return (BBGLBLUE+str);
+    }
+    public String getIBGLBLUE(String str)
+    {
+        return (IBGLBLUE+str);
+    }
+    public String getUBGLBLUE(String str)
+    {
+        return (UBGLBLUE+str);
+    }
+    public String getBBGPINK(String str)
+    {
+        return (BBGPINK+str);
+    }
+    public String getIBGPINK(String str)
+    {
+        return (IBGPINK+str);
+    }
+    public String getUBGPINK(String str)
+    {
+        return (UBGPINK+str);
+    }
+    public String getBBGDGREEN(String str)
+    {
+        return (BBGDGREEN+str);
+    }
+    public String getIGDGREEN(String str)
+    {
+        return (IGDGREEN+str);
+    }
+    public String getUGDGREEN(String str)
+    {
+        return (UGDGREEN+str);
+    }
+    public String getBBGWHITE(String str)
+    {
+        return (BBGWHITE+str);
+    }
+    public String getIBGWHITE(String str)
+    {
+        return (IBGWHITE+str);
+    }
+    public String getUBGWHITE(String str)
+    {
+        return (UBGWHITE+str);
+    }
+
+    //RAINBOW METHODS
 }

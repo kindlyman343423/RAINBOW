@@ -1,4 +1,4 @@
-public class color
+public class rain
 {
     //COLOR MANUAL
 

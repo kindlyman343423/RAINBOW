@@ -7,13 +7,13 @@ This is a library for using colors in C ,C++ & JAVA in your terminal or UI. For 
 
 ### USAGE IN C (:octocat: LINUX :octocat:)
 
-1. Download ZIP and extract or clone the repository using
+#### 1. Download ZIP and extract or clone the repository using
 
 ```bash
 git clone https://github.com/GauravWalia19/COLORS-IN-C-Cpp-JAVA.git
 ```
 
-2. Navigate to download or cloning place folder(Open terminal and follow commands)
+#### 2. Navigate to download or cloning place folder(Open terminal and follow commands)
 
 ```bash
 cd ~
@@ -23,7 +23,7 @@ cd src/C-C++
 bash c.sh
 ```
 
-3. If U want to use in your code than **create a file with extension of c (hello.c) there. Write the code given below:**
+#### 3. If U want to use in your code than create a file with extension of c (hello.c) there. Write the code given below
 
 *Terminal*
 
@@ -31,7 +31,7 @@ bash c.sh
 touch hello.c
 ```
 
-*Open file hello.c in Text Editor and write code given below:*
+ *Open file hello.c in Text Editor and write code given below:*
 
 ```c
  #include "colors.h"
@@ -42,7 +42,7 @@ touch hello.c
  }
 ```
 
-4. Compile and Run using commands:
+#### 4. Compile and Run using commands
 
 ```bash
 gcc hello.c -o hello
@@ -51,13 +51,13 @@ gcc hello.c -o hello
 
 ### USAGE IN C++ (:octocat: LINUX :octocat:)
 
-1. Download ZIP or clone the repository using
+#### 1. Download ZIP or clone the repository using
 
 ```bash
  git clone https://github.com/GauravWalia19/COLORS-IN-C-Cpp-JAVA.git
 ```
 
-2. Navigate to download or cloning place folder(Open terminal and follow commands)
+#### 2. Navigate to download or cloning place folder. Open terminal and follow commands
 
 ```bash
 cd ~
@@ -67,7 +67,7 @@ cd src/C-C++
 bash cpp.sh
 ```
 
-3. If U want to use in your code than **create a file with extension of cpp (hello.cpp) there. Write the code given below:**
+#### 3. If U want to use in your code than create a file with extension of cpp (hello.cpp) there. Write the code given below
 
 *Terminal*
 
@@ -87,7 +87,7 @@ int main()
 }
 ```
 
-4. Compile and Run using commands:
+#### 4. Compile and Run using commands
 
 ```bash
 g++ hello.cpp -o hello.out
@@ -95,6 +95,53 @@ g++ hello.cpp -o hello.out
 ```
 
 ### USAGE IN JAVA (:octocat: LINUX :octocat:)
+
+#### 1. Download the ZIP or clone the repository using
+
+```bash
+ git clone https://github.com/GauravWalia19/COLORS-IN-C-Cpp-JAVA.git
+```
+
+#### 2. Navigate to the download or cloning place folder(Open terminal and follow commands)
+
+```bash
+cd ~
+cd Downloads
+cd COLORS-IN-C-Cpp-JAVA-master || cd COLORS-IN-C-Cpp-JAVA
+cd src/JAVA
+bash java.sh
+```
+
+#### 3. If U want to use in your code than create a file with extension of cpp (hello.cpp) there. Write the code given below:
+
+*Terminal*
+
+```bash
+touch hello.java
+```
+
+*Open file hello.java in Text Editor and write code given below:*
+
+```java
+public class hello
+{
+    public static void main(String[] args)
+    {
+        rain obj = new rain();
+        System.out.println(obj.BRED + "Hello World" + obj.RESET);
+
+        rainbow ob = new rainbow();
+        System.out.println(ob.getBRED("Hello World"));
+    }
+}
+```
+
+#### 4. Compile and Run using commands:
+
+```bash
+javac hello.java
+java hello
+```
 
 ## DEPENDANCIES
 
