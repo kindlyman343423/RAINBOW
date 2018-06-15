@@ -1,16 +1,16 @@
-# COLORS-IN-C,C++ & JAVA
+# :rainbow: RAINBOW (COLORS-IN-C,C++ & JAVA)
 
 This is a library for using colors in C ,C++ & JAVA in your terminal or UI. For knowing the supported colors see
 [COLORS](docs/COLORS.md).
 
-## :rocket: COMPILE AND RUN
+## :rainbow: COMPILE AND RUN
 
-### :rocket: USAGE IN C (:octocat: LINUX :octocat:)
+### :cloud: USAGE IN C (:octocat: LINUX :octocat:)
 
 #### 1. Download ZIP and extract or clone the repository using
 
 ```bash
-git clone https://github.com/GauravWalia19/COLORS-IN-C-Cpp-JAVA.git
+git clone https://github.com/GauravWalia19/RAINBOW.git
 ```
 
 #### 2. Navigate to download or cloning place folder(Open terminal and follow commands)
@@ -18,7 +18,7 @@ git clone https://github.com/GauravWalia19/COLORS-IN-C-Cpp-JAVA.git
 ```bash
 cd ~
 cd Downloads
-cd COLORS-IN-C-Cpp-JAVA-master || cd COLORS-IN-C-Cpp-JAVA
+cd RAINBOW-master || cd RAINBOW
 cd src/C-C++
 bash c.sh
 ```
@@ -49,12 +49,12 @@ gcc hello.c -o hello
 ./hello
 ```
 
-### :rocket: USAGE IN C++ (:octocat: LINUX :octocat:)
+### :cloud: USAGE IN C++ (:octocat: LINUX :octocat:)
 
 #### 1. Download ZIP or clone the repository using
 
 ```bash
- git clone https://github.com/GauravWalia19/COLORS-IN-C-Cpp-JAVA.git
+ git clone https://github.com/GauravWalia19/RAINBOW.git
 ```
 
 #### 2. Navigate to download or cloning place folder. Open terminal and follow commands
@@ -62,7 +62,7 @@ gcc hello.c -o hello
 ```bash
 cd ~
 cd Downloads
-cd COLORS-IN-C-Cpp-JAVA-master || cd COLORS-IN-C-Cpp-JAVA
+cd RAINBOW-master || cd RAINBOW
 cd src/C-C++
 bash cpp.sh
 ```
@@ -94,12 +94,12 @@ g++ hello.cpp -o hello.out
 ./hello.out
 ```
 
-### :rocket: USAGE IN JAVA (:octocat: LINUX :octocat:)
+### :cloud: USAGE IN JAVA (:octocat: LINUX :octocat:)
 
 #### 1. Download the ZIP or clone the repository using
 
 ```bash
- git clone https://github.com/GauravWalia19/COLORS-IN-C-Cpp-JAVA.git
+ git clone https://github.com/GauravWalia19/RAINBOW.git
 ```
 
 #### 2. Navigate to the download or cloning place folder(Open terminal and follow commands)
@@ -107,7 +107,7 @@ g++ hello.cpp -o hello.out
 ```bash
 cd ~
 cd Downloads
-cd COLORS-IN-C-Cpp-JAVA-master || cd COLORS-IN-C-Cpp-JAVA
+cd RAINBOW-master || cd RAINBOW
 cd src/JAVA
 bash java.sh
 ```
@@ -143,18 +143,22 @@ javac hello.java
 java hello
 ```
 
-## :rocket: DEPENDANCIES
+## :rainbow: DEPENDANCIES
 
-1. gcc complier/g++ complier/javac compiler
+1. Specific language compiler:
+* **C** -> **gcc compiler**
+* **C++** -> **g++ compiler**
+* **JAVA** -> **javac compiler**
 2. Text Editor like atom,gedit,etc;
+3. Linux Terminal
 
-## :rocket: SUPPORTED LANGUAGES
+## :rainbow: SUPPORTED LANGUAGES
 
 1. C
 2. C++
 3. JAVA
 
-## :rocket: CONTRIBUTING
+## :rainbow: CONTRIBUTING TO RAINBOW
 
 * See [CONTRIBUTION](CONTRIBUTING.md)
 * See [CODE OF CONDUCT](CODE_OF_CONDUCT.md)
@@ -163,6 +167,6 @@ java hello
   * [BUG REPORT](.github/ISSUE_TEMPLATE/bug_report.md)
   * [FEATURE REQUEST](.github/ISSUE_TEMPLATE/feature_request.md)
 
-## :rocket: AUTHOR
+## :rainbow: AUTHOR
 
 :copyright: Gaurav Walia
