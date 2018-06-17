@@ -1,4 +1,4 @@
-#include "colors.h"
+#include "rainbow.h"
  #include <stdio.h>
  int main()
  {

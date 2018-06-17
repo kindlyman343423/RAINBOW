@@ -1,10 +1,15 @@
-# :rainbow: RAINBOW (COLORS-IN-C,C++ & JAVA)
+# :rainbow: RAINBOW
 
 This is a library for using colors in C ,C++ & JAVA in your terminal or UI.
 
+## :rainbow: PREQUESTIES
+
+1. Any one language (C/C++/JAVA)
+2. Little bit knowledge of bash commands.
+
 ## :rainbow: COMPILE AND RUN
 
-For compile and running see [github wiki](https://github.com/GauravWalia19/RAINBOW/wiki/USAGE).
+For compile and running in the specific language see [github wiki](https://github.com/GauravWalia19/RAINBOW/wiki/USAGE).
 
 ## :rainbow: DEPENDANCIES
 
@@ -12,7 +17,7 @@ For compile and running see [github wiki](https://github.com/GauravWalia19/RAINB
 * **C** -> **gcc compiler**
 * **C++** -> **g++ compiler**
 * **JAVA** -> **javac compiler**
-2. Text Editor like atom,gedit,etc;
+2. Text Editor like atom,gedit,etc
 3. Linux Terminal
 
 ## :rainbow: SUPPORTED LANGUAGES

@@ -31,7 +31,7 @@ touch hello.c
  *Open file hello.c in Text Editor and write code given below:*
 
 ```c
- #include "colors.h"
+ #include "rainbow.h"
  #include <stdio.h>
  int main()
  {
@@ -75,7 +75,7 @@ touch hello.cpp
 *Open file hello.cpp in Text Editor and write code given below:*
 
 ```c++
-#include "colors.h"
+#include "rainbow.h"
 #include <iostream>
 using namespace std;
 int main()
@@ -109,7 +109,7 @@ cd src/JAVA
 bash java.sh
 ```
 
-### 3. If U want to use in your code than create a file with extension of cpp (hello.cpp) there. Write the code given below:
+### 3. If U want to use in your code than create a file with extension of cpp (hello.cpp) there. Write the code given below
 
 *Terminal*
 
@@ -133,10 +133,9 @@ public class hello
 }
 ```
 
-### 4. Compile and Run using commands:
+### 4. Compile and Run using commands
 
 ```bash
 javac hello.java
 java hello
 ```
-## :octocat: HAPPY CODING :octocat: :copyright: Gaurav Walia

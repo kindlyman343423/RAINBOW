@@ -1,4 +1,4 @@
-#include "colors.h"
+#include "rainbow.h"
 #include <iostream>
 using namespace std;
 int main()
