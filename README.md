@@ -158,6 +158,18 @@ java hello
 2. C++
 3. JAVA
 
+## :rainbow: SUPPORTED COLORS
+
+Follow commands:
+
+```bash
+cd ~
+cd Desktop
+cd RAINBOW  #OR OPEN TERMINAL IN RAINBOW DIRECTORY
+cd src
+bash rainbow.bash
+```
+
 ## :rainbow: CONTRIBUTING TO RAINBOW
 
 * See [CONTRIBUTION](CONTRIBUTING.md)
