@@ -2,6 +2,11 @@
 
 This is a library for using colors in C ,C++ & JAVA in your terminal or UI.
 
+## :rainbow: SUPPORTED OS
+
+* LINUX
+* MAC
+
 ## :rainbow: PREQUESTIES
 
 1. Any one language (C/C++/JAVA)
