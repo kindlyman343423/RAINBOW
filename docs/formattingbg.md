@@ -1,4 +1,4 @@
-## FORMATTING WITH BACKGROUND
+# [:arrow_left:](COLORS.md) FORMATTING WITH BACKGROUND [:arrow_right:](formattingcolors.md)
 
  USED VARIABLE | COLOR CODE | OUTPUT
 ---------------|------------|--------------
@@ -27,28 +27,28 @@
  IBGWHITE | "\x1B[3;47m" | ITALIC TEXT WHITE-GREEN BG
  UBGWHITE | "\x1B[4;47m" | UNDERLINEWHITE-GREEN BG
 
-### OUTPUT
+## OUTPUT
 
-#### BBGREENISH
+### BBGREENISH
 
 ![BBGREENISH](../img/BBGREENISH.png)
 
-#### IBGREENISH
+### IBGGREENISH
 
-![IBGREENISH](../img/IBGREENISH.png)
+![IBGGREENISH](../img/IBGGREENISH.png)
 
-#### UBGREENISH
+### UBGGREENISH
 
-![UBGREENISH](../img/UBGREENISH.png)
+![UBGGREENISH](../img/UBGGREENISH.png)
 
-#### BBGRED
+### BBGRED
 
 ![BBGRED](../img/BBGRED.png)
 
-#### IBGRED
+### IBGRED
 
 ![IBGRED](../img/IBGRED.png)
 
-#### UBGRED
+### UBGRED
 
 ![UBGRED](../img/UBGRED.png)

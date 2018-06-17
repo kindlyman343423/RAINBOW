@@ -1,4 +1,4 @@
-## FORMATTING WITH COLORS
+# [:arrow_left:](formattingbg.md) FORMATTING WITH COLORS
 
  USED VARIABLE | COLOR CODE | OUTPUT COLOR
 ---------------|------------|--------------
@@ -27,100 +27,100 @@
  IWHITE | "\x1B[3;37m" | ITALIC WHITE
  UWHITE | "\x1B[4;37m" | UNDERLINE WHITE
 
-### OUTPUT
+## OUTPUT
 
-#### Bgreen
+### Bgreen
 
 ![Bgreen](../img/Bgreen.png)
 
-#### Igreen
+### Igreen
 
 ![Igreen](../img/Igreen.png)
 
-#### Ugreen
+### Ugreen
 
 ![Ugreen](../img/Ugreen.png)
 
-#### BRED
+### BRED
 
 ![BRED](../img/BRED.png)
 
-#### IRED
+### IRED
 
 ![IRED](../img/IRED.png)
 
-#### URED
+### URED
 
 ![URED](../img/URED.png)
 
-#### BGREEN
+### BGREEN
 
 ![BGREEN](../img/BGREEN.png)
 
-#### IGREEN
+### IGREEN
 
 ![IGREEN](../img/IGREEN.png)
 
-#### UGREEN
+### UGREEN
 
 ![UGREEN](../img/UGREEN.png)
 
-#### BYELLOW
+### BYELLOW
 
 ![BYELLOW](../img/BYELLOW.png)
 
-#### IYELLOW
+### IYELLOW
 
 ![IYELLOW](../img/IYELLOW.png)
 
-#### UYELLOW
+### UYELLOW
 
 ![UYELLOW](../img/UYELLOW.png)
 
-#### BBLUE
+### BBLUE
 
 ![BBLUE](../img/BBLUE.png)
 
-#### IBLUE
+### IBLUE
 
 ![IBLUE](../img/IBLUE.png)
 
-#### UBLUE
+### UBLUE
 
 ![UBLUE](../img/UBLUE.png)
 
-#### BMAGENTA
+### BMAGENTA
 
 ![BMAGENTA](../img/BMAGENTA.png)
 
-#### IMAGENTA
+### IMAGENTA
 
 ![IMAGENTA](../img/IMAGENTA.png)
 
-#### UMAGENTA
+### UMAGENTA
 
 ![UMAGENTA](../img/UMAGENTA.png)
 
-#### BCYAN
+### BCYAN
 
 ![BCYAN](../img/BCYAN.png)
 
-#### ICYAN
+### ICYAN
 
 ![ICYAN](../img/ICYAN.png)
 
-#### UCYAN
+### UCYAN
 
 ![UCYAN](../img/UCYAN.png)
 
-#### BWHITE
+### BWHITE
 
 ![BWHITE](../img/BWHITE.png)
 
-#### IWHITE
+### IWHITE
 
 ![IWHITE](../img/IWHITE.png)
 
-#### UWHITE
+### UWHITE
 
 ![UWHITE](../img/UWHITE.png)

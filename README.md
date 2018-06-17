@@ -2,6 +2,8 @@
 
 This is a library for using colors in C ,C++ & JAVA in your terminal or UI.
 
+* For OUTPUT of rainbow in C,C++ see [COLORS](docs/COLORS.md)
+
 ## :rainbow: SUPPORTED OS
 
 * LINUX
