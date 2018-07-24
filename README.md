@@ -50,6 +50,14 @@ bash rainbow.bash
 
 ## :rainbow: DOCS
 
+* [INSTALLATION](https://github.com/GauravWalia19/RAINBOW/wiki/USAGE)
+* [FONT STYLE](docs/COLORS.md)
+* [TEXT COLORS](docs/textcolors.md)
+* [BACKGROUND COLORS](docs/backgroundcolors.md)
+* [FORMATTING COLORS](docs/formattingcolors.md)
+* [FORMATTING BACKGROUND](docs/formattingbg.md)
+* [CUSTOM](docs/custom.md)
+
 ## :rainbow: CONTRIBUTING TO RAINBOW
 
 * See [CONTRIBUTION](CONTRIBUTING.md)
