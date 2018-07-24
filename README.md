@@ -20,12 +20,15 @@ For compile and running in the specific language see [github wiki](https://githu
 
 ## :rainbow: DEPENDANCIES
 
-1. Specific language compiler:
+### 1. Specific language compiler
+
 * **C** -> **gcc compiler**
 * **C++** -> **g++ compiler**
 * **JAVA** -> **javac compiler**
-2. Text Editor like atom,gedit,etc
-3. Linux Terminal
+
+### 2. Text Editor like atom,gedit,etc
+
+### 3. Linux Terminal
 
 ## :rainbow: SUPPORTED LANGUAGES
 
@@ -44,6 +47,8 @@ cd RAINBOW  #OR OPEN TERMINAL IN RAINBOW DIRECTORY
 cd src
 bash rainbow.bash
 ```
+
+## :rainbow: DOCS
 
 ## :rainbow: CONTRIBUTING TO RAINBOW
 
