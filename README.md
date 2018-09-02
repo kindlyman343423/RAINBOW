@@ -1,8 +1,6 @@
 # :rainbow: RAINBOW
 
-This is a library for using colors in C ,C++ & JAVA in your terminal or UI.
-
-* For OUTPUT of supported colors of rainbow in C,C++ see [COLORS](docs/COLORS.md)
+This is a library for using colors in C ,C++ & JAVA in your terminal and making the AWESOME UI for your CLI application. No need to write or remember color codes just include this library and enjoy the using colors in your terminal.
 
 ## :rainbow: SUPPORTED OS
 
