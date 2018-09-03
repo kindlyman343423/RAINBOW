@@ -1,4 +1,4 @@
-public class hello
+public class Usingrainbow
 {
 	public static void main(String[] args)
 	{

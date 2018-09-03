@@ -1,11 +1,9 @@
-public class trial
+public class Usingrain
 {
     public static void main(String[] args)
     {
         rain obj = new rain();
         System.out.println(obj.BRED + "Hello World" + obj.RESET);
-
-        rainbow ob = new rainbow();
-        System.out.println(ob.getBRED("Hello World"));
+        System.out.println(obj.BOLD +"Hello World" + obj.RESET);
     }
 }

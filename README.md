@@ -1,6 +1,6 @@
 # :rainbow: RAINBOW
 
-This is a library for using colors in C ,C++ & JAVA in your terminal and making the AWESOME UI for your CLI application. No need to write or remember color codes just include this library and enjoy the using colors in your terminal.
+This is a library for using colors in C ,C++ & JAVA in your terminal and making the AWESOME UI for your CLI application. No need to write or remember color codes just include this library and enjoy using colors in your terminal.
 
 ## :rainbow: SUPPORTED OS
 
@@ -24,7 +24,12 @@ For compile and running in the specific language see [github wiki](https://githu
 * **C++** -> **g++ compiler**
 * **JAVA** -> **javac compiler**
 
-### 2. Text Editor like atom,gedit,etc
+### 2. Text Editor
+
+* Gedit
+* VScode
+* Atom
+* Notepad++ etc.
 
 ### 3. Linux Terminal
 
@@ -40,7 +45,7 @@ Follow commands to see all colors support by your terminal:
 
 ```bash
 cd ~
-cd Desktop
+cd Downloads #OR GO TO THE PROJECT DIRECTORY
 cd RAINBOW  #OR OPEN TERMINAL IN RAINBOW DIRECTORY
 cd src
 bash rainbow.bash
