@@ -14,7 +14,7 @@ This is a library for using colors in C ,C++ & JAVA in your terminal and making 
 
 ## :rainbow: COMPILE AND RUN
 
-For compile and running in the specific language see [github wiki](https://github.com/GauravWalia19/RAINBOW/wiki/USAGE).
+For compile and running in the specific language see [github wiki](https://github.com/GauravWalia19/RAINBOW/wiki).
 
 ## :rainbow: DEPENDANCIES
 
