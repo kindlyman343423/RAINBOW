@@ -1,8 +1,5 @@
 //COLOR MANUAL(colors.h)
 
-//#define TEST "\x1B[5;31;48m"
-// #define TEST "\x1B[8m"
-// #define TEST "\x1B[7m"
 //FORMATTING TEXT
 #define RESET "\x1B[0m"			//RESET NORMAL COLOR
 #define BOLD "\x1B[1m" 			//BOLD
