@@ -281,7 +281,7 @@ class Rainbow
     }
     string getIWHITE(string str)
     {
-        return IWHITE+str;
+        return IWHITE+str+RESET;
     }
     string getUWHITE(string str)
     {
@@ -290,5 +290,100 @@ class Rainbow
 
     /*********************************************/
     /*=======> FORMATTING WITH BACKGROUND <======*/
-    
+    string getBBGREENISH(string str)
+    {
+        return (BBGREENISH+str);
+    }
+    string getIBGGREENISH(string str)
+    {
+        return (IBGGREENISH+str);
+    }
+    string getUBGGREENISH(string str)
+    {
+        return (UBGGREENISH+str);
+    }
+    string getBBGRED(string str)
+    {
+        return (BBGRED+str);
+    }
+    string getIBGRED(string str)
+    {
+        return (IBGRED+str);
+    }
+    string getUBGRED(string str)
+    {
+        return (UBGRED+str);
+    }
+    string getBBGLGREEN(string str)
+    {
+        return (BBGLGREEN+str);
+    }
+    string getIBGLGREEN(string str)
+    {
+        return (IBGLGREEN+str);
+    }
+    string getUBGLGREEN(string str)
+    {
+        return (UBGLGREEN+str);
+    }
+    string getBBGORANGE(string str)
+    {
+        return (BBGORANGE+str);
+    }
+    string getIBGORANGE(string str)
+    {
+        return (IBGORANGE+str);
+    }
+    string getUBGORANGE(string str)
+    {
+        return (UBGORANGE+str);
+    }
+    string getBBGLBLUE(string str)
+    {
+        return (BBGLBLUE+str);
+    }
+    string getIBGLBLUE(string str)
+    {
+        return (IBGLBLUE+str);
+    }
+    string getUBGLBLUE(string str)
+    {
+        return (UBGLBLUE+str);
+    }
+    string getBBGPINK(string str)
+    {
+        return (BBGPINK+str);
+    }
+    string getIBGPINK(string str)
+    {
+        return (IBGPINK+str);
+    }
+    string getUBGPINK(string str)
+    {
+        return (UBGPINK+str);
+    }
+    string getBBGDGREEN(string str)
+    {
+        return (BBGDGREEN+str);
+    }
+    string getIGDGREEN(string str)
+    {
+        return (IGDGREEN+str);
+    }
+    string getUGDGREEN(string str)
+    {
+        return (UGDGREEN+str);
+    }
+    string getBBGWHITE(string str)
+    {
+        return (BBGWHITE+str);
+    }
+    string getIBGWHITE(string str)
+    {
+        return (IBGWHITE+str);
+    }
+    string getUBGWHITE(string str)
+    {
+        return (UBGWHITE+str);
+    }
 };
