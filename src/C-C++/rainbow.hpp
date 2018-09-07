@@ -1,3 +1,5 @@
+#include <string>
+using namespace std;
 //COLOR MANUAL(colors.h)
 
 //FORMATTING TEXT
@@ -88,3 +90,205 @@
 
 //AWESOME COMBINATION
 
+/*++++++++++++++++++++++++++++++++++++++++++++++*/
+/*===============> Rainbow class <==============*/
+class Rainbow
+{
+    public:
+    //getters for colors
+    /*********************************************/
+    /*=========> FORMATTING TEXT <===============*/
+    string getRESET()
+    {
+        return RESET;
+    }
+    string getBOLD(string str)
+    {
+        return BOLD+str+RESET;
+    }
+    string getITALIC(string str)
+    {
+        return ITALIC+str+RESET;
+    }
+    string getUNDERLINE(string str)
+    {
+        return UNDERLINE+str+RESET;
+    }
+
+    /*********************************************/
+    /*=========> GET TEXT COLORS <===============*/
+    string getgreen(string str)
+    {
+        return green+str+RESET;
+    }
+    string getBLACK(string str)
+    {
+        return BLACK+str+RESET;
+    }
+    string getRED(string str)
+    {
+        return RED+str+RESET;
+    }
+    string getGREEN(string str)
+    {
+        return GREEN+str+RESET;
+    }
+    string getYELLOW(string str)
+    {
+        return YELLOW+str+RESET;
+    }
+    string getBLUE(string str)
+    {
+        return BLUE+str+RESET;
+    }
+    string getMAGENTA(string str)
+    {
+        return MAGENTA+str+RESET;
+    }
+    string getCYAN(string str)
+    {
+        return CYAN+str+RESET;
+    }
+    string getWHITE(string str)
+    {
+        return WHITE+str+RESET;
+    }
+
+    /*********************************************/
+    /*=======> BACKGROUND COLORS <===============*/
+    string getBGGREENISH(string str)
+    {
+        return BGGREENISH+str;
+    }
+    string getBGRED(string str)
+    {
+        return BGRED+str;
+    }
+    string getBGLGREEN(string str)
+    {
+        return BGLGREEN+str;
+    }
+    string getBGORANGE(string str)
+    {
+        return BGORANGE+str;
+    }
+    string getBGLBLUE(string str)
+    {
+        return BGLBLUE+str;
+    }
+    string getBGPINK(string str)
+    {
+        return BGPINK+str;
+    }
+    string getBGDGREEN(string str)
+    {
+        return BGDGREEN+str;
+    }
+    string getBGWHITE(string str)
+    {
+        return BGWHITE+str;
+    }
+
+    /*********************************************/
+    /*=======> FORMATTING WITH COLORS <==========*/
+    string getBgreen(string str)
+    {
+        return Bgreen+str+RESET;
+    }
+    string getIgreen(string str)
+    {
+        return Igreen+str+RESET;
+    }
+    string getUgreen(string str)
+    {
+        return Ugreen+str+RESET;
+    }
+    string getBRED(string str)
+    {
+        return BRED+str+RESET;
+    }
+    string getIRED(string str)
+    {
+        return IRED+str+RESET;
+    }
+    string getURED(string str)
+    {
+        return URED+str+RESET;
+    }
+    string getBGREEN(string str)
+    {
+        return BGREEN+str+RESET;
+    }
+    string getIGREEN(string str)
+    {
+        return IGREEN+str+RESET;
+    }
+    string getUGREEN(string str)
+    {
+        return UGREEN+str+RESET;
+    }
+    string getBYELLOW(string str)
+    {
+        return BYELLOW+str+RESET;
+    }
+    string getIYELLOW(string str)
+    {
+        return IYELLOW+str+RESET;
+    }
+    string getUYELLOW(string str)
+    {
+        return UYELLOW+str+RESET;
+    }
+    string getBBLUE(string str)
+    {
+        return BBLUE+str+RESET;
+    }
+    string getIBLUE(string str)
+    {
+        return IBLUE+str+RESET;
+    }
+    string getUBLUE(string str)
+    {
+        return UBLUE+str+RESET;
+    }
+    string getBMAGENTA(string str)
+    {
+        return BMAGENTA+str+RESET;
+    }
+    string getIMAGENTA(string str)
+    {
+        return IMAGENTA+str+RESET;
+    }
+    string getUMAGENTA(string str)
+    {
+        return UMAGENTA+str+RESET;
+    }
+    string getBCYAN(string str)
+    {
+        return BCYAN+str+RESET;
+    }
+    string getICYAN(string str)
+    {
+        return ICYAN+str+RESET;
+    }
+    string getUCYAN(string str)
+    {
+        return UCYAN+str+RESET;
+    }
+    string getBWHITE(string str)
+    {
+        return BWHITE+str+RESET;
+    }
+    string getIWHITE(string str)
+    {
+        return IWHITE+str;
+    }
+    string getUWHITE(string str)
+    {
+        return UWHITE+str+RESET;
+    }
+
+    /*********************************************/
+    /*=======> FORMATTING WITH BACKGROUND <======*/
+    
+};

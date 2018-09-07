@@ -3,5 +3,7 @@
 using namespace std;
 int main()
 {
-   cout << GREEN << "This is a green color\n"<< RESET; //this will print green color text
+    cout << GREEN << "This is a green color\n"<< RESET; //this will print green color text
+    Rainbow R;
+    cout << R.getBOLD("HELLO");
 }
