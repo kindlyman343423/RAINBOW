@@ -1,6 +1,6 @@
 #include <string>
+// #include "rainbow.h"
 using namespace std;
-//COLOR MANUAL(colors.h)
 
 //FORMATTING TEXT
 #define RESET "\x1B[0m"			//RESET NORMAL COLOR
@@ -94,8 +94,44 @@ using namespace std;
 /*===============> Rainbow class <==============*/
 class Rainbow
 {
+    protected:
+    //FORMATTING TEXT
+    string rst;                 //RESET NORMAL COLOR
+    string bld;                 //BOLD
+    string itlc;                //ITALIC TEXT
+    string udrlne;              //UNDERLINE TEXT
+    
+    //TEXT COLORS
+    string grn;                 //green color
+    string blk;                 //BLACK COLOR
+    string red;                 //RED COLOR
+    string GRN;                 //GREEN COLOR
+    string ylw;                 //YELLOW COLOR
+    string blu;                 //BLUE COLOR
+    string mgta;                //MAGENTA COLOR
+    string cyn;                 //CYAN COLOR
+    string wht;                 //WHITE COLOR
+
+    //BACKGROUND COLORS
+    string bgrn;
+    string bred;
+    string blgrn;
+    string borng;
+    string bblu;
+    string bpnk;
+    string bdgrn;
+    string bwht;
+
+    
     public:
-    //getters for colors
+    Rainbow()
+    {
+        rst = "\x1B[0m";        
+        bld = "\x1B[1m"; 	    
+        itlc = "\x1B[3m";  		
+        udrlne = "\x1B[4m";  	
+    }
+    
     /*********************************************/
     /*=========> FORMATTING TEXT <===============*/
     string getRESET()
