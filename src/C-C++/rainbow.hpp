@@ -122,7 +122,64 @@ class Rainbow
     string bdgrn;
     string bwht;
 
+    //FORMATTING WITH COLORS
+    string Bgrn;
+    string Igrn;
+    string Ugrn;
+    string Bred;
+    string Ired;
+    string Ured;
+    string BGRN;
+    string IGRN;
+    string UGRN;
+    string Bylw;
+    string Iylw;
+    string Uylw;
+    string Bblu;
+    string Iblu;
+    string Ublu;
+    string Bmgta;
+    string Imgta;
+    string Umgta;
+    string Bcyn;
+    string Icyn;
+    string Ucyn;
+    string Bwht;
+    string Iwht;
+    string Uwht;
+
+    //FORMATTING WITH BACKGROUND
+    string BBgrn;
+    string IBgrn;
+    string UBgrn;
+
+    string BBred;
+    string IBred;
+    string UBred;
+
+    string BBlgrn;
+    string IBlgrn;
+    string UBlgrn;
     
+    string BBorng;
+    string IBorng;
+    string UBorng;
+
+    string BBblu;
+    string IBblu;
+    string UBblu;
+
+    string BBpnk;
+    string IBpnk;
+    string UBpnk;
+
+    string BBdgrn;
+    string IBdgrn;
+    string UBdgrn;
+
+    string BBwht;
+    string IBwht;
+    string UBwht;
     public:
     Rainbow()
     {
