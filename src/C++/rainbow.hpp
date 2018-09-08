@@ -95,6 +95,7 @@ using namespace std;
 class Rainbow
 {
     protected:
+    //USE THE UNDER CONSTANTS CAREFULLY!!!!!!
     //FORMATTING TEXT
     string rst;                 //RESET NORMAL COLOR
     string bld;                 //BOLD
@@ -113,40 +114,40 @@ class Rainbow
     string wht;                 //WHITE COLOR
 
     //BACKGROUND COLORS
-    string bgrn;
-    string bred;
-    string blgrn;
-    string borng;
-    string bblu;
-    string bpnk;
-    string bdgrn;
-    string bwht;
+    string bgrn;                //GREENISH BACKGROUND
+    string bred;                //RED BACKGROUND
+    string blgrn;               //LIGHT GREEN BACKGROUND
+    string borng;               //ORANGE BACKGROUND
+    string bblu;                //LIGHT BLUE BACKGROUND
+    string bpnk;                //PINK BACKGROUND
+    string bdgrn;               //DARK GREEN BACKGROUND
+    string bwht;                //WHITE-GREEN BACKGROUND
 
     //FORMATTING WITH COLORS
-    string Bgrn;
-    string Igrn;
-    string Ugrn;
-    string Bred;
-    string Ired;
-    string Ured;
-    string BGRN;
-    string IGRN;
-    string UGRN;
-    string Bylw;
-    string Iylw;
-    string Uylw;
-    string Bblu;
-    string Iblu;
-    string Ublu;
-    string Bmgta;
-    string Imgta;
-    string Umgta;
-    string Bcyn;
-    string Icyn;
-    string Ucyn;
-    string Bwht;
-    string Iwht;
-    string Uwht;
+    string Bgrn;                //BOLD green color
+    string Igrn;                //ITALIC green color
+    string Ugrn;                //UNDERLINE green color
+    string Bred;                //BOLD RED COLOR
+    string Ired;                //ITALIC RED COLOR
+    string Ured;                //UNDERLINE RED COLOR
+    string BGRN;                //BOLD GREEN COLOR
+    string IGRN;                //ITALIC GREEN COLOR
+    string UGRN;                //UNDERLINE GREEN COLOR
+    string Bylw;                //BOLD YELLOW
+    string Iylw;                //ITALIC YELLOW
+    string Uylw;                //UNDERLINE YELLOW
+    string Bblu;                //BOLD BLUE
+    string Iblu;                //ITALIC BLUE
+    string Ublu;	            //UNDERLINE BLUE
+    string Bmgta;               //BOLD MAGENTA
+    string Imgta;               //ITALIC MAGENTA
+    string Umgta;               //UNDERLINE MAGENTA
+    string Bcyn;                //BOLD CYAN
+    string Icyn;                //ITALIC CYAN
+    string Ucyn;                //UNDERLINE CYAN
+    string Bwht;                //BOLD WHITE
+    string Iwht;                //ITALIC WHITE
+    string Uwht;                //UNDERLINE WHITE
 
     //FORMATTING WITH BACKGROUND
     string BBgrn;

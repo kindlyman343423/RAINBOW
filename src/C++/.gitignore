@@ -1,0 +1,4 @@
+# IGNORING FILES FOR C++
+
+*.c.swp
+*.out
