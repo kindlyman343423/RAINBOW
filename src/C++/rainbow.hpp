@@ -9,10 +9,10 @@ using namespace std;
 #define UNDERLINE "\x1B[4m"  	//UNDERLINE TEXT
 
 //TEXT COLORS
-#define green "\x1B[2m" 		//green color
+#define DGREEN "\x1B[2m" 		//DARK GREEN COLOR
 #define BLACK "\x1B[30m" 		//BLACK COLOR
 #define RED "\x1B[31m"  		//RED COLOR
-#define GREEN "\x1B[32m" 		//GREEN COLOR
+#define LGREEN "\x1B[32m" 		//LIGHT GREEN COLOR
 #define YELLOW "\x1B[33m" 		//YELLOW COLOR
 #define BLUE "\x1B[34m" 		//BLUE COLOR
 #define MAGENTA "\x1B[35m" 	//MAGENTA COLOR
@@ -20,7 +20,7 @@ using namespace std;
 #define WHITE "\x1B[37m" 		//WHITE COLOR
 
 //BACKGROUND COLORS
-#define BGGREENISH "\x1B[40m" //GREENISH BACKGROUND
+#define BGGREEN "\x1B[40m" //GREEN BACKGROUND
 #define BGRED "\x1B[41m"		//RED BACKGROUND
 #define BGLGREEN "\x1B[42m"	//LIGHT GREEN BACKGROUND
 #define BGORANGE "\x1B[43m"	//ORANGE BACKGROUND
@@ -30,15 +30,15 @@ using namespace std;
 #define BGWHITE "\x1B[47m"		//WHITE-GREEN BACKGROUND
 
 //FORMATTING WITH COLORS
-#define Bgreen "\x1B[1;2m" 	//BOLD green color
-#define Igreen "\x1B[3;2m" //ITALIC green color
-#define Ugreen "\x1B[4;2m" //UNDERLINE green color
+#define BDGREEN "\x1B[1;2m" 	//BOLD DARK GREEN COLOR
+#define IDGREEN "\x1B[3;2m" //ITALIC DARK GREEN COLOR
+#define UDGREEN "\x1B[4;2m" //UNDERLINE DARK GREEN COLOR
 #define BRED "\x1B[1;31m"   //BOLD RED COLOR
 #define IRED "\x1B[3;31m"		//ITALIC RED COLOR
 #define URED "\x1B[4;31m"	//UNDERLINE RED COLOR
-#define BGREEN "\x1B[1;32m"//BOLD GREEN COLOR
-#define IGREEN "\x1B[3;32m"	//ITALIC GREEN COLOR
-#define UGREEN "\x1B[4;32m"//UNDERLINE GREEN COLOR
+#define BLGREEN "\x1B[1;32m"//BOLD LIGHT GREEN COLOR
+#define ILGREEN "\x1B[3;32m"	//ITALIC LIGHT  GREEN COLOR
+#define ULGREEN "\x1B[4;32m"//UNDERLINE LIGHT GREEN COLOR
 #define BYELLOW "\x1B[1;33m"//BOLD YELLOW
 #define IYELLOW "\x1B[3;33m"   //ITALIC YELLOW
 #define UYELLOW "\x1B[4;33m"		//UNDERLINE YELLOW
@@ -56,9 +56,9 @@ using namespace std;
 #define UWHITE "\x1B[4;37m"		//UNDERLINE WHITE
 
 //FORMATTING WITH BACKGROUND
-#define BBGREENISH "\x1B[1;40m" //BOLD TEXT-GREENISH BACKGROUND
-#define IBGGREENISH "\x1B[3;40m" //ITALIC TEXT-GREENISH BACKGROUND
-#define UBGGREENISH "\x1B[4;40m" //UNDERLINE TEXT-GREENISH BACKGROUND
+#define BBGGREEN "\x1B[1;40m" //BOLD TEXT-GREEN BACKGROUND
+#define IBGGREEN "\x1B[3;40m" //ITALIC TEXT-GREEN BACKGROUND
+#define UBGGREEN "\x1B[4;40m" //UNDERLINE TEXT-GREEN BACKGROUND
 
 #define BBGRED "\x1B[1;41m"		//BOLD TEXT-RED BACKGROUND
 #define IBGRED "\x1B[3;41m"		//ITALIC TEXT-RED BACKGROUND
@@ -81,8 +81,8 @@ using namespace std;
 #define UBGPINK "\x1B[4;45m"		//UNDERLINE TEXT-PINK BACKGROUND
 
 #define BBGDGREEN "\x1B[1;46m"	//BOLD TEXT-DARK GREEN BACKGROUND
-#define IGDGREEN "\x1B[3;46m"	//ITALIC TEXT-DARK GREEN BACKGROUND
-#define UGDGREEN "\x1B[4;46m"	//UNDERLINE TEXT-DARK GREEN BACKGROUND
+#define IBGDGREEN "\x1B[3;46m"	//ITALIC TEXT-DARK GREEN BACKGROUND
+#define UBGDGREEN "\x1B[4;46m"	//UNDERLINE TEXT-DARK GREEN BACKGROUND
 
 #define BBGWHITE "\x1B[1;47m"		//BOLD TEXT WHITE-GREEN BACKGROUND
 #define IBGWHITE "\x1B[3;47m"		//ITALIC TEXT WHITE-GREEN BACKGROUND
@@ -96,22 +96,26 @@ class Rainbow
 {
     protected:
     //USE THE UNDER CONSTANTS CAREFULLY!!!!!!
+    //b ---- background
+    //l ---- light
+    //d ---- dark
     //FORMATTING TEXT
-    string rst;                 //RESET NORMAL COLOR
-    string bld;                 //BOLD
-    string itlc;                //ITALIC TEXT
-    string udrlne;              //UNDERLINE TEXT
+    string Rst;                 //RESET NORMAL COLOR
+    string Bld;                 //BOLD
+    string Itlc;                //ITALIC TEXT
+    string Udrlne;              //UNDERLINE TEXT
     
     //TEXT COLORS
-    string grn;                 //green color
+    string lgrn;                 //LIGHT GREEN COLOR
     string blk;                 //BLACK COLOR
     string red;                 //RED COLOR
-    string GRN;                 //GREEN COLOR
+    string dgrn;                 //DARK GREEN COLOR
     string ylw;                 //YELLOW COLOR
     string blu;                 //BLUE COLOR
     string mgta;                //MAGENTA COLOR
     string cyn;                 //CYAN COLOR
     string wht;                 //WHITE COLOR
+    //orng                      ORANGE COLOR
 
     //BACKGROUND COLORS
     string bgrn;                //GREENISH BACKGROUND
@@ -121,18 +125,18 @@ class Rainbow
     string bblu;                //LIGHT BLUE BACKGROUND
     string bpnk;                //PINK BACKGROUND
     string bdgrn;               //DARK GREEN BACKGROUND
-    string bwht;                //WHITE-GREEN BACKGROUND
+    string bwht;                //WHITE BACKGROUND
 
     //FORMATTING WITH COLORS
-    string Bgrn;                //BOLD green color
-    string Igrn;                //ITALIC green color
-    string Ugrn;                //UNDERLINE green color
+    string Blgrn;                //BOLD green color
+    string Ilgrn;                //ITALIC green color
+    string Ulgrn;                //UNDERLINE green color
     string Bred;                //BOLD RED COLOR
     string Ired;                //ITALIC RED COLOR
     string Ured;                //UNDERLINE RED COLOR
-    string BGRN;                //BOLD GREEN COLOR
-    string IGRN;                //ITALIC GREEN COLOR
-    string UGRN;                //UNDERLINE GREEN COLOR
+    string Bdgrn;                //BOLD GREEN COLOR
+    string Idgrn;                //ITALIC GREEN COLOR
+    string Udgrn;                //UNDERLINE GREEN COLOR
     string Bylw;                //BOLD YELLOW
     string Iylw;                //ITALIC YELLOW
     string Uylw;                //UNDERLINE YELLOW
@@ -150,37 +154,37 @@ class Rainbow
     string Uwht;                //UNDERLINE WHITE
 
     //FORMATTING WITH BACKGROUND
-    string BBgrn;
-    string IBgrn;
-    string UBgrn;
+    string Bbgrn;
+    string Ibgrn;
+    string Ubgrn;
 
-    string BBred;
-    string IBred;
-    string UBred;
+    string Bbred;
+    string Ibred;
+    string Ubred;
 
-    string BBlgrn;
-    string IBlgrn;
-    string UBlgrn;
+    string Bblgrn;
+    string Iblgrn;
+    string Ublgrn;
     
-    string BBorng;
-    string IBorng;
-    string UBorng;
+    string Bborng;
+    string Iborng;
+    string Uborng;
 
-    string BBblu;
-    string IBblu;
-    string UBblu;
+    string Bbblu;
+    string Ibblu;
+    string Ubblu;
 
-    string BBpnk;
-    string IBpnk;
-    string UBpnk;
+    string Bbpnk;
+    string Ibpnk;
+    string Ubpnk;
 
-    string BBdgrn;
-    string IBdgrn;
-    string UBdgrn;
+    string Bbdgrn;
+    string Ibdgrn;
+    string Ubdgrn;
 
-    string BBwht;
-    string IBwht;
-    string UBwht;
+    string Bbwht;
+    string Ibwht;
+    string Ubwht;
     public:
     Rainbow()
     {

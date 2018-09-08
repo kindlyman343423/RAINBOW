@@ -53,7 +53,7 @@ bash rainbow.bash
 
 ## :rainbow: DOCS
 
-* [INSTALLATION](https://github.com/GauravWalia19/RAINBOW/wiki/USAGE)
+* [INSTALLATION](https://github.com/GauravWalia19/RAINBOW/wiki)
 * [FONT STYLE](docs/COLORS.md)
 * [TEXT COLORS](docs/textcolors.md)
 * [BACKGROUND COLORS](docs/backgroundcolors.md)
