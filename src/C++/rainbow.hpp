@@ -188,10 +188,10 @@ class Rainbow
     public:
     Rainbow()
     {
-        rst = "\x1B[0m";        
-        bld = "\x1B[1m"; 	    
-        itlc = "\x1B[3m";  		
-        udrlne = "\x1B[4m";  	
+        Rst = "\x1B[0m";        
+        Bld = "\x1B[1m"; 	    
+        Itlc = "\x1B[3m";  		
+        Udrlne = "\x1B[4m";  	
     }
     
     /*********************************************/
