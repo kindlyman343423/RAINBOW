@@ -2,11 +2,15 @@
 
 This is a library for using colors in C ,C++ & JAVA in your terminal and making the AWESOME UI for your CLI application. No need to write or remember color codes just include this library and enjoy using colors in your terminal.
 
-## :rainbow: [SNAKE GAME](https://github.com/GauravWalia19/C-CPP-GAMES/tree/master/SNAKE-GAME-IN-CPP) UI
+## :rainbow: AWESOME UI ON TERMINALS
+
+Go build yours!!! SEE [github wiki](https://github.com/GauravWalia19/RAINBOW/wiki)
+
+### :snake: [SNAKE GAME](https://github.com/GauravWalia19/C-CPP-GAMES/tree/master/SNAKE-GAME-IN-CPP) UI
 
 ![RAINBOW OUTPUT](/img/RAINBOWUI.png)
 
-## :rainbow: [FOOD ORDERING SOFTWARE](https://github.com/GauravWalia19/FOOD-ORDERING-SOFTWARE) UI
+### :fries: [FOOD ORDERING SOFTWARE](https://github.com/GauravWalia19/FOOD-ORDERING-SOFTWARE) UI
 
 ![RAINBOW OUTPUT](/img/RAINBOWUI2.png)
 
@@ -20,7 +24,7 @@ This is a library for using colors in C ,C++ & JAVA in your terminal and making 
 1. Any one language (C/C++/JAVA)
 2. Little bit knowledge of bash commands.
 
-## :rainbow: COMPILE AND RUN
+## :rainbow: FEEL THE RAINBOW ON THE TERMINAL
 
 For compile and running in the specific language see [github wiki](https://github.com/GauravWalia19/RAINBOW/wiki).
 
