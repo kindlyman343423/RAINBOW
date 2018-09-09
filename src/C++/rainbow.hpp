@@ -2,6 +2,8 @@
 // #include "rainbow.h"
 using namespace std;
 
+/*###################################################################*/
+/*=======================> GLOBAL CONSTANTS <========================*/
 //FORMATTING TEXT
 #define RESET "\x1B[0m"			//RESET NORMAL COLOR
 #define BOLD "\x1B[1m" 			//BOLD
@@ -90,8 +92,8 @@ using namespace std;
 
 //AWESOME COMBINATION
 
-/*++++++++++++++++++++++++++++++++++++++++++++++*/
-/*===============> Rainbow class <==============*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*==========================> Rainbow class <===============================*/
 class Rainbow
 {
     protected:
@@ -103,7 +105,7 @@ class Rainbow
     string Rst;                 //RESET NORMAL COLOR
     string Bld;                 //BOLD
     string Itlc;                //ITALIC TEXT
-    string Udrlne;              //UNDERLINE TEXT
+    string Undrlne;              //UNDERLINE TEXT
     
     //TEXT COLORS
     string lgrn;                 //LIGHT GREEN COLOR
@@ -154,334 +156,418 @@ class Rainbow
     string Uwht;                //UNDERLINE WHITE
 
     //FORMATTING WITH BACKGROUND
-    string Bbgrn;
-    string Ibgrn;
-    string Ubgrn;
+    string Bbgrn;       //BOLD TEXT-GREEN BACKGROUND
+    string Ibgrn;       //ITALIC TEXT-GREEN BACKGROUND
+    string Ubgrn;       //UNDERLINE TEXT-GREEN BACKGROUND
 
-    string Bbred;
-    string Ibred;
-    string Ubred;
+    string Bbred;	    //BOLD TEXT-RED BACKGROUND
+    string Ibred;       //ITALIC TEXT-RED BACKGROUND
+    string Ubred;       //UNDERLINE TEXT-RED BACKGROUND
 
-    string Bblgrn;
-    string Iblgrn;
-    string Ublgrn;
+    string Bblgrn;      //BOLD TEXT-LIGHT GREEN BACKGROUND
+    string Iblgrn;      //ITALIC TEXT-LIGHT GREEN BACKGROUND
+    string Ublgrn;      //UNDERLINE TEXT-LIGHT GREEN BACKGROUND
     
-    string Bborng;
-    string Iborng;
-    string Uborng;
+    string Bborng;      //BOLD TEXT-ORANGE BACKGROUND
+    string Iborng;      //ITALIC TEXT-ORANGE BACKGROUND
+    string Uborng;      //UNDERLINE TEXT-ORANGE BACKGROUND
 
-    string Bbblu;
-    string Ibblu;
-    string Ubblu;
+    string Bbblu;       //BOLD TEXT-LIGHT BLUE BACKGROUND
+    string Ibblu;       //ITALIC TEXT-LIGHT BLUE BACKGROUND
+    string Ubblu;       //UNDERLINE TEXT-LIGHT BLUE BACKGROUND
 
-    string Bbpnk;
-    string Ibpnk;
-    string Ubpnk;
+    string Bbpnk;       //BOLD TEXT-PINK BACKGROUND
+    string Ibpnk;       //ITALIC TEXT-PINK BACKGROUND
+    string Ubpnk;       //UNDERLINE TEXT-PINK BACKGROUND
 
-    string Bbdgrn;
-    string Ibdgrn;
-    string Ubdgrn;
+    string Bbdgrn;      //BOLD TEXT-DARK GREEN BACKGROUND
+    string Ibdgrn;      //ITALIC TEXT-DARK GREEN BACKGROUND
+    string Ubdgrn;      //UNDERLINE TEXT-DARK GREEN BACKGROUND
 
-    string Bbwht;
-    string Ibwht;
-    string Ubwht;
+    string Bbwht;       //BOLD TEXT WHITE-GREEN BACKGROUND
+    string Ibwht;       //ITALIC TEXT WHITE-GREEN BACKGROUND
+    string Ubwht;       //UNDERLINEWHITE-GREEN BACKGROUND
+    
     public:
+    /***************************************************************************/
+    /*=====================> DEFAULT CONSTRUCTOR <=============================*/
     Rainbow()
     {
-        Rst = "\x1B[0m";        
-        Bld = "\x1B[1m"; 	    
-        Itlc = "\x1B[3m";  		
-        Udrlne = "\x1B[4m";  	
+        //FORMATTING TEXT VALUE
+        Rst = RESET;        //RESET NORMAL COLOR
+        Bld = BOLD; 	    //BOLD
+        Itlc = ITALIC;  		//ITALIC TEXT
+        Undrlne = UNDERLINE;  	//UNDERLINE TEXT
+
+        //TEXT COLORS VALUE
+        dgrn = DGREEN;                 //DARK GREEN COLOR
+        blk = BLACK;                 //BLACK COLOR
+        red = RED;                 //RED COLOR
+        lgrn = LGREEN;            //LIGHT GREEN COLOR
+        ylw = YELLOW;                 //YELLOW COLOR
+        blu = BLUE;                 //BLUE COLOR
+        mgta = MAGENTA;                //MAGENTA COLOR
+        cyn = CYAN;                 //CYAN COLOR
+        wht = WHITE;                 //WHITE COLOR
+
+        //BACKGROUND COLORS VALUE
+        bgrn = BGGREEN;                //GREEN BACKGROUND
+        bred = BGRED;                //RED BACKGROUND
+        blgrn = BGLGREEN;               //LIGHT GREEN BACKGROUND
+        borng = BGORANGE;               //ORANGE BACKGROUND
+        bblu = BGLBLUE;                //LIGHT BLUE BACKGROUND
+        bpnk = BGPINK;                //PINK BACKGROUND
+        bdgrn = BGDGREEN;               //DARK GREEN BACKGROUND
+        bwht = BGWHITE;                //WHITE BACKGROUND
+
+        //FORMATTING WITH COLORS VALUE
+        Bdgrn = BDGREEN;                //BOLD DARK GREEN COLOR
+        Idgrn = IDGREEN;                //ITALIC DARK GREEN COLOR
+        Udgrn = UDGREEN;                //UNDERLINE DARK GREEN COLOR
+        Bred = BRED;                //BOLD RED COLOR
+        Ired = IRED;                //ITALIC RED COLOR
+        Ured = URED;                //UNDERLINE RED COLOR
+        Blgrn = BLGREEN;                //BOLD LIGHT GREEN COLOR
+        Ilgrn = ILGREEN;                //ITALIC LIGHT GREEN COLOR
+        Ulgrn = ULGREEN;                //UNDERLINE LIGHT GREEN COLOR
+        Bylw = BYELLOW;                //BOLD YELLOW
+        Iylw = IYELLOW;                //ITALIC YELLOW
+        Uylw = UYELLOW;                //UNDERLINE YELLOW
+        Bblu = BBLUE;                //BOLD BLUE
+        Iblu = IBLUE;                //ITALIC BLUE
+        Ublu = UBLUE;	            //UNDERLINE BLUE
+        Bmgta = BMAGENTA;               //BOLD MAGENTA
+        Imgta = IMAGENTA;               //ITALIC MAGENTA
+        Umgta = UMAGENTA;               //UNDERLINE MAGENTA
+        Bcyn = BCYAN;                //BOLD CYAN
+        Icyn = ICYAN;                //ITALIC CYAN
+        Ucyn = UCYAN;                //UNDERLINE CYAN
+        Bwht = BWHITE;                //BOLD WHITE
+        Iwht = IWHITE;                //ITALIC WHITE
+        Uwht = UWHITE;                //UNDERLINE WHITE
+
+        //FORMATTING WITH BACKGROUND VALUE
+        Bbgrn = BBGGREEN;       //BOLD TEXT-GREEN BACKGROUND
+        Ibgrn = IBGGREEN;       //ITALIC TEXT-GREEN BACKGROUND
+        Ubgrn = UBGGREEN;       //UNDERLINE TEXT-GREEN BACKGROUND
+
+        Bbred = BBGRED;	    //BOLD TEXT-RED BACKGROUND
+        Ibred = IBGRED;       //ITALIC TEXT-RED BACKGROUND
+        Ubred = UBGRED;       //UNDERLINE TEXT-RED BACKGROUND
+
+        Bblgrn = BBGLGREEN;      //BOLD TEXT-LIGHT GREEN BACKGROUND
+        Iblgrn = IBGLGREEN;      //ITALIC TEXT-LIGHT GREEN BACKGROUND
+        Ublgrn = UBGLGREEN;      //UNDERLINE TEXT-LIGHT GREEN BACKGROUND
+        
+        Bborng = BBGORANGE;      //BOLD TEXT-ORANGE BACKGROUND
+        Iborng = IBGORANGE;      //ITALIC TEXT-ORANGE BACKGROUND
+        Uborng = UBGORANGE;      //UNDERLINE TEXT-ORANGE BACKGROUND
+
+        Bbblu = BBGLBLUE;       //BOLD TEXT-LIGHT BLUE BACKGROUND
+        Ibblu = IBGLBLUE;       //ITALIC TEXT-LIGHT BLUE BACKGROUND
+        Ubblu = UBGLBLUE;       //UNDERLINE TEXT-LIGHT BLUE BACKGROUND
+
+        Bbpnk = BBGPINK;       //BOLD TEXT-PINK BACKGROUND
+        Ibpnk = IBGPINK;       //ITALIC TEXT-PINK BACKGROUND
+        Ubpnk = UBGPINK;       //UNDERLINE TEXT-PINK BACKGROUND
+
+        Bbdgrn = BBGDGREEN;      //BOLD TEXT-DARK GREEN BACKGROUND
+        Ibdgrn = IBGDGREEN;      //ITALIC TEXT-DARK GREEN BACKGROUND
+        Ubdgrn = UBGDGREEN;      //UNDERLINE TEXT-DARK GREEN BACKGROUND
+
+        Bbwht = BBGWHITE;       //BOLD TEXT WHITE-GREEN BACKGROUND
+        Ibwht = IBGWHITE;       //ITALIC TEXT WHITE-GREEN BACKGROUND
+        Ubwht = UBGWHITE;       //UNDERLINEWHITE-GREEN BACKGROUND
     }
-    
-    /*********************************************/
-    /*=========> FORMATTING TEXT <===============*/
+    //METHODS FOR USING THIS CLASS
+    /****************************************************************/
+    /*=======================> FORMATTING TEXT <===================*/
     string getRESET()
     {
-        return RESET;
+        return Rst;
     }
     string getBOLD(string str)
     {
-        return BOLD+str+RESET;
+        return Bld+str+Rst;
     }
     string getITALIC(string str)
     {
-        return ITALIC+str+RESET;
+        return Itlc+str+Rst;
     }
     string getUNDERLINE(string str)
     {
-        return UNDERLINE+str+RESET;
+        return Undrlne+str+Rst;
     }
 
     /*********************************************/
     /*=========> GET TEXT COLORS <===============*/
-    string getgreen(string str)
+    string getDGREEN(string str)
     {
-        return green+str+RESET;
+        return dgrn+str+Rst;
     }
     string getBLACK(string str)
     {
-        return BLACK+str+RESET;
+        return blk+str+Rst;
     }
     string getRED(string str)
     {
-        return RED+str+RESET;
+        return red+str+Rst;
     }
-    string getGREEN(string str)
+    string getLGREEN(string str)
     {
-        return GREEN+str+RESET;
+        return lgrn+str+Rst;
     }
     string getYELLOW(string str)
     {
-        return YELLOW+str+RESET;
+        return ylw+str+Rst;
     }
     string getBLUE(string str)
     {
-        return BLUE+str+RESET;
+        return blu+str+Rst;
     }
     string getMAGENTA(string str)
     {
-        return MAGENTA+str+RESET;
+        return mgta+str+Rst;
     }
     string getCYAN(string str)
     {
-        return CYAN+str+RESET;
+        return cyn+str+Rst;
     }
     string getWHITE(string str)
     {
-        return WHITE+str+RESET;
+        return wht+str+Rst;
     }
 
     /*********************************************/
     /*=======> BACKGROUND COLORS <===============*/
-    string getBGGREENISH(string str)
+    string getBGGREEN(string str)
     {
-        return BGGREENISH+str;
+        return bgrn+str;
     }
     string getBGRED(string str)
     {
-        return BGRED+str;
+        return bred+str;
     }
     string getBGLGREEN(string str)
     {
-        return BGLGREEN+str;
+        return blgrn+str;
     }
     string getBGORANGE(string str)
     {
-        return BGORANGE+str;
+        return borng+str;
     }
     string getBGLBLUE(string str)
     {
-        return BGLBLUE+str;
+        return bblu+str;
     }
     string getBGPINK(string str)
     {
-        return BGPINK+str;
+        return bpnk+str;
     }
     string getBGDGREEN(string str)
     {
-        return BGDGREEN+str;
+        return bdgrn+str;
     }
     string getBGWHITE(string str)
     {
-        return BGWHITE+str;
+        return bwht+str;
     }
 
     /*********************************************/
     /*=======> FORMATTING WITH COLORS <==========*/
-    string getBgreen(string str)
+    string getBDGREEN(string str)
     {
-        return Bgreen+str+RESET;
+        return Bdgrn+str+Rst;
     }
-    string getIgreen(string str)
+    string getIDGREEN(string str)
     {
-        return Igreen+str+RESET;
+        return Idgrn+str+Rst;
     }
-    string getUgreen(string str)
+    string getUDGREEN(string str)
     {
-        return Ugreen+str+RESET;
+        return Udgrn+str+Rst;
     }
     string getBRED(string str)
     {
-        return BRED+str+RESET;
+        return Bred+str+Rst;
     }
     string getIRED(string str)
     {
-        return IRED+str+RESET;
+        return Ired+str+Rst;
     }
     string getURED(string str)
     {
-        return URED+str+RESET;
+        return Ured+str+Rst;
     }
-    string getBGREEN(string str)
+    string getBLGREEN(string str)
     {
-        return BGREEN+str+RESET;
+        return Blgrn+str+Rst;
     }
-    string getIGREEN(string str)
+    string getILGREEN(string str)
     {
-        return IGREEN+str+RESET;
+        return Ilgrn+str+Rst;
     }
-    string getUGREEN(string str)
+    string getULGREEN(string str)
     {
-        return UGREEN+str+RESET;
+        return Ulgrn+str+Rst;
     }
     string getBYELLOW(string str)
     {
-        return BYELLOW+str+RESET;
+        return Bylw+str+Rst;
     }
     string getIYELLOW(string str)
     {
-        return IYELLOW+str+RESET;
+        return Iylw+str+Rst;
     }
     string getUYELLOW(string str)
     {
-        return UYELLOW+str+RESET;
+        return Uylw+str+Rst;
     }
     string getBBLUE(string str)
     {
-        return BBLUE+str+RESET;
+        return Bblu+str+Rst;
     }
     string getIBLUE(string str)
     {
-        return IBLUE+str+RESET;
+        return Iblu+str+Rst;
     }
     string getUBLUE(string str)
     {
-        return UBLUE+str+RESET;
+        return Ublu+str+Rst;
     }
     string getBMAGENTA(string str)
     {
-        return BMAGENTA+str+RESET;
+        return Bmgta+str+Rst;
     }
     string getIMAGENTA(string str)
     {
-        return IMAGENTA+str+RESET;
+        return Imgta+str+Rst;
     }
     string getUMAGENTA(string str)
     {
-        return UMAGENTA+str+RESET;
+        return Umgta+str+Rst;
     }
     string getBCYAN(string str)
     {
-        return BCYAN+str+RESET;
+        return Bcyn+str+Rst;
     }
     string getICYAN(string str)
     {
-        return ICYAN+str+RESET;
+        return Icyn+str+Rst;
     }
     string getUCYAN(string str)
     {
-        return UCYAN+str+RESET;
+        return Ucyn+str+Rst;
     }
     string getBWHITE(string str)
     {
-        return BWHITE+str+RESET;
+        return Bwht+str+Rst;
     }
     string getIWHITE(string str)
     {
-        return IWHITE+str+RESET;
+        return Iwht+str+Rst;
     }
     string getUWHITE(string str)
     {
-        return UWHITE+str+RESET;
+        return Uwht+str+Rst;
     }
 
     /*********************************************/
     /*=======> FORMATTING WITH BACKGROUND <======*/
-    string getBBGREENISH(string str)
+    string getBBGREEN(string str)
     {
-        return (BBGREENISH+str);
+        return (Bbgrn+str);
     }
-    string getIBGGREENISH(string str)
+    string getIBGGREEN(string str)
     {
-        return (IBGGREENISH+str);
+        return (Ibgrn+str);
     }
-    string getUBGGREENISH(string str)
+    string getUBGGREEN(string str)
     {
-        return (UBGGREENISH+str);
+        return (Ubgrn+str);
     }
     string getBBGRED(string str)
     {
-        return (BBGRED+str);
+        return (Bbred+str);
     }
     string getIBGRED(string str)
     {
-        return (IBGRED+str);
+        return (Ibred+str);
     }
     string getUBGRED(string str)
     {
-        return (UBGRED+str);
+        return (Ubred+str);
     }
     string getBBGLGREEN(string str)
     {
-        return (BBGLGREEN+str);
+        return (Bblgrn+str);
     }
     string getIBGLGREEN(string str)
     {
-        return (IBGLGREEN+str);
+        return (Iblgrn+str);
     }
     string getUBGLGREEN(string str)
     {
-        return (UBGLGREEN+str);
+        return (Ublgrn+str);
     }
     string getBBGORANGE(string str)
     {
-        return (BBGORANGE+str);
+        return (Bborng+str);
     }
     string getIBGORANGE(string str)
     {
-        return (IBGORANGE+str);
+        return (Iborng+str);
     }
     string getUBGORANGE(string str)
     {
-        return (UBGORANGE+str);
+        return (Uborng+str);
     }
     string getBBGLBLUE(string str)
     {
-        return (BBGLBLUE+str);
+        return (Bbblu+str);
     }
     string getIBGLBLUE(string str)
     {
-        return (IBGLBLUE+str);
+        return (Ibblu+str);
     }
     string getUBGLBLUE(string str)
     {
-        return (UBGLBLUE+str);
+        return (Ubblu+str);
     }
     string getBBGPINK(string str)
     {
-        return (BBGPINK+str);
+        return (Bbpnk+str);
     }
     string getIBGPINK(string str)
     {
-        return (IBGPINK+str);
+        return (Ibpnk+str);
     }
     string getUBGPINK(string str)
     {
-        return (UBGPINK+str);
+        return (Ubpnk+str);
     }
     string getBBGDGREEN(string str)
     {
-        return (BBGDGREEN+str);
+        return (Bbdgrn+str);
     }
-    string getIGDGREEN(string str)
+    string getIBGDGREEN(string str)
     {
-        return (IGDGREEN+str);
+        return (Ibdgrn+str);
     }
-    string getUGDGREEN(string str)
+    string getUBGDGREEN(string str)
     {
-        return (UGDGREEN+str);
+        return (Ubdgrn+str);
     }
     string getBBGWHITE(string str)
     {
-        return (BBGWHITE+str);
+        return (Bbwht+str);
     }
     string getIBGWHITE(string str)
     {
-        return (IBGWHITE+str);
+        return (Ibwht+str);
     }
     string getUBGWHITE(string str)
     {
-        return (UBGWHITE+str);
+        return (Ubwht+str);
     }
 };
