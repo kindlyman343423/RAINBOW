@@ -9,10 +9,10 @@ public class rain
     public final String UNDERLINE = "\u001B[4m";  	//UNDERLINE TEXT
 
     //TEXT COLORS
-    public final String green = "\u001B[2m"; 		//green color
+    public final String DGREEN = "\u001B[2m"; 		//green color
     public final String BLACK = "\u001B[30m"; 		//BLACK COLOR
     public final String RED = "\u001B[31m";  		//RED COLOR
-    public final String GREEN = "\u001B[32m"; 		//GREEN COLOR
+    public final String LGREEN = "\u001B[32m"; 		//GREEN COLOR
     public final String YELLOW = "\u001B[33m"; 		//YELLOW COLOR
     public final String BLUE = "\u001B[34m"; 		//BLUE COLOR
     public final String MAGENTA = "\u001B[35m"; 	//MAGENTA COLOR
@@ -20,7 +20,7 @@ public class rain
     public final String WHITE = "\u001B[37m"; 		//WHITE COLOR
 
     //BACKGROUND COLORS
-    public final String BGGREENISH = "\u001B[40m";  //GREENISH BACKGROUND
+    public final String BGGREEN = "\u001B[40m";  //GREENISH BACKGROUND
     public final String BGRED = "\u001B[41m";		//RED BACKGROUND
     public final String BGLGREEN = "\u001B[42m";	//LIGHT GREEN BACKGROUND
     public final String BGORANGE ="\u001B[43m";	    //ORANGE BACKGROUND
@@ -30,15 +30,15 @@ public class rain
     public final String BGWHITE = "\u001B[47m";		//WHITE-GREEN BACKGROUND
 
     //FORMATTING WITH COLORS
-    public final String Bgreen = "\u001B[1;2m";     //BOLD green color
-    public final String Igreen ="\u001B[3;2m";      //ITALIC green color
-    public final String Ugreen = "\u001B[4;2m";     //UNDERLINE green color
+    public final String BDGREEN = "\u001B[1;2m";     //BOLD DARK GREEN COLOR
+    public final String IDGREEN ="\u001B[3;2m";      //ITALIC DARK GREEN COLOR
+    public final String UDGREEN = "\u001B[4;2m";     //UNDERLINE DARK GREEN COLOR
     public final String BRED = "\u001B[1;31m";      //BOLD RED COLOR
     public final String IRED = "\u001B[3;31m";		//ITALIC RED COLOR
     public final String URED = "\u001B[4;31m";	    //UNDERLINE RED COLOR
-    public final String BGREEN = "\u001B[1;32m";    //BOLD GREEN COLOR
-    public final String IGREEN = "\u001B[3;32m";	//ITALIC GREEN COLOR
-    public final String UGREEN = "\u001B[4;32m";    //UNDERLINE GREEN COLOR
+    public final String BLGREEN = "\u001B[1;32m";    //BOLD LIGHT GREEN COLOR
+    public final String ILGREEN = "\u001B[3;32m";	//ITALIC LIGHT GREEN COLOR
+    public final String ULGREEN = "\u001B[4;32m";    //UNDERLINE LIGHT GREEN COLOR
     public final String BYELLOW = "\u001B[1;33m";   //BOLD YELLOW
     public final String IYELLOW = "\u001B[3;33m";   //ITALIC YELLOW
     public final String UYELLOW = "\u001B[4;33m";	//UNDERLINE YELLOW
@@ -54,9 +54,9 @@ public class rain
     public final String UWHITE = "\u001B[4;37m";	//UNDERLINE WHITE
 
     //FORMATTING WITH BACKGROUND
-    public final String BBGREENISH = "\u001B[1;40m";    //BOLD TEXT-GREENISH BACKGROUND
-    public final String IBGGREENISH = "\u001B[3;40m";   //ITALIC TEXT-GREENISH BACKGROUND
-    public final String UBGGREENISH = "\u001B[4;40m";   //UNDERLINE TEXT-GREENISH BACKGROUND
+    public final String BBGREEN = "\u001B[1;40m";    //BOLD TEXT-GREENISH BACKGROUND
+    public final String IBGGREEN = "\u001B[3;40m";   //ITALIC TEXT-GREENISH BACKGROUND
+    public final String UBGGREEN = "\u001B[4;40m";   //UNDERLINE TEXT-GREENISH BACKGROUND
 
     public final String BBGRED = "\u001B[1;41m";	    //BOLD TEXT-RED BACKGROUND
     public final String IBGRED = "\u001B[3;41m";	    //ITALIC TEXT-RED BACKGROUND
@@ -79,8 +79,8 @@ public class rain
     public final String UBGPINK = "\u001B[4;45m";		//UNDERLINE TEXT-PINK BACKGROUND
 
     public final String BBGDGREEN = "\u001B[1;46m";	    //BOLD TEXT-DARK GREEN BACKGROUND
-    public final String IGDGREEN = "\u001B[3;46m";	    //ITALIC TEXT-DARK GREEN BACKGROUND
-    public final String UGDGREEN = "\u001B[4;46m";	    //UNDERLINE TEXT-DARK GREEN BACKGROUND
+    public final String IBGDGREEN = "\u001B[3;46m";	    //ITALIC TEXT-DARK GREEN BACKGROUND
+    public final String UBGDGREEN = "\u001B[4;46m";	    //UNDERLINE TEXT-DARK GREEN BACKGROUND
 
     public final String BBGWHITE = "\u001B[1;47m";		//BOLD TEXT WHITE-GREEN BACKGROUND
     public final String IBGWHITE = "\u001B[3;47m";		//ITALIC TEXT WHITE-GREEN BACKGROUND

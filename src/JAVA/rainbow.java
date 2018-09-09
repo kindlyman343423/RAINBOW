@@ -8,10 +8,10 @@ public class rainbow
     private final String UNDERLINE = "\u001B[4m";  	//UNDERLINE TEXT
 
     //TEXT COLORS
-    private final String green = "\u001B[2m"; 		//green color
+    private final String DGREEN = "\u001B[2m"; 		//green color
     private final String BLACK = "\u001B[30m"; 		//BLACK COLOR
     private final String RED = "\u001B[31m";  		//RED COLOR
-    private final String GREEN = "\u001B[32m"; 		//GREEN COLOR
+    private final String LGREEN = "\u001B[32m"; 		//GREEN COLOR
     private final String YELLOW = "\u001B[33m"; 	//YELLOW COLOR
     private final String BLUE = "\u001B[34m"; 		//BLUE COLOR
     private final String MAGENTA = "\u001B[35m"; 	//MAGENTA COLOR
@@ -19,7 +19,7 @@ public class rainbow
     private final String WHITE = "\u001B[37m"; 		//WHITE COLOR
 
     //BACKGROUND COLORS
-    private final String BGGREENISH = "\u001B[40m"; //GREENISH BACKGROUND
+    private final String BGGREEN = "\u001B[40m"; //GREENISH BACKGROUND
     private final String BGRED = "\u001B[41m";		//RED BACKGROUND
     private final String BGLGREEN = "\u001B[42m";	//LIGHT GREEN BACKGROUND
     private final String BGORANGE ="\u001B[43m";	//ORANGE BACKGROUND
@@ -29,15 +29,15 @@ public class rainbow
     private final String BGWHITE = "\u001B[47m";	//WHITE-GREEN BACKGROUND
 
     //FORMATTING WITH COLORS
-    private final String Bgreen = "\u001B[1;2m";    //BOLD green color
-    private final String Igreen ="\u001B[3;2m";     //ITALIC green color
-    private final String Ugreen = "\u001B[4;2m";    //UNDERLINE green color
+    private final String BDGREEN = "\u001B[1;2m";    //BOLD green color
+    private final String IDGREEN ="\u001B[3;2m";     //ITALIC green color
+    private final String UDGREEN = "\u001B[4;2m";    //UNDERLINE green color
     private final String BRED = "\u001B[1;31m";     //BOLD RED COLOR
     private final String IRED = "\u001B[3;31m";		//ITALIC RED COLOR
     private final String URED = "\u001B[4;31m";	    //UNDERLINE RED COLOR
-    private final String BGREEN = "\u001B[1;32m";   //BOLD GREEN COLOR
-    private final String IGREEN = "\u001B[3;32m";	//ITALIC GREEN COLOR
-    private final String UGREEN = "\u001B[4;32m";   //UNDERLINE GREEN COLOR
+    private final String BLGREEN = "\u001B[1;32m";   //BOLD GREEN COLOR
+    private final String ILGREEN = "\u001B[3;32m";	//ITALIC GREEN COLOR
+    private final String ULGREEN = "\u001B[4;32m";   //UNDERLINE GREEN COLOR
     private final String BYELLOW = "\u001B[1;33m";  //BOLD YELLOW
     private final String IYELLOW = "\u001B[3;33m";  //ITALIC YELLOW
     private final String UYELLOW = "\u001B[4;33m";	//UNDERLINE YELLOW
@@ -53,9 +53,9 @@ public class rainbow
     private final String UWHITE = "\u001B[4;37m";	//UNDERLINE WHITE
 
     //FORMATTING WITH BACKGROUND
-    private final String BBGREENISH = "\u001B[1;40m";   //BOLD TEXT-GREENISH BACKGROUND
-    private final String IBGGREENISH = "\u001B[3;40m";  //ITALIC TEXT-GREENISH BACKGROUND
-    private final String UBGGREENISH = "\u001B[4;40m";  //UNDERLINE TEXT-GREENISH BACKGROUND
+    private final String BBGGREEN = "\u001B[1;40m";   //BOLD TEXT-GREENISH BACKGROUND
+    private final String IBGGREEN = "\u001B[3;40m";  //ITALIC TEXT-GREENISH BACKGROUND
+    private final String UBGGREEN = "\u001B[4;40m";  //UNDERLINE TEXT-GREENISH BACKGROUND
 
     private final String BBGRED = "\u001B[1;41m";		//BOLD TEXT-RED BACKGROUND
     private final String IBGRED = "\u001B[3;41m";		//ITALIC TEXT-RED BACKGROUND
@@ -78,8 +78,8 @@ public class rainbow
     private final String UBGPINK = "\u001B[4;45m";		//UNDERLINE TEXT-PINK BACKGROUND
 
     private final String BBGDGREEN = "\u001B[1;46m";	//BOLD TEXT-DARK GREEN BACKGROUND
-    private final String IGDGREEN = "\u001B[3;46m";	    //ITALIC TEXT-DARK GREEN BACKGROUND
-    private final String UGDGREEN = "\u001B[4;46m";	    //UNDERLINE TEXT-DARK GREEN BACKGROUND
+    private final String IBGDGREEN = "\u001B[3;46m";	    //ITALIC TEXT-DARK GREEN BACKGROUND
+    private final String UBGDGREEN = "\u001B[4;46m";	    //UNDERLINE TEXT-DARK GREEN BACKGROUND
 
     private final String BBGWHITE = "\u001B[1;47m";		//BOLD TEXT WHITE-GREEN BACKGROUND
     private final String IBGWHITE = "\u001B[3;47m";		//ITALIC TEXT WHITE-GREEN BACKGROUND
@@ -105,9 +105,9 @@ public class rainbow
     }
 
     //TEXT COLORS METHODS
-    public String getgreen(String str)
+    public String getDGREEN(String str)
     {
-        return (green+str+RESET);
+        return (DGREEN+str+RESET);
     }
     public String getBLACK(String str)
     {
@@ -117,9 +117,9 @@ public class rainbow
     {
         return (RED+str+RESET);
     }
-    public String getGREEN(String str)
+    public String getLGREEN(String str)
     {
-        return (GREEN+str+RESET);
+        return (LGREEN+str+RESET);
     }
     public String getYELLOW(String str)
     {
@@ -143,9 +143,9 @@ public class rainbow
     }
 
     //BACKGROUND COLORS METHODS
-    public String getBGGREENISH(String str)
+    public String getBGGREEN(String str)
     {
-        return (BGGREENISH+str);
+        return (BGGREEN+str);
     }
     public String getBGRED(String str)
     {
@@ -177,17 +177,17 @@ public class rainbow
     }
     
     //FORMATTING WITH COLORS METHODS
-    public String getBgreen(String str)
+    public String getBDGREEN(String str)
     {
-        return (Bgreen+str+RESET);
+        return (BDGREEN+str+RESET);
     } 
-    public String getIgreen(String str)
+    public String getIDGREEN(String str)
     {
-        return (Igreen+str+RESET);
+        return (IDGREEN+str+RESET);
     }
-    public String getUgreen(String str)
+    public String getUDGREEN(String str)
     {
-        return (Ugreen+str+RESET);
+        return (UDGREEN+str+RESET);
     }
     public String getBRED(String str)
     {
@@ -201,17 +201,17 @@ public class rainbow
     {
         return (URED+str+RESET);
     }
-    public String getBGREEN(String str)
+    public String getBLGREEN(String str)
     {
-        return (BGREEN+str+RESET);
+        return (BLGREEN+str+RESET);
     }
-    public String getIGREEN(String str)
+    public String getILGREEN(String str)
     {
-        return (IGREEN+str+RESET);
+        return (ILGREEN+str+RESET);
     }
-    public String getUGREEN(String str)
+    public String getULGREEN(String str)
     {
-        return (UGREEN+str+RESET);
+        return (ULGREEN+str+RESET);
     }
     public String getBYELLOW(String str)
     {
@@ -267,17 +267,17 @@ public class rainbow
     }
 
     //FORMATTING WITH BACKGROUND METHODS
-    public String getBBGREENISH(String str)
+    public String getBBGGREEN(String str)
     {
-        return (BBGREENISH+str);
+        return (BBGGREEN+str);
     }
-    public String getIBGGREENISH(String str)
+    public String getIBGGREEN(String str)
     {
-        return (IBGGREENISH+str);
+        return (IBGGREEN+str);
     }
-    public String getUBGGREENISH(String str)
+    public String getUBGGREEN(String str)
     {
-        return (UBGGREENISH+str);
+        return (UBGGREEN+str);
     }
     public String getBBGRED(String str)
     {
@@ -343,13 +343,13 @@ public class rainbow
     {
         return (BBGDGREEN+str);
     }
-    public String getIGDGREEN(String str)
+    public String getIBGDGREEN(String str)
     {
-        return (IGDGREEN+str);
+        return (IBGDGREEN+str);
     }
-    public String getUGDGREEN(String str)
+    public String getUBGDGREEN(String str)
     {
-        return (UGDGREEN+str);
+        return (UBGDGREEN+str);
     }
     public String getBBGWHITE(String str)
     {
