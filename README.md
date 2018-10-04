@@ -21,7 +21,7 @@ Go build yours!!! SEE [github wiki](https://github.com/GauravWalia19/RAINBOW/wik
 
 ## :rainbow: PREQUESTIES
 
-1. Any one language (C/C++/JAVA)
+1. Any one language (C/C++/JAVA).
 2. Little bit knowledge of bash commands.
 
 ## :rainbow: FEEL THE RAINBOW ON THE TERMINAL
