@@ -19,7 +19,7 @@ Go build yours!!! SEE [github wiki](https://github.com/GauravWalia19/RAINBOW/wik
 * LINUX
 * MAC
 
-## :rainbow: PREQUESTIES
+## :rainbow: PREQUISITES
 
 1. Any one language (C/C++/JAVA).
 2. Little bit knowledge of bash commands.
@@ -43,7 +43,7 @@ For compile and running in the specific language see [github wiki](https://githu
 * Atom
 * Notepad++ etc.
 
-### 3. Linux Terminal
+### 3. Linux/Unix Terminal
 
 ## :rainbow: SUPPORTED LANGUAGES
 
@@ -76,7 +76,6 @@ bash rainbow.bash
 ## :rainbow: CONTRIBUTING TO RAINBOW
 
 * See [CONTRIBUTION](CONTRIBUTING.md)
-* See [CODE OF CONDUCT](CODE_OF_CONDUCT.md)
 * For pull request follow [PULL REQUEST TEMPLATE](.github/PULL_REQUEST_TEMPLATE.md)
 * For making ISSUE
   * [BUG REPORT](.github/ISSUE_TEMPLATE/bug_report.md)
