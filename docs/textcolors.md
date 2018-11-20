@@ -2,21 +2,21 @@
 
  USED VARIABLE | COLOR CODE | OUTPUT COLOR
 ---------------|------------|--------------
- green | "\x1B[2m" | green
- BLACK | "\x1B[30m" | BLACK
- RED | "\x1B[31m" | RED
- GREEN | "\x1B[32m" | GREEN
- YELLOW | "\x1B[33m" | YELLOW
- BLUE | "\x1B[34m" | BLUE
- MAGENTA | "\x1B[35m" | MAGENTA
- CYAN | "\x1B[36m" | CYAN
- WHITE | "\x1B[37m" | WHITE
+ DGREEN | "\x1B[2m" | [DARK GREEN](#rocket-DGREEN)
+ BLACK | "\x1B[30m" | [BLACK](#rocket-BLACK)
+ RED | "\x1B[31m" | [RED](#rocket-RED)
+ LGREEN | "\x1B[32m" | [LIGHT GREEN](#rocket-LGREEN)
+ YELLOW | "\x1B[33m" | [YELLOW](#rocket-YELLOW)
+ BLUE | "\x1B[34m" | [BLUE](#rocket-BLUE)
+ MAGENTA | "\x1B[35m" | [MAGENTA](#rocket-MAGENTA)
+ CYAN | "\x1B[36m" | [CYAN](#rocket-CYAN)
+ WHITE | "\x1B[37m" | [WHITE](#rocket-WHITE)
 
 ## OUTPUT
 
-### :rocket: green
+### :rocket: DGREEN
 
-![green](../img/green.png)
+![green](../img/DGREEN.png)
 
 ### :rocket: BLACK
 
@@ -26,9 +26,9 @@
 
 ![RED](../img/RED.png)
 
-### :rocket: GREEN
+### :rocket: LGREEN
 
-![GREEN](../img/GREEN.png)
+![LGREEN](../img/LGREEN.png)
 
 ### :rocket: YELLOW
 

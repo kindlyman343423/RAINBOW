@@ -1,6 +1,4 @@
-//COLOR MANUAL(colors.h)
-
- #define TEST "\x1B[1;40m"
+//#define TEST "\x1B[1;40m"
 // #define TEST "\x1B[5;31;48m"
 // #define TEST "\x1B[8m"
 // #define TEST "\x1B[7m"

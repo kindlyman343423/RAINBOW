@@ -2,15 +2,15 @@
 
  USED VARIABLE | COLOR CODE | OUTPUT COLOR
 ---------------|------------|--------------
- Bgreen | "\x1B[1;2m" | BOLD green
- Igreen | "\x1B[3;2m" | ITALIC green
- Ugreen | "\x1B[4;2m" | UNDERLINE green
+ BDGREEN | "\x1B[1;2m" | BOLD DARK GREEN COLOR
+ IDGREEN | "\x1B[3;2m" | ITALIC green
+ UDGREEN | "\x1B[4;2m" | UNDERLINE green
  BRED | "\x1B[1;31m" | BOLD RED
  IRED | "\x1B[3;31m" | ITALIC RED
  URED | "\x1B[4;31m" | UNDERLINE RED
- BGREEN | "\x1B[1;32m" | BOLD GREEN
- IGREEN | "\x1B[3;32m" | ITALIC GREEN
- UGREEN | "\x1B[4;32m" | UNDERLINE GREEN
+ BLGREEN | "\x1B[1;32m" | BOLD GREEN
+ ILGREEN | "\x1B[3;32m" | ITALIC GREEN
+ ULGREEN | "\x1B[4;32m" | UNDERLINE GREEN
  BYELLOW | "\x1B[1;33m" | BOLD YELLOW
  IYELLOW | "\x1B[3;33m" | ITALIC YELLOW
  UYELLOW | "\x1B[4;33m" | UNDERLINE YELLOW
@@ -29,15 +29,15 @@
 
 ## OUTPUT
 
-### Bgreen
+### BDGREEN
 
 ![Bgreen](../img/Bgreen.png)
 
-### Igreen
+### IDGREEN
 
 ![Igreen](../img/Igreen.png)
 
-### Ugreen
+### UDGREEN
 
 ![Ugreen](../img/Ugreen.png)
 
@@ -53,15 +53,15 @@
 
 ![URED](../img/URED.png)
 
-### BGREEN
+### BLGREEN
 
 ![BGREEN](../img/BGREEN.png)
 
-### IGREEN
+### ILGREEN
 
 ![IGREEN](../img/IGREEN.png)
 
-### UGREEN
+### ULGREEN
 
 ![UGREEN](../img/UGREEN.png)
 

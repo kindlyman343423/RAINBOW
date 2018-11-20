@@ -2,7 +2,7 @@
 
  USED VARIABLE | COLOR CODE | OUTPUT BACKGROUND
 ---------------|------------|------------------
- BGGREENISH | "\x1B[40m" | GREENISH BG
+ BGGREEN | "\x1B[40m" | GREEN BG
  BGRED | "\x1B[41m" | RED BG
  BGLGREEN | "\x1B[42m" | LIGHT GREEN BG
  BGORANGE | "\x1B[43m" | ORANGE BG
@@ -13,7 +13,7 @@
 
 ## OUTPUT
 
-### :rocket: BGGREENISH
+### :rocket: BGGREEN
 
 ![BGGREENISH](../img/BGGREENISH.png)
 

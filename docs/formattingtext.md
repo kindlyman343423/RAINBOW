@@ -1,6 +1,4 @@
-# SHOWING OUTPUT AND USAGE CONSTANT OF COLORS
-
-## FORMATTING TEXT
+# FORMATTING TEXT
 
  USED VARIABLE | COLOR CODE  FOR C/C++ | COLOR CODE FOR JAVA | OUTPUT
 ---------------|-----------------------|---------------------|--------
@@ -9,20 +7,20 @@
  ITALIC | "\x1B[3m" | | ITALIC TEXT
  UNDERLINE | "\x1B[4m" | | UNDERLINE TEXT
 
-### OUTPUT
+## OUTPUT
 
-#### RESET
+### RESET
 
 ![RESET](../img/RESET.png)
 
-#### BOLD
+### BOLD
 
 ![BOLD](../img/BOLD.png)
 
-#### ITALIC
+### ITALIC
 
 ![ITALIC](../img/ITALIC.png)
 
-#### UNDERLINE
+### UNDERLINE
 
 ![UNDERLINE](../img/UNDERLINE.png)
