@@ -2,25 +2,25 @@
 
  USED VARIABLE | COLOR CODE  FOR C/C++ | COLOR CODE FOR JAVA | OUTPUT
 ---------------|-----------------------|---------------------|--------
- RESET | "\x1B[0m" | | RESET NORMAL
- BOLD | "\x1B[1m" | | BOLD WHITE
- ITALIC | "\x1B[3m" | | ITALIC TEXT
- UNDERLINE | "\x1B[4m" | | UNDERLINE TEXT
+ RESET | "\x1B[0m" | "\u001B[0m" | [RESET NORMAL](#rocket-RESET)
+ BOLD | "\x1B[1m" | "\u001B[1m" | [BOLD WHITE](#rocket-BOLD)
+ ITALIC | "\x1B[3m" | "\u001B[3m" | [ITALIC TEXT](#rocket-ITALIC)
+ UNDERLINE | "\x1B[4m" | "\u001B[4m" | [UNDERLINE TEXT](#rocket-UNDERLINE)
 
 ## OUTPUT
 
-### RESET
+### :rocket: RESET
 
-![RESET](../img/RESET.png)
+![RESET](../img/FORMATTING-TEXT/RESET.png)
 
-### BOLD
+### :rocket: BOLD
 
-![BOLD](../img/BOLD.png)
+![BOLD](../img/FORMATTING-TEXT/BOLD.png)
 
-### ITALIC
+### :rocket: ITALIC
 
-![ITALIC](../img/ITALIC.png)
+![ITALIC](../img/FORMATTING-TEXT/ITALIC.png)
 
-### UNDERLINE
+### :rocket: UNDERLINE
 
-![UNDERLINE](../img/UNDERLINE.png)
+![UNDERLINE](../img/FORMATTING-TEXT/UNDERLINE.png)
