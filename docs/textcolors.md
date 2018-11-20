@@ -16,36 +16,36 @@
 
 ### :rocket: DGREEN
 
-![green](../img/DGREEN.png)
+![green](../img/TEXT-COLORS/DGREEN.png)
 
 ### :rocket: BLACK
 
-![BLACK](../img/BLACK.png)
+![BLACK](../img/TEXT-COLORS/BLACK.png)
 
 ### :rocket: RED
 
-![RED](../img/RED.png)
+![RED](../img/TEXT-COLORS/RED.png)
 
 ### :rocket: LGREEN
 
-![LGREEN](../img/LGREEN.png)
+![LGREEN](../img/TEXT-COLORS/LGREEN.png)
 
 ### :rocket: YELLOW
 
-![YELLOW](../img/YELLOW.png)
+![YELLOW](../img/TEXT-COLORS/YELLOW.png)
 
 ### :rocket: BLUE
 
-![BLUE](../img/BLUE.png)
+![BLUE](../img/TEXT-COLORS/BLUE.png)
 
 ### :rocket: MAGENTA
 
-![MAGENTA](../img/MAGENTA.png)
+![MAGENTA](../img/TEXT-COLORS/MAGENTA.png)
 
 ### :rocket: CYAN
 
-![CYAN](../img/CYAN.png)
+![CYAN](../img/TEXT-COLORS/CYAN.png)
 
 ### :rocket: WHITE
 
-![WHITE](../img/WHITE.png)
+![WHITE](../img/TEXT-COLORS/WHITE.png)
