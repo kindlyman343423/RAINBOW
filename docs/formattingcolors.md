@@ -2,7 +2,7 @@
 
  USED VARIABLE | COLOR CODE FOR C/C++ | COLOR CODE FOR JAVA | OUTPUT COLOR
 ---------------|----------------------|---------------------|--------------
- BDGREEN | \x1B[1;2m | \u001B[1;2m | BOLD DARK GREEN COLOR
+ BDGREEN | \x1B[1;2m | \u001B[1;2m | [BOLD DARK GREEN COLOR](#rocket-BDGREEN)
  IDGREEN | \x1B[3;2m | \u001B[3;2m | ITALIC DARK GREEN COLOR
  UDGREEN | \x1B[4;2m | \u001B[4;2m | UNDERLINE DARK GREEN COLOR
  BRED | \x1B[1;31m | \u001B[1;31m | BOLD RED
@@ -29,98 +29,98 @@
 
 ## OUTPUT
 
-### BDGREEN
+### :rocket: BDGREEN
 
 ![BDGREEN](../img/FORMATTING-COLORS/BDGREEN.png)
 
-### IDGREEN
+### :rocket: IDGREEN
 
 ![IDGREEN](../img/FORMATTING-COLORS/IDGREEN.png)
 
-### UDGREEN
+### :rocket: UDGREEN
 
 ![UDGREEN](../img/FORMATTING-COLORS/UDGREEN.png)
 
-### BRED
+### :rocket: BRED
 
 ![BRED](../img/FORMATTING-COLORS/BRED.png)
 
-### IRED
+### :rocket: IRED
 
 ![IRED](../img/FORMATTING-COLORS/IRED.png)
 
-### URED
+### :rocket: URED
 
 ![URED](../img/FORMATTING-COLORS/URED.png)
 
-### BLGREEN
+### :rocket: BLGREEN
 
 ![BLGREEN](../img/FORMATTING-COLORS/BLGREEN.png)
 
-### ILGREEN
+### :rocket: ILGREEN
 
 ![ILGREEN](../img/FORMATTING-COLORS/ILGREEN.png)
 
-### ULGREEN
+### :rocket: ULGREEN
 
 ![ULGREEN](../img/FORMATTING-COLORS/ULGREEN.png)
 
-### BYELLOW
+### :rocket: BYELLOW
 
 ![BYELLOW](../img/FORMATTING-COLORS/BYELLOW.png)
 
-### IYELLOW
+### :rocket: IYELLOW
 
 ![IYELLOW](../img/FORMATTING-COLORS/IYELLOW.png)
 
-### UYELLOW
+### :rocket: UYELLOW
 
 ![UYELLOW](../img/FORMATTING-COLORS/UYELLOW.png)
 
-### BBLUE
+### :rocket: BBLUE
 
 ![BBLUE](../img/FORMATTING-COLORS/BBLUE.png)
 
-### IBLUE
+### :rocket: IBLUE
 
 ![IBLUE](../img/FORMATTING-COLORS/IBLUE.png)
 
-### UBLUE
+### :rocket: UBLUE
 
 ![UBLUE](../img/FORMATTING-COLORS/UBLUE.png)
 
-### BMAGENTA
+### :rocket: BMAGENTA
 
 ![BMAGENTA](../img/FORMATTING-COLORS/BMAGENTA.png)
 
-### IMAGENTA
+### :rocket: IMAGENTA
 
 ![IMAGENTA](../img/FORMATTING-COLORS/IMAGENTA.png)
 
-### UMAGENTA
+### :rocket: UMAGENTA
 
 ![UMAGENTA](../img/FORMATTING-COLORS/UMAGENTA.png)
 
-### BCYAN
+### :rocket: BCYAN
 
 ![BCYAN](../img/FORMATTING-COLORS/BCYAN.png)
 
-### ICYAN
+### :rocket: ICYAN
 
 ![ICYAN](../img/FORMATTING-COLORS/ICYAN.png)
 
-### UCYAN
+### :rocket: UCYAN
 
 ![UCYAN](../img/FORMATTING-COLORS/UCYAN.png)
 
-### BWHITE
+### :rocket: BWHITE
 
 ![BWHITE](../img/FORMATTING-COLORS/BWHITE.png)
 
-### IWHITE
+### :rocket: IWHITE
 
 ![IWHITE](../img/FORMATTING-COLORS/IWHITE.png)
 
-### UWHITE
+### :rocket: UWHITE
 
 ![UWHITE](../img/FORMATTING-COLORS/UWHITE.png)

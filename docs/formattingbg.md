@@ -1,4 +1,4 @@
-# [:arrow_left:](COLORS.md) FORMATTING WITH BACKGROUND [:arrow_right:](formattingcolors.md)
+# [:arrow_left:](COLORS.md) FORMATTING WITH BACKGROUND
 
  USED VARIABLE | COLOR CODE FOR C/C++ | COLOR CODE FOR JAVA | OUTPUT
 ---------------|----------------------|---------------------|--------
