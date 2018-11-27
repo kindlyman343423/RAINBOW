@@ -20,7 +20,7 @@ public class rain
     public final String WHITE = "\u001B[37m"; 		//WHITE COLOR
 
     //BACKGROUND COLORS
-    public final String BGGREEN = "\u001B[40m";  //GREENISH BACKGROUND
+    public final String BGGREEN = "\u001B[40m";  //GREEN BACKGROUND
     public final String BGRED = "\u001B[41m";		//RED BACKGROUND
     public final String BGLGREEN = "\u001B[42m";	//LIGHT GREEN BACKGROUND
     public final String BGORANGE ="\u001B[43m";	    //ORANGE BACKGROUND
@@ -54,9 +54,9 @@ public class rain
     public final String UWHITE = "\u001B[4;37m";	//UNDERLINE WHITE
 
     //FORMATTING WITH BACKGROUND
-    public final String BBGREEN = "\u001B[1;40m";    //BOLD TEXT-GREENISH BACKGROUND
-    public final String IBGGREEN = "\u001B[3;40m";   //ITALIC TEXT-GREENISH BACKGROUND
-    public final String UBGGREEN = "\u001B[4;40m";   //UNDERLINE TEXT-GREENISH BACKGROUND
+    public final String BBGGREEN = "\u001B[1;40m";    //BOLD TEXT-GREEN BACKGROUND
+    public final String IBGGREEN = "\u001B[3;40m";   //ITALIC TEXT-GREEN BACKGROUND
+    public final String UBGGREEN = "\u001B[4;40m";   //UNDERLINE TEXT-GREEN BACKGROUND
 
     public final String BBGRED = "\u001B[1;41m";	    //BOLD TEXT-RED BACKGROUND
     public final String IBGRED = "\u001B[3;41m";	    //ITALIC TEXT-RED BACKGROUND
