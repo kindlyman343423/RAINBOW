@@ -16,7 +16,7 @@
 
 ### :rocket: DGREEN
 
-![green](../img/TEXT-COLORS/DGREEN.png)
+![DGREEN](../img/TEXT-COLORS/DGREEN.png)
 
 ### :rocket: BLACK
 
