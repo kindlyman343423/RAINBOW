@@ -1,7 +1,18 @@
-//#define TEST "\x1B[1;40m"
-// #define TEST "\x1B[5;31;48m"
-// #define TEST "\x1B[8m"
-// #define TEST "\x1B[7m"
+/*
+1; - bold
+3; - italic
+4; - underline
+5; - blink
+*/
+// #define TEST "\x1B[1;40m"
+
+#define TEST "\x1B[7;2m"
+
+//new colors
+// #define BLINKREDCOLOR "\x1B[5;31;48m"
+// #define HIDDEN "\x1B[8m"
+// #define BGWHITE "\x1B[7m"
+
 //FORMATTING TEXT
 #define RESET "\x1B[0m"			//RESET NORMAL COLOR
 #define BOLD "\x1B[1m" 			//BOLD
@@ -89,4 +100,3 @@
 #define UBGWHITE "\x1B[4;47m"		//UNDERLINEWHITE-GREEN BACKGROUND
 
 //AWESOME COMBINATION
-
