@@ -6,12 +6,12 @@
 */
 // #define TEST "\x1B[1;40m"
 
-#define TEST "\x1B[7;2m"
+// #define TEST "\x1B[7;2m"
 
 //new colors
-// #define BLINKREDCOLOR "\x1B[5;31;48m"
-// #define HIDDEN "\x1B[8m"
-// #define BGWHITE "\x1B[7m"
+#define BLINKREDCOLOR "\x1B[5;31;48m"
+#define HIDDEN "\x1B[8m"
+#define bgWHITE "\x1B[7m"
 
 //FORMATTING TEXT
 #define RESET "\x1B[0m"			//RESET NORMAL COLOR
