@@ -3,21 +3,50 @@
 3; - italic
 4; - underline
 5; - blink
-*/
-// #define TEST "\x1B[1;40m"
 
-// #define TEST "\x1B[7;2m"
+FOR TESTING
+#define TEST "\x1B[236m"
+*/
+
+#define TEST "\x1B[102m"
+/*unknown colors
+* "\x1B[90m" --dark green with green highlight
+* "\x1B[91m" --red color with red highlight
+* "\x1B[92m" --yellow color with yellow highlight
+* "\x1B[93m" --lemon color
+* "\x1B[94m" --cyan color
+* "\x1B[95m" --pink color
+* "\x1B[96m" --light blue
+* "\x1B[97m" --highlighted
+* "\x1B[98m" --default highlight
+* "\x1B[99m" --default text color
+
+* "\x1B[100m"--light shade
+* "\x1B[101m"--light red highlight
+* "\x1B[102m"
+* "\x1B[103m"
+* "\x1B[104m"
+* "\x1B[105m"
+* "\x1B[106m"
+* "\x1B[107m"
+*/
 
 //new colors
-#define BLINKREDCOLOR "\x1B[5;31;48m"
-#define HIDDEN "\x1B[8m"
-#define bgWHITE "\x1B[7m"
+// #define BLINKREDCOLOR "\x1B[5;31;48m"
+// 
 
 //FORMATTING TEXT
 #define RESET "\x1B[0m"			//RESET NORMAL COLOR
 #define BOLD "\x1B[1m" 			//BOLD
 #define ITALIC "\x1B[3m"  		//ITALIC TEXT
 #define UNDERLINE "\x1B[4m"  	//UNDERLINE TEXT
+/*new text colors*/
+#define BLINK "\x1B[5m"         //BLINK TEXT 
+#define HIGHLIGHT "\x1B[7m"     //HIGHLIGHTED TEXT
+#define HIDDEN "\x1B[8m"        //HIDDEN TEXT
+#define STRIKETHROUGH "\x1B[9m" //STRIKE THROUGH TEXT
+#define DOUBLEUNDERLINE "\x1B[21m" //DOUBLE UNDERLINE TEXT
+#define OVERLINE "\x1B[53m"        //OVERLINE TEXT
 
 //TEXT COLORS
 #define DGREEN "\x1B[2m" 		//DARK GREEN COLOR
