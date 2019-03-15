@@ -66,9 +66,9 @@ bash rainbow.bash
 ## :rainbow: DOCS
 
 * [INSTALLATION](https://github.com/GauravWalia19/RAINBOW/wiki)
-* [FONT STYLE](docs/COLORS.md)
 * [TEXT COLORS](docs/textcolors.md)
 * [BACKGROUND COLORS](docs/backgroundcolors.md)
+* [FORMATTING TEXT](docs/formattingtext.md)
 * [FORMATTING COLORS](docs/formattingcolors.md)
 * [FORMATTING BACKGROUND](docs/formattingbg.md)
 * [CUSTOM](docs/custom.md)
@@ -81,6 +81,8 @@ bash rainbow.bash
   * [BUG REPORT](.github/ISSUE_TEMPLATE/bug_report.md)
   * [FEATURE REQUEST](.github/ISSUE_TEMPLATE/feature_request.md)
 
-## :rainbow: AUTHOR
+### :rainbow: LICENSE
 
-:copyright: Gaurav Walia
+[MIT License](LICENSE)
+
+Copyright :copyright: 2018 Gaurav Walia
