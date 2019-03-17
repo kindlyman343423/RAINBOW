@@ -2,5 +2,5 @@
  #include <stdio.h>
  int main()
  {
- 	printf("%sThis is a green color%s\n",TEST,RESET); //this will print green color text
+ 	printf("%sThis is a green color%s\n",LRED,RESET); //this will print green color text
  }

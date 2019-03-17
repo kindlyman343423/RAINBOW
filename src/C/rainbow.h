@@ -1,48 +1,49 @@
 /*
-1; - bold
-3; - italic
-4; - underline
-5; - blink
-8; - hidden
-9; - cut
-21; - double line
-53; - overline
+B       1; - bold
+I       3; - italic
+UL      4; - underline
+BK      5; - blink
+H       8; - hidden
+C        9; - cut
+DL       21; - double line
+OL       53; - overline
 
 FOR TESTING
 #define TEST "\x1B[107m"
 * unknown colors
 * "\x1B[46m"
+* "\x1B[45m"
 */
-
+#define TEST "\x1B[106m"
 /*****************************************************************************
  *                              FORMATTING TEXT                              *
  *****************************************************************************/
 
-// Reset the color to normal
+// Reset the **color to normal**
 #define RESET "\x1B[0m"			        // RESET NORMAL COLOR
 
-// Make the text bold
+// Make the **text bold**
 #define BOLD "\x1B[1m" 			        // BOLD TEXT
 
-// Make the text italic 
+// Make the **text italic** 
 #define ITALIC "\x1B[3m"  		        // ITALIC TEXT
 
-// Make the text with underline 
+// Make the **text with underline** 
 #define UNDERLINE "\x1B[4m"  	        // UNDERLINE TEXT
 
-// Blink the text displayed
+// **Blink the text** displayed
 #define BLINK "\x1B[5m"                 // BLINK TEXT
 
-// Hides the text from the screen 
+// **Hides the text** from the screen 
 #define HIDDEN "\x1B[8m"                // HIDDEN TEXT
 
-// Strikethrough the text
+// **Strikethrough the text**
 #define CUT "\x1B[9m"                   // STRIKE THROUGH TEXT
 
-// Underline the text with double lines
+// **Underline the text** with double lines
 #define DOUBLELINE "\x1B[21m"           // DOUBLE UNDERLINE TEXT
 
-// Overline the text when displayed
+// **Overline the text** when displayed
 #define OVERLINE "\x1B[53m"             // OVERLINE TEXT
 
 
@@ -50,10 +51,10 @@ FOR TESTING
  *                                  HIGHLIGHTS                                *
  ******************************************************************************/
 
-// Change normal highlight to black when selected
+// Change **normal highlight** to black when selected
 #define HIGHLIGHT "\x1B[7m"            
 
-// Default color display 
+// **Default color** display 
 #define DEFAULTHIGHLIGHT "\x1B[98m"     
 
 
@@ -61,69 +62,261 @@ FOR TESTING
  *                                  TEXT COLORS                               *
  ******************************************************************************/ 
 
-// Default text color
+// **Default text** color
 #define DEFAULT "\x1B[99m"              // DEFAULT TEXT COLOR
 
 // Display the **light green** color text on screen
 #define LGREEN "\x1B[32m" 		        // LIGHT GREEN COLOR
 
-// Display the Medium green color text on screen
+// Display the **Medium green** color text on screen
 #define MGREEN "\x1B[2m" 		        // MID GREEN COLOR
 
-// Display the Dark green color text on screen
+// Display the **Dark green** color text on screen
 #define DGREEN "\x1B[90m"               // DARK GREEN COLOR
 
+// Display the **Light Red** color text on screen
 #define LRED "\x1B[91m"                 // LIGHT RED COLOR
-#define DRED "\x1B[31m"  		        // RED COLOR
 
+// Display the **Dark red** color text on screen
+#define DRED "\x1B[31m"  		        // DARK RED COLOR
+
+// Display the **light white** color text on screen
 #define LWHITE "\x1B[37m" 		        // LIGHT WHITE COLOR
+
+// Display the **Dark white** color text on screen
 #define DWHITE "\x1B[97m"               // DARK WHITE COLOR
 
+// Dispay the **light blue** color text on screen
 #define LBLUE "\x1B[94m"                // LIGHT BLUE COLOR
+
+// Display the **dark blue** color text on screen
 #define DBLUE "\x1B[34m" 		        // DARK BLUE COLOR
 
+// Display the **light cyan** color text on screen
 #define LCYAN "\x1B[96m"                // LIGHT CYAN COLOR
+
+// Display the **dark cyan** color text on screen
 #define DCYAN "\x1B[36m" 		        // DARK CYAN COLOR
 
+// Display **orange color** text on screen
 #define ORANGE "\x1B[33m" 		        // ORANGE COLOR
+
+// Display the **black color** text on screen
 #define BLACK "\x1B[30m" 		        // BLACK COLOR
 
+// Display **magenta color** text on screen
 #define MAGENTA "\x1B[35m" 	            // MAGENTA COLOR
+
+// Display **yellow color** text on screen
 #define YELLOW "\x1B[92m"               // YELLOW COLOR
+
+// Display the **lemon color** text on screen
 #define LEMON "\x1B[93m"                // LEMON COLOR
+
+// Display the **pink color** text on screen
 #define PINK "\x1B[95m"                 // PINK COLOR
 
-//BACKGROUND COLORS
-#define BGLGREEN "\x1B[42m"	    //LIGHT GREEN BACKGROUND
-#define BGMGREEN "\x1B[100m"     // MID GREEN BACKGROUND
-#define BGDGREEN "\x1B[40m"      //DARK GREEN BACKGROUND
 
-#define BGLRED "\x1B[101m"      //LIGHT RED BACKGROUND
-#define BGDRED "\x1B[41m"		//DARK RED BACKGROUND
+/*********************************************************************************
+ *                              BACKGROUND COLORS                                *
+ *********************************************************************************/
 
-#define BGLORANGE "\x1B[102m"    // LIGHT ORANGE BACKGROUND
-#define BGDORANGE "\x1B[43m"	    //DARK ORANGE BACKGROUND
+// Display the **dark green** background color on screen
+#define BGDGREEN "\x1B[40m"             // DARK GREEN BACKGROUND
 
-#define BGLBLUE "\x1B[44m"		//LIGHT BLUE BACKGROUND
-#define BGPINK "\x1B[45m"		//PINK BACKGROUND
-#define BGLWHITE "\x1B[47m"		//LIGHT WHITE BACKGROUND
-#define BGDWHITE "\x1B[107m"    //DARK WHITE BACKGROUND
-#define BGLEMON "\x1B[103m"     //LEMON BACKGROUND
+// Display the **light green** background color on screen
+#define BGLGREEN "\x1B[42m"	            // LIGHT GREEN BACKGROUND
 
-#define BGLPINK "\x1B[106m" //light pink
-#define BGMPINK "\x1B[104m" //mid pink
-#define BGDPINK "\x1B[105m" //dark pink
+// Display the **medium green** background color on screen
+#define BGMGREEN "\x1B[100m"            // MID GREEN BACKGROUND
 
-//FORMATTING WITH COLORS
-#define BDGREEN "\x1B[1;2m" 	//BOLD DARK GREEN COLOR
-#define IDGREEN "\x1B[3;2m" //ITALIC DARK GREEN COLOR
-#define UDGREEN "\x1B[4;2m" //UNDERLINE GREEN COLOR
-#define BRED "\x1B[1;31m"   //BOLD RED COLOR
-#define IRED "\x1B[3;31m"		//ITALIC RED COLOR
-#define URED "\x1B[4;31m"	//UNDERLINE RED COLOR
-#define BLGREEN "\x1B[1;32m"//BOLD LIGHT GREEN COLOR
-#define ILGREEN "\x1B[3;32m"	//ITALIC LIGHT GREEN COLOR
-#define ULGREEN "\x1B[4;32m"//UNDERLINE LIGHT GREEN COLOR
+// Display the **dark red** background color on screen
+#define BGDRED "\x1B[41m"		        // DARK RED BACKGROUND
+
+// Display the **light red** background color on screen
+#define BGLRED "\x1B[101m"              // LIGHT RED BACKGROUND
+
+// Display the **dark orange** background color on screen
+#define BGDORANGE "\x1B[43m"	        // DARK ORANGE BACKGROUND
+
+// Display the **light orange** background color on screen
+#define BGLORANGE "\x1B[102m"           // LIGHT ORANGE BACKGROUND
+
+// Display the **light blue** background color on screen
+#define BGLBLUE "\x1B[44m"		        // LIGHT BLUE BACKGROUND
+
+// Display the **light white** background color on screen
+#define BGLWHITE "\x1B[47m"		        // LIGHT WHITE BACKGROUND
+
+// Display the **dark white** background color on screen
+#define BGDWHITE "\x1B[107m"            // DARK WHITE BACKGROUND
+
+// Display the **lemon** background color on screen
+#define BGLEMON "\x1B[103m"             // LEMON BACKGROUND
+
+// Display the **medium pink** background color on screen
+#define BGMPINK "\x1B[104m"             // mid pink
+
+// Display the **dark pink** background color on screen
+#define BGDPINK "\x1B[105m"             // dark pink
+
+// Display the **light pink** background color on screen
+#define BGLPINK "\x1B[106m"             // light pink
+
+
+/************************************************************************************
+ *                              FORMATTING WITH COLORS                              *
+ ************************************************************************************/
+
+/**************************
+ *      LIGHT GREEN       *
+ **************************/
+
+// Display the **bold light green** color on screen
+#define BLGREEN "\x1B[1;32m"            // BOLD
+
+// Display the **italic light green** color on screen
+#define ILGREEN "\x1B[3;32m"	        // ITALIC
+
+// Display the **underlined light green** color on screen
+#define ULLGREEN "\x1B[4;32m"           // UNDER LINE
+
+// Display the **blinking light green** color on screen
+#define BKLGREEN "\x1B[5;32m"           // BLINK
+
+// Display the **strikethrough light green** color on screen
+#define CLGREEN "\x1B[9;32m"            // CUT
+
+// Display the **double line light green** color on screen
+#define DLLGREEN "\x1B[21;32m"          // DOUBLE LINE
+
+// Display the **over line light green** color on screen
+#define OLLGREEN "\x1B[53;32m"          // OVER LINE
+
+
+/**************************
+ *      DARK GREEN        *
+ **************************/
+
+// Display the **bold dark green** color on screen
+#define BDGREEN "\x1B[1;90m"            // BOLD
+
+// Display the **italic dark green** color on screen
+#define IDGREEN "\x1B[3;90m"            // ITALIC
+
+// Display the **underline dark green** color on screen
+#define ULDGREEN "\x1B[4;90m"           // UNDER LINE
+
+// Display the **blink dark green** color on screen
+#define BKDGREEN "\x1B[5;90m"           // BLINK
+
+// Display the **strikethrough dark green** color on screen
+#define CDGREEN "\x1B[9;90m"            // CUT
+
+// Display the **double line dark green** color on screen
+#define DLDGREEN "\x1B[21;90m"          // DOUBLE LINE
+
+// Display the **over line dark green** color on screen
+#define OLDGREEN "\x1B[53;90m"          // OVER LINE
+
+
+/**************************
+ *      MEDIUM GREEN      *
+ **************************/
+
+// Display the **bold medium green** color on screen
+#define BMGREEN "\x1B[1;2m" 	        // BOLD 
+
+// Display the **italic medium green** color on screen
+#define IMGREEN "\x1B[3;2m"             // ITALIC 
+
+// Display the **underline medium green** color on screen
+#define ULMGREEN "\x1B[4;2m"            // UNDERLINE
+
+// Display the **blinking medium green** color on screen
+#define BKMGREEN "\x1B[5;2m"            // BLINK
+
+// Display the **strikethrough medium green** color on screen
+#define CMGREEN "\x1B[9;2m"             // CUT
+
+// Display the **double line medium green** color on screen
+#define DLMGREEN "\x1B[21;2m"           // DOUBLE LINE
+
+// Display the **overline medium green** color on screen
+#define OLMGREEN "\x1B[53;2m"           // OVER LINE
+
+
+/**************************
+ *      LIGHT RED         *
+ **************************/
+
+// Display the **bold light red** color on screen
+#define BLRED "\x1B[1;91m"                 // BOLD
+
+// Display the **italic light red** color on screen
+#define ILRED "\x1B[3;91m"                 // ITALIC
+
+// Display the **underline light red** color on screen
+#define ULLRED "\x1B[4;91m"                 // UNDER LINE
+
+// Display the **blink light red** color on screen
+#define BKLRED "\x1B[5;91m"                 // BLINK
+
+// Display the **strikethrough light red** color on screen
+#define CLRED "\x1B[9;91m"                 // CUT
+
+// Display the **double line light red** color on screen
+#define DLLRED "\x1B[21;91m"                 // DOUBLE LINE
+
+// Display the **overline light red** color on screen
+#define OLLRED "\x1B[53;91m"                 // OVER LINE
+
+
+/**************************
+ *      DARK RED          *
+ **************************/
+
+#define BDRED "\x1B[1;31m"   //BOLD RED COLOR
+#define IDRED "\x1B[3;31m"		//ITALIC RED COLOR
+#define UDRED "\x1B[4;31m"	//UNDERLINE RED COLOR
+/**************************
+ *      LIGHT WHITE       *
+ **************************/
+/**************************
+ *      DARK WHITE        *
+ **************************/
+/**************************
+ *      LIGHT BLUE        *
+ **************************/
+/**************************
+ *      DARK BLUE         *
+ **************************/
+/**************************
+ *      LIGHT CYAN        *
+ **************************/
+/**************************
+ *      DARK CYAN         *
+ **************************/
+/**************************
+ *          ORANGE        *
+ **************************/
+/**************************
+ *          BLACK         *
+ **************************/
+/**************************
+ *          MAGENTA       *
+ **************************/
+/**************************
+ *          YELLOW        *
+ **************************/
+/**************************
+ *          LEMON         *
+ **************************/
+/**************************
+ *          PINK          *
+ **************************/
+
+
 #define BYELLOW "\x1B[1;33m"//BOLD YELLOW
 #define IYELLOW "\x1B[3;33m"   //ITALIC YELLOW
 #define UYELLOW "\x1B[4;33m"		//UNDERLINE YELLOW
