@@ -18,7 +18,6 @@ FOR TESTING
 /*****************************************************************************
  *                              FORMATTING TEXT                              *
  *****************************************************************************/
-
 // Reset the **color to normal**
 #define RESET "\x1B[0m"			        // RESET NORMAL COLOR
 
@@ -50,7 +49,6 @@ FOR TESTING
 /******************************************************************************
  *                                  HIGHLIGHTS                                *
  ******************************************************************************/
-
 // Change **normal highlight** to black when selected
 #define HIGHLIGHT "\x1B[7m"            
 
@@ -61,7 +59,6 @@ FOR TESTING
 /******************************************************************************
  *                                  TEXT COLORS                               *
  ******************************************************************************/ 
-
 // **Default text** color
 #define DEFAULT "\x1B[99m"              // DEFAULT TEXT COLOR
 
@@ -120,7 +117,6 @@ FOR TESTING
 /*********************************************************************************
  *                              BACKGROUND COLORS                                *
  *********************************************************************************/
-
 // Display the **dark green** background color on screen
 #define BGDGREEN "\x1B[40m"             // DARK GREEN BACKGROUND
 
@@ -167,11 +163,9 @@ FOR TESTING
 /************************************************************************************
  *                              FORMATTING WITH COLORS                              *
  ************************************************************************************/
-
 /**************************
  *      LIGHT GREEN       *
  **************************/
-
 // Display the **bold light green** color on screen
 #define BLGREEN "\x1B[1;32m"            // BOLD
 
@@ -197,7 +191,6 @@ FOR TESTING
 /**************************
  *      DARK GREEN        *
  **************************/
-
 // Display the **bold dark green** color on screen
 #define BDGREEN "\x1B[1;90m"            // BOLD
 
@@ -223,7 +216,6 @@ FOR TESTING
 /**************************
  *      MEDIUM GREEN      *
  **************************/
-
 // Display the **bold medium green** color on screen
 #define BMGREEN "\x1B[1;2m" 	        // BOLD 
 
@@ -249,7 +241,6 @@ FOR TESTING
 /**************************
  *      LIGHT RED         *
  **************************/
-
 // Display the **bold light red** color on screen
 #define BLRED "\x1B[1;91m"                 // BOLD
 
@@ -257,40 +248,145 @@ FOR TESTING
 #define ILRED "\x1B[3;91m"                 // ITALIC
 
 // Display the **underline light red** color on screen
-#define ULLRED "\x1B[4;91m"                 // UNDER LINE
+#define ULLRED "\x1B[4;91m"                // UNDER LINE
 
 // Display the **blink light red** color on screen
-#define BKLRED "\x1B[5;91m"                 // BLINK
+#define BKLRED "\x1B[5;91m"                // BLINK
 
 // Display the **strikethrough light red** color on screen
 #define CLRED "\x1B[9;91m"                 // CUT
 
 // Display the **double line light red** color on screen
-#define DLLRED "\x1B[21;91m"                 // DOUBLE LINE
+#define DLLRED "\x1B[21;91m"               // DOUBLE LINE
 
 // Display the **overline light red** color on screen
-#define OLLRED "\x1B[53;91m"                 // OVER LINE
+#define OLLRED "\x1B[53;91m"               // OVER LINE
 
 
 /**************************
  *      DARK RED          *
  **************************/
+// Display the **bold dark red** color on screen
+#define BDRED "\x1B[1;31m"                  // BOLD
 
-#define BDRED "\x1B[1;31m"   //BOLD RED COLOR
-#define IDRED "\x1B[3;31m"		//ITALIC RED COLOR
-#define UDRED "\x1B[4;31m"	//UNDERLINE RED COLOR
+// Display the **italic dark red** color on screen
+#define IDRED "\x1B[3;31m"		            // ITALIC
+
+// Display the **underline dark red** color on screen
+#define ULDRED "\x1B[4;31m"	                // UNDERLINE
+
+// Display the **blinking dark red** color on screen
+#define BKDRED "\x1B[5;31m"                 // BLINK
+
+// Display the **strike through dark red** color on screen
+#define CDRED "\x1B[9;31m"                  // CUT
+
+// Display the **double line dark red** color on screen
+#define DLDRED "\x1B[21;31m"                // DOUBLE LINE
+
+// Display the **over line dark red** color on screen
+#define OLDRED "\x1B[53;31m"                // OVER LINE
+
+
 /**************************
  *      LIGHT WHITE       *
  **************************/
+// Display the **bold light white** color on screen
+#define BLWHITE "\x1B[1;37m" 		        // BOLD
+
+// Display the **italic light white** color on screen
+#define ILWHITE "\x1B[3;37m" 		        // ITALIC
+
+// Display the **under line light white** color on screen
+#define ULLWHITE "\x1B[4;37m" 		        // UNDER LINE
+
+// Display the **blinked light white** color on screen
+#define BKLWHITE "\x1B[5;37m" 		        // BLINK
+
+// Display the **strikethrough light white** color on screen
+#define CLWHITE "\x1B[9;37m" 		        // CUT
+
+// Display the **double line light white** color on screen
+#define DLLWHITE "\x1B[21;37m" 		        // DOUBLE LINE
+
+// Display the **over line light white** color on screen
+#define OLLWHITE "\x1B[53;37m" 		        // OVER LINE
+
+
 /**************************
  *      DARK WHITE        *
  **************************/
+// Display the **bold dark white** color on screen
+#define BDWHITE "\x1B[1;97m" 		        // BOLD
+
+// Display the **italic dark white** color on screen
+#define IDWHITE "\x1B[3;97m" 		        // ITALIC
+
+// Display the **under line dark white** color on screen
+#define ULDWHITE "\x1B[4;97m" 		        // UNDER LINE
+
+// Display the **blinked dark white** color on screen
+#define BKDWHITE "\x1B[5;97m" 		        // BLINK
+
+// Display the **strikethrough dark white** color on screen
+#define CDWHITE "\x1B[9;97m" 		        // CUT
+
+// Display the **double line dark white** color on screen
+#define DLDWHITE "\x1B[21;97m" 		        // DOUBLE LINE
+
+// Display the **over line dark white** color on screen
+#define OLDWHITE "\x1B[53;97m" 		        // OVER LINE
+
+
 /**************************
  *      LIGHT BLUE        *
  **************************/
+// Display the **bold light blue** color on screen
+#define BLBLUE "\x1B[1;94m"                // BOLD
+
+// Display the **italic light blue** color on screen
+#define ILBLUE "\x1B[3;94m"                // ITALIC
+
+// Display the **underline light blue** color on screen
+#define ULLBLUE "\x1B[4;94m"               // UNDER LINE
+
+// Display the **blink light blue** color on screen
+#define BKLBLUE "\x1B[5;94m"               // BLINK
+
+// Display the **strikethrough light blue** color on screen
+#define CLBLUE "\x1B[9;94m"                // CUT
+
+// Display the **double line light blue** color on screen
+#define DLLBLUE "\x1B[21;94m"              // DOUBLE LINE
+
+// Display the **over line light blue** color on screen
+#define OLLBLUE "\x1B[53;94m"              // OVER LINE
+
+
 /**************************
  *      DARK BLUE         *
  **************************/
+// Display the **bold dark blue** color on screen
+#define BDBLUE "\x1B[1;34m" 		        // BOLD
+
+// Display the **italic dark blue** color on screen
+#define IDBLUE "\x1B[3;34m" 		        // ITALIC
+
+// Display the **under line dark blue** color on screen
+#define ULDBLUE "\x1B[4;34m" 		        // UNDERLINE
+
+// Display the **blink dark blue** color on screen
+#define BKDBLUE "\x1B[5;34m" 		        // BLINK
+
+// Display the **strikethrough dark blue** color on screen
+#define CDBLUE "\x1B[9;34m" 		        // CUT
+
+// Display the **double line dark blue** color on screen
+#define DLDBLUE "\x1B[21;34m" 		        // DOUBLE LINE
+
+// Display the **over line dark blue** color on screen
+#define OLDBLUE "\x1B[53;34m" 		        // OVER LINE
+
 /**************************
  *      LIGHT CYAN        *
  **************************/
@@ -329,9 +425,7 @@ FOR TESTING
 #define BCYAN "\x1B[1;36m"		//BOLD CYAN
 #define ICYAN "\x1B[3;36m" 		//ITALIC CYAN
 #define UCYAN "\x1B[4;36m" 		//UNDERLINE CYAN
-#define BWHITE "\x1B[1;37m"		//BOLD WHITE
-#define IWHITE "\x1B[3;37m"			//ITALIC WHITE
-#define UWHITE "\x1B[4;37m"		//UNDERLINE WHITE
+
 
 //FORMATTING WITH BACKGROUND
 #define BBGGREEN "\x1B[1;40m" //BOLD TEXT-GREEN BACKGROUND
