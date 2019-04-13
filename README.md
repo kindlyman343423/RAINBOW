@@ -6,14 +6,6 @@ This is a library for using colors in C ,C++ & JAVA in your terminal and making 
 
 Go build yours!!! SEE [github wiki](https://github.com/GauravWalia19/RAINBOW/wiki)
 
-### :snake: [SNAKE GAME](https://github.com/GauravWalia19/C-CPP-GAMES/tree/master/SNAKE-GAME-IN-CPP) UI
-
-![RAINBOW OUTPUT](/img/RAINBOWUI.png)
-
-### :fries: [FOOD ORDERING SOFTWARE](https://github.com/GauravWalia19/FOOD-ORDERING-SOFTWARE) UI
-
-![RAINBOW OUTPUT](/img/RAINBOWUI2.png)
-
 ## :rainbow: SUPPORTED OS
 
 * LINUX
