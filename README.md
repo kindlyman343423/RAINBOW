@@ -1,4 +1,6 @@
-# :rainbow: RAINBOW
+# :rainbow:
+
+## RAINBOW
 
 This is a library for using colors in C ,C++ & JAVA in your terminal and making the AWESOME UI for your CLI application. No need to write or remember color codes just include this library and enjoy using colors in your terminal.
 
