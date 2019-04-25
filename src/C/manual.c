@@ -197,4 +197,6 @@ int main()
 	printf("CPINK:\t\t%sHello World with cut pink color%s\n",CPINK,RESET);
 	printf("DLPINK:\t\t%sHello World with double line pink color%s\n\n",DLPINK,RESET);
 	printf("OLPINK:\t\t%sHello World with over line pink color%s\n\n",OLPINK,RESET);
+
+	// printf("LGREEN_BGDGREEN:\t\t%s%sHello World with color%s\n\n",LGREEN_BGDGREEN,RESET);
 }

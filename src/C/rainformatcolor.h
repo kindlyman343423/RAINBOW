@@ -4,423 +4,423 @@
 /**************************
  *      LIGHT GREEN       *
  **************************/
-// Display the **bold light green** color on screen
-#define BLGREEN "\x1B[1;32m"            // BOLD
+// display the BOLD LIGHT GREEN color on screen
+#define BLGREEN "\x1B[1;32m"
 
-// Display the **italic light green** color on screen
-#define ILGREEN "\x1B[3;32m"	        // ITALIC
+// display the ITALIC LIGHT GREEN color on screen
+#define ILGREEN "\x1B[3;32m"
 
-// Display the **underlined light green** color on screen
-#define ULLGREEN "\x1B[4;32m"           // UNDER LINE
+// display the UNDER LINED LIGHT GREEN color on screen
+#define ULLGREEN "\x1B[4;32m"
 
-// Display the **blinking light green** color on screen
-#define BKLGREEN "\x1B[5;32m"           // BLINK
+// display the BLINKING LIGHT GREEN color on screen
+#define BKLGREEN "\x1B[5;32m"
 
-// Display the **strikethrough light green** color on screen
-#define CLGREEN "\x1B[9;32m"            // CUT
+// display the STRIKETHROUGH LIGHT GREEN color on screen
+#define CLGREEN "\x1B[9;32m"
 
-// Display the **double line light green** color on screen
-#define DLLGREEN "\x1B[21;32m"          // DOUBLE LINE
+// display the DOUBLE LINE LIGHT GREEN color on screen
+#define DLLGREEN "\x1B[21;32m"
 
-// Display the **over line light green** color on screen
-#define OLLGREEN "\x1B[53;32m"          // OVER LINE
+// display the OVER LINE LIGHT GREEN color on screen
+#define OLLGREEN "\x1B[53;32m"
 
 
 /**************************
  *      DARK GREEN        *
  **************************/
-// Display the **bold dark green** color on screen
-#define BDGREEN "\x1B[1;90m"            // BOLD
+// display the BOLD DARK GREEN color on screen
+#define BDGREEN "\x1B[1;90m"
 
-// Display the **italic dark green** color on screen
-#define IDGREEN "\x1B[3;90m"            // ITALIC
+// display the ITALIC DARK GREEN color on screen
+#define IDGREEN "\x1B[3;90m"   
 
-// Display the **underline dark green** color on screen
-#define ULDGREEN "\x1B[4;90m"           // UNDER LINE
+// display the UNDER LINE DARK GREEN color on screen
+#define ULDGREEN "\x1B[4;90m"
 
-// Display the **blink dark green** color on screen
-#define BKDGREEN "\x1B[5;90m"           // BLINK
+// display the BLINKING DARK GREEN color on screen
+#define BKDGREEN "\x1B[5;90m"
 
-// Display the **strikethrough dark green** color on screen
-#define CDGREEN "\x1B[9;90m"            // CUT
+// display the STRIKETHROUGH DARK GREEN color on screen
+#define CDGREEN "\x1B[9;90m"
 
-// Display the **double line dark green** color on screen
-#define DLDGREEN "\x1B[21;90m"          // DOUBLE LINE
+// display the DOUBLE LINE DARK GREEN color on screen
+#define DLDGREEN "\x1B[21;90m"
 
-// Display the **over line dark green** color on screen
-#define OLDGREEN "\x1B[53;90m"          // OVER LINE
+// display the OVER LINE DARK GREEN color on screen
+#define OLDGREEN "\x1B[53;90m"
 
 
 /**************************
  *      MEDIUM GREEN      *
  **************************/
-// Display the **bold medium green** color on screen
-#define BMGREEN "\x1B[1;2m" 	        // BOLD 
+// display the BOLD MEDIUM GREEN color on screen
+#define BMGREEN "\x1B[1;2 
 
-// Display the **italic medium green** color on screen
-#define IMGREEN "\x1B[3;2m"             // ITALIC 
+// display the ITALIC MEDIUM GREEN color on screen
+#define IMGREEN "\x1B[3;2m"     
 
-// Display the **underline medium green** color on screen
-#define ULMGREEN "\x1B[4;2m"            // UNDERLINE
+// display the UNDER LINE MEDIUM GREEN color on screen
+#define ULMGREEN "\x1B[4;2m"
 
-// Display the **blinking medium green** color on screen
-#define BKMGREEN "\x1B[5;2m"            // BLINK
+// display the BLINKING MEDIUM GREEN color on screen
+#define BKMGREEN "\x1B[5;2m" 
 
-// Display the **strikethrough medium green** color on screen
-#define CMGREEN "\x1B[9;2m"             // CUT
+// display the STRIKETHROUGH MEDIUM GREEN color on screen
+#define CMGREEN "\x1B[9;2m" 
 
-// Display the **double line medium green** color on screen
-#define DLMGREEN "\x1B[21;2m"           // DOUBLE LINE
+// display the DOUBLE LINE MEDIUM GREEN color on screen
+#define DLMGREEN "\x1B[21;2m" 
 
-// Display the **overline medium green** color on screen
-#define OLMGREEN "\x1B[53;2m"           // OVER LINE
+// display the OVER LINE MEDIUM GREEN color on screen
+#define OLMGREEN "\x1B[53;2m" 
 
 
 /**************************
  *      LIGHT RED         *
  **************************/
-// Display the **bold light red** color on screen
-#define BLRED "\x1B[1;91m"                 // BOLD
+// display the BOLD LIGHT RED color on screen
+#define BLRED "\x1B[1;91m"     
 
-// Display the **italic light red** color on screen
-#define ILRED "\x1B[3;91m"                 // ITALIC
+// display the ITALIC LIGHT RED color on screen
+#define ILRED "\x1B[3;91m"        
 
-// Display the **underline light red** color on screen
-#define ULLRED "\x1B[4;91m"                // UNDER LINE
+// display the UNDER LINE LIGHT RED color on screen
+#define ULLRED "\x1B[4;91m"     
 
-// Display the **blink light red** color on screen
-#define BKLRED "\x1B[5;91m"                // BLINK
+// display the BLINKING LIGHT RED color on screen
+#define BKLRED "\x1B[5;91m"     
 
-// Display the **strikethrough light red** color on screen
-#define CLRED "\x1B[9;91m"                 // CUT
+// display the STRIKETHROUGH LIGHT RED color on screen
+#define CLRED "\x1B[9;91m"     
 
-// Display the **double line light red** color on screen
-#define DLLRED "\x1B[21;91m"               // DOUBLE LINE
+// display the DOUBLE LINE LIGHT RED color on screen
+#define DLLRED "\x1B[21;91m"     
 
-// Display the **overline light red** color on screen
-#define OLLRED "\x1B[53;91m"               // OVER LINE
+// display the OVER LINE LIGHT RED color on screen
+#define OLLRED "\x1B[53;91m"     
 
 
 /**************************
  *      DARK RED          *
  **************************/
-// Display the **bold dark red** color on screen
-#define BDRED "\x1B[1;31m"                  // BOLD
+// display the BOLD DARK RED color on screen
+#define BDRED "\x1B[1;31m"      
 
-// Display the **italic dark red** color on screen
-#define IDRED "\x1B[3;31m"		            // ITALIC
+// display the ITALIC DARK RED color on screen
+#define IDRED "\x1B[3;31m"		   
 
-// Display the **underline dark red** color on screen
-#define ULDRED "\x1B[4;31m"	                // UNDERLINE
+// display the UNDER LINE DARK RED color on screen
+#define ULDRED "\x1B[4;31m"	              
 
-// Display the **blinking dark red** color on screen
-#define BKDRED "\x1B[5;31m"                 // BLINK
+// display the BLINKING DARK RED color on screen
+#define BKDRED "\x1B[5;31m"      
 
-// Display the **strike through dark red** color on screen
-#define CDRED "\x1B[9;31m"                  // CUT
+// display the STRIKETHROUGH DARK RED color on screen
+#define CDRED "\x1B[9;31m"      
 
-// Display the **double line dark red** color on screen
-#define DLDRED "\x1B[21;31m"                // DOUBLE LINE
+// display the DOUBLE LINE DARK RED color on screen
+#define DLDRED "\x1B[21;31m"      
 
-// Display the **over line dark red** color on screen
-#define OLDRED "\x1B[53;31m"                // OVER LINE
+// display the OVER LINE DARK RED color on screen
+#define OLDRED "\x1B[53;31m"      
 
 
 /**************************
  *      LIGHT WHITE       *
  **************************/
-// Display the **bold light white** color on screen
-#define BLWHITE "\x1B[1;37m" 		        // BOLD
+// display the BOLD LIGHT WHITE color on screen
+#define BLWHITE "\x1B[1;37m
 
-// Display the **italic light white** color on screen
-#define ILWHITE "\x1B[3;37m" 		        // ITALIC
+// display the ITALIC LIGHT WHITE color on screen
+#define ILWHITE "\x1B[3;37m" 	
 
-// Display the **under line light white** color on screen
-#define ULLWHITE "\x1B[4;37m" 		        // UNDER LINE
+// display the UNDER LINE LIGHT WHITE color on screen
+#define ULLWHITE "\x1B[4;37m"
 
-// Display the **blinked light white** color on screen
-#define BKLWHITE "\x1B[5;37m" 		        // BLINK
+// display the BLINKING LIGHT WHITE color on screen
+#define BKLWHITE "\x1B[5;37m"
 
-// Display the **strikethrough light white** color on screen
-#define CLWHITE "\x1B[9;37m" 		        // CUT
+// display the STRIKETHROUGH LIGHT WHITE color on screen
+#define CLWHITE "\x1B[9;37m
 
-// Display the **double line light white** color on screen
-#define DLLWHITE "\x1B[21;37m" 		        // DOUBLE LINE
+// display the DOUBLE LINE LIGHT WHITE color on screen
+#define DLLWHITE "\x1B[21;37m" 
 
-// Display the **over line light white** color on screen
-#define OLLWHITE "\x1B[53;37m" 		        // OVER LINE
+// display the OVER LINE LIGHT WHITE color on screen
+#define OLLWHITE "\x1B[53;37m" 
 
 
 /**************************
  *      DARK WHITE        *
  **************************/
-// Display the **bold dark white** color on screen
-#define BDWHITE "\x1B[1;97m" 		        // BOLD
+// display the BOLD DARK WHITE color on screen
+#define BDWHITE "\x1B[1;97m
 
-// Display the **italic dark white** color on screen
-#define IDWHITE "\x1B[3;97m" 		        // ITALIC
+// display the ITALIC DARK WHITE color on screen
+#define IDWHITE "\x1B[3;97m" 	
 
-// Display the **under line dark white** color on screen
-#define ULDWHITE "\x1B[4;97m" 		        // UNDER LINE
+// display the UNDER LINE DARK WHITE color on screen
+#define ULDWHITE "\x1B[4;97m"
 
-// Display the **blinked dark white** color on screen
-#define BKDWHITE "\x1B[5;97m" 		        // BLINK
+// display the BLINKING DARK WHITE color on screen
+#define BKDWHITE "\x1B[5;97m"
 
-// Display the **strikethrough dark white** color on screen
-#define CDWHITE "\x1B[9;97m" 		        // CUT
+// display the STRIKETHROUGH DARK WHITE color on screen
+#define CDWHITE "\x1B[9;97m
 
-// Display the **double line dark white** color on screen
-#define DLDWHITE "\x1B[21;97m" 		        // DOUBLE LINE
+// display the DOUBLE LINE DARK WHITE color on screen
+#define DLDWHITE "\x1B[21;97m" 
 
-// Display the **over line dark white** color on screen
-#define OLDWHITE "\x1B[53;97m" 		        // OVER LINE
+// display the OVER LINE DARK WHITE color on screen
+#define OLDWHITE "\x1B[53;97m" 
 
 
 /**************************
  *      LIGHT BLUE        *
  **************************/
-// Display the **bold light blue** color on screen
-#define BLBLUE "\x1B[1;94m"                // BOLD
+// display the BOLD LIGHT BLUE color on screen
+#define BLBLUE "\x1B[1;94m"    
 
-// Display the **italic light blue** color on screen
-#define ILBLUE "\x1B[3;94m"                // ITALIC
+// display the ITALIC LIGHT BLUE color on screen
+#define ILBLUE "\x1B[3;94m"       
 
-// Display the **underline light blue** color on screen
-#define ULLBLUE "\x1B[4;94m"               // UNDER LINE
+// display the UNDER LINE LIGHT BLUE color on screen
+#define ULLBLUE "\x1B[4;94m"    
 
-// Display the **blink light blue** color on screen
-#define BKLBLUE "\x1B[5;94m"               // BLINK
+// display the BLINKING LIGHT BLUE color on screen
+#define BKLBLUE "\x1B[5;94m"    
 
-// Display the **strikethrough light blue** color on screen
-#define CLBLUE "\x1B[9;94m"                // CUT
+// display the STRIKETHROUGH LIGHT BLUE color on screen
+#define CLBLUE "\x1B[9;94m"    
 
-// Display the **double line light blue** color on screen
-#define DLLBLUE "\x1B[21;94m"              // DOUBLE LINE
+// display the DOUBLE LINE LIGHT BLUE color on screen
+#define DLLBLUE "\x1B[21;94m"    
 
-// Display the **over line light blue** color on screen
-#define OLLBLUE "\x1B[53;94m"              // OVER LINE
+// display the OVER LINE LIGHT BLUE color on screen
+#define OLLBLUE "\x1B[53;94m"    
 
 
 /**************************
  *      DARK BLUE         *
  **************************/
-// Display the **bold dark blue** color on screen
-#define BDBLUE "\x1B[1;34m" 		        // BOLD
+// display the BOLD DARK BLUE color on screen
+#define BDBLUE "\x1B[1;34m
 
-// Display the **italic dark blue** color on screen
-#define IDBLUE "\x1B[3;34m" 		        // ITALIC
+// display the ITALIC DARK BLUE color on screen
+#define IDBLUE "\x1B[3;34m" 	
 
-// Display the **under line dark blue** color on screen
-#define ULDBLUE "\x1B[4;34m" 		        // UNDERLINE
+// display the UNDER LINE DARK BLUE color on screen
+#define ULDBLUE "\x1B[4;34m"
 
-// Display the **blink dark blue** color on screen
-#define BKDBLUE "\x1B[5;34m" 		        // BLINK
+// display the BLINKING DARK BLUE color on screen
+#define BKDBLUE "\x1B[5;34m"
 
-// Display the **strikethrough dark blue** color on screen
-#define CDBLUE "\x1B[9;34m" 		        // CUT
+// display the STRIKETHROUGH DARK BLUE color on screen
+#define CDBLUE "\x1B[9;34m
 
-// Display the **double line dark blue** color on screen
-#define DLDBLUE "\x1B[21;34m" 		        // DOUBLE LINE
+// display the DOUBLE LINE DARK BLUE color on screen
+#define DLDBLUE "\x1B[21;34m" 
 
-// Display the **over line dark blue** color on screen
-#define OLDBLUE "\x1B[53;34m" 		        // OVER LINE
+// display the OVER LINE DARK BLUE color on screen
+#define OLDBLUE "\x1B[53;34m" 
 
 
 /**************************
  *      LIGHT CYAN        *
  **************************/
-// Display the **bold light cyan** color on screen
-#define BLCYAN "\x1B[1;96m"                 // BOLD
+// display the BOLD LIGHT CYAN color on screen
+#define BLCYAN "\x1B[1;96m"     
 
-// Display the **italic light cyan** color on screen
-#define ILCYAN "\x1B[3;96m"                 // ITALIC
+// display the ITALIC LIGHT CYAN color on screen
+#define ILCYAN "\x1B[3;96m"        
 
-// Display the **underline light cyan** color on screen
-#define ULLCYAN "\x1B[4;96m"                // UNDERLINE
+// display the UNDER LINE LIGHT CYAN color on screen
+#define ULLCYAN "\x1B[4;96m"
 
-// Display the **blink light cyan** color on screen
-#define BKLCYAN "\x1B[5;96m"                // BLINK
+// display the BLINKING LIGHT CYAN color on screen
+#define BKLCYAN "\x1B[5;96m"     
 
-// Display the **cut light cyan** color on screen
-#define CLCYAN "\x1B[9;96m"                 // CUT
+// display the STRIKETHROUGH LIGHT CYAN color on screen
+#define CLCYAN "\x1B[9;96m"     
 
-// Display the **double line light cyan** color on screen
-#define DLLCYAN "\x1B[21;96m"               // DOUBLE LINE
+// display the DOUBLE LINE LIGHT CYAN color on screen
+#define DLLCYAN "\x1B[21;96m"     
 
-// Display the **over line light cyan** color on screen
-#define OLLCYAN "\x1B[53;96m"               // OVER LINE
+// display the OVER LINE LIGHT CYAN color on screen
+#define OLLCYAN "\x1B[53;96m"     
 
 
 /**************************
  *      DARK CYAN         *
  **************************/
-// Display the **bold dark cyan** color text on screen
-#define BDCYAN "\x1B[1;36m" 		        // BOLD
+// display the BOLD DARK CYAN color text on screen
+#define BDCYAN "\x1B[1;36m
 
-// Display the **italic dark cyan** color text on screen
-#define IDCYAN "\x1B[3;36m" 		        // ITALIC
+// display the ITALIC DARK CYAN color text on screen
+#define IDCYAN "\x1B[3;36m" 	
 
-// Display the **under line dark cyan** color text on screen
-#define ULDCYAN "\x1B[4;36m" 		        // UNDER LINE
+// display the UNDER LINE DARK CYAN color text on screen
+#define ULDCYAN "\x1B[4;36m"
 
-// Display the **blink dark cyan** color text on screen
-#define BKDCYAN "\x1B[5;36m" 		        // BLINK
+// display the BLINKING DARK CYAN color text on screen
+#define BKDCYAN "\x1B[5;36m"
 
-// Display the **cut dark cyan** color text on screen
-#define CDCYAN "\x1B[9;36m" 		        // CUT
+// display the STRIKETHROUGH DARK CYAN color text on screen
+#define CDCYAN "\x1B[9;36m
 
-// Display the **double line dark cyan** color text on screen
-#define DLDCYAN "\x1B[21;36m" 		        // DOUBLE LINE
+// display the DOUBLE LINE DARK CYAN color text on screen
+#define DLDCYAN "\x1B[21;36m" 
 
-// Display the **over line dark cyan** color text on screen
-#define OLDCYAN "\x1B[53;36m" 		        // OVER LINE
+// display the OVER LINE DARK CYAN color text on screen
+#define OLDCYAN "\x1B[53;36m" 
 
 
 /**************************
  *          ORANGE        *
  **************************/
-// Display **bold orange color** text on screen
-#define BORANGE "\x1B[1;33m" 		        // BOLD
+// display BOLD ORANGE COLOR text on screen
+#define BORANGE "\x1B[1;33m
 
-// Display **italic orange color** text on screen
-#define IORANGE "\x1B[3;33m" 		        // ITALIC
+// display ITALIC ORANGE COLOR text on screen
+#define IORANGE "\x1B[3;33m" 	
 
-// Display **under line orange color** text on screen
-#define ULORANGE "\x1B[4;33m" 		        // UNDER LINE
+// display UNDER LINE ORANGE COLOR text on screen
+#define ULORANGE "\x1B[4;33m"
 
-// Display **blink orange color** text on screen
-#define BKORANGE "\x1B[5;33m" 		        // BLINK
+// display BLINKING ORANGE COLOR text on screen
+#define BKORANGE "\x1B[5;33m"
 
-// Display **strikethrough orange color** text on screen
-#define CORANGE "\x1B[9;33m" 		        // CUT
+// display STRIKETHROUGH ORANGE COLOR text on screen
+#define CORANGE "\x1B[9;33m
 
-// Display **double line orange color** text on screen
-#define DLORANGE "\x1B[21;33m" 		        // DOUBLE LINE
+// display DOUBLE LINE ORANGE COLOR text on screen
+#define DLORANGE "\x1B[21;33m" 
 
-// Display **over line orange color** text on screen
-#define OLORANGE "\x1B[53;33m" 		        // OVER LINE
+// display OVER LINE ORANGE COLOR text on screen
+#define OLORANGE "\x1B[53;33m" 
 
 
 /**************************
  *          BLACK         *
  **************************/
-// Display the **bold black color** text on screen
-#define BBLACK "\x1B[1;30m" 		        // BOLD
+// display the BOLD BLACK COLOR text on screen
+#define BBLACK "\x1B[1;30m
 
-// Display the **italic black color** text on screen
-#define IBLACK "\x1B[3;30m" 		        // ITALIC
+// display the ITALIC BLACK COLOR text on screen
+#define IBLACK "\x1B[3;30m" 	
 
-// Display the **under line black color** text on screen
-#define ULBLACK "\x1B[4;30m" 		        // UNDER LINE
+// display the UNDER LINE BLACK COLOR text on screen
+#define ULBLACK "\x1B[4;30m"
 
-// Display the **blinking black color** text on screen
-#define BKBLACK "\x1B[5;30m" 		        // BLINK
+// display the BLINKING BLACK COLOR text on screen
+#define BKBLACK "\x1B[5;30m"
 
-// Display the **strikethrough black color** text on screen
-#define CBLACK "\x1B[9;30m" 		        // CUT
+// display the STRIKETHROUGH BLACK COLOR text on screen
+#define CBLACK "\x1B[9;30m
 
-// Display the **double line black color** text on screen
-#define DLBLACK "\x1B[21;30m" 		        // DOUBLE LINE
+// display the DOUBLE LINE BLACK COLOR text on screen
+#define DLBLACK "\x1B[21;30m" 
 
-// Display the **over line black color** text on screen
-#define OLBLACK "\x1B[53;30m" 		        // OVER LINE
+// display the OVER LINE BLACK COLOR text on screen
+#define OLBLACK "\x1B[53;30m" 
 
 
 /**************************
  *          MAGENTA       *
  **************************/
-// Display **bold magenta color** text on screen
-#define BMAGENTA "\x1B[1;35m" 	            // BOLD
+// display BOLD MAGENTA COLOR text on screen
+#define BMAGENTA "\x1B[1;35m" 	
 
-// Display **italic magenta color** text on screen
-#define IMAGENTA "\x1B[3;35m" 	            // ITALIC
+// display ITALIC MAGENTA COLOR text on screen
+#define IMAGENTA "\x1B[3;35m" 	   
 
-// Display **under line magenta color** text on screen
-#define ULMAGENTA "\x1B[4;35m" 	            // UNDER LINE
+// display UNDER LINE MAGENTA COLOR text on screen
+#define ULMAGENTA "\x1B[4;35m" 	 
 
-// Display **blink magenta color** text on screen
-#define BKMAGENTA "\x1B[5;35m" 	            // BLINK
+// display BLINKING MAGENTA COLOR text on screen
+#define BKMAGENTA "\x1B[5;35m" 	 
 
-// Display **cut magenta color** text on screen
-#define CMAGENTA "\x1B[9;35m" 	            // CUT
+// display STRIKETHROUGH MAGENTA COLOR text on screen
+#define CMAGENTA "\x1B[9;35m" 	
 
-// Display **double line magenta color** text on screen
-#define DLMAGENTA "\x1B[21;35m" 	        // DOUBLE LINE
+// display DOUBLE LINE MAGENTA COLOR text on screen
+#define DLMAGENTA "\x1B[21;35m"
 
-// Display **over line magenta color** text on screen
-#define OLMAGENTA "\x1B[53;35m" 	        // OVER LINE
+// display OVER LINE MAGENTA COLOR text on screen
+#define OLMAGENTA "\x1B[53;35m"
 
 
 /**************************
  *          YELLOW        *
  **************************/
-// Display **bold yellow color** text on screen
-#define BYELLOW "\x1B[1;92m"               // BOLD
+// display BOLD YELLOW COLOR text on screen
+#define BYELLOW "\x1B[1;92m"   
 
-// Display **italic yellow color** text on screen
-#define IYELLOW "\x1B[3;92m"               // ITALIC
+// display ITALIC YELLOW COLOR text on screen
+#define IYELLOW "\x1B[3;92m"      
 
-// Display **under line yellow color** text on screen
-#define ULYELLOW "\x1B[4;92m"               // UNDER LINE
+// display UNDER LINE YELLOW COLOR text on screen
+#define ULYELLOW "\x1B[4;92m"    
 
-// Display **blink yellow color** text on screen
-#define BKYELLOW "\x1B[5;92m"               // BLINK
+// display BLINKING YELLOW COLOR text on screen
+#define BKYELLOW "\x1B[5;92m"    
 
-// Display **cut yellow color** text on screen
-#define CYELLOW "\x1B[9;92m"               // CUT
+// display STRIKETHROUGH YELLOW COLOR text on screen
+#define CYELLOW "\x1B[9;92m"   
 
-// Display **double line yellow color** text on screen
-#define DLYELLOW "\x1B[21;92m"             // DOUBLE LINE
+// display DOUBLE LINE YELLOW COLOR text on screen
+#define DLYELLOW "\x1B[21;92m"   
 
-// Display **over line yellow color** text on screen
-#define OLYELLOW "\x1B[53;92m"             // OVER LINE
+// display OVER LINE YELLOW COLOR text on screen
+#define OLYELLOW "\x1B[53;92m"   
 
 
 /**************************
  *          LEMON         *
  **************************/
-// Display the **bold lemon color** text on screen
-#define BLEMON "\x1B[1;93m"                // BOLD
+// display the BOLD LEMON COLOR text on screen
+#define BLEMON "\x1B[1;93m"    
 
-// Display the **italic lemon color** text on screen
-#define ILEMON "\x1B[3;93m"                // ITALIC
+// display the ITALIC LEMON COLOR text on screen
+#define ILEMON "\x1B[3;93m"       
 
-// Display the **under line lemon color** text on screen
-#define ULLEMON "\x1B[4;93m"                // UNDER LINE
+// display the UNDER LINE LEMON COLOR text on screen
+#define ULLEMON "\x1B[4;93m"     
 
-// Display the **blink lemon color** text on screen
-#define BKLEMON "\x1B[5;93m"                // BLINK
+// display the BLINKING LEMON COLOR text on screen
+#define BKLEMON "\x1B[5;93m"     
 
-// Display the **cut lemon color** text on screen
-#define CLEMON "\x1B[9;93m"                // CUT
+// display the STRIKETHROUGH LEMON COLOR text on screen
+#define CLEMON "\x1B[9;93m"    
 
-// Display the **double line lemon color** text on screen
-#define DLLEMON "\x1B[21;93m"                // DOUBLE LINE
+// display the DOUBLE LINE LEMON COLOR text on screen
+#define DLLEMON "\x1B[21;93m"      
 
-// Display the **over line lemon color** text on screen
-#define OLLEMON "\x1B[53;93m"                // OVER LINE
+// display the OVER LINE LEMON COLOR text on screen
+#define OLLEMON "\x1B[53;93m"      
 
 
 /**************************
  *          PINK          *
  **************************/
-// Display the **bold pink color** text on screen
-#define BPINK "\x1B[1;95m"                 // BOLD
+// display the BOLD PINK COLOR text on screen
+#define BPINK "\x1B[1;95m"     
 
-// Display the **italic pink color** text on screen
-#define IPINK "\x1B[3;95m"                 // ITALIC
+// display the ITALIC PINK COLOR text on screen
+#define IPINK "\x1B[3;95m"        
 
-// Display the **under line pink color** text on screen
-#define ULPINK "\x1B[4;95m"                 // UNDER LINE
+// display the UNDER LINE PINK COLOR text on screen
+#define ULPINK "\x1B[4;95m"      
 
-// Display the **blink pink color** text on screen
-#define BKPINK "\x1B[5;95m"                 // BLINK
+// display the BLINKING PINK COLOR text on screen
+#define BKPINK "\x1B[5;95m"      
 
-// Display the **cut pink color** text on screen
-#define CPINK "\x1B[9;95m"                 // CUT
+// display the STRIKETHROUGH PINK COLOR text on screen
+#define CPINK "\x1B[9;95m"     
 
-// Display the **double line pink color** text on screen
-#define DLPINK "\x1B[21;95m"                 // DOUBLE LINE
+// display the DOUBLE LINE PINK COLOR text on screen
+#define DLPINK "\x1B[21;95m"       
 
-// Display the **over line pink color** text on screen
-#define OLPINK "\x1B[53;95m"                 // OVER LINE
+// display the OVER LINE PINK COLOR text on screen
+#define OLPINK "\x1B[53;95m"       

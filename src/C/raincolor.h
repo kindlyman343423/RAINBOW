@@ -1,56 +1,56 @@
 /******************************************************************************
  *                                  TEXT COLORS                               *
- ******************************************************************************/ 
-// **Default text** color
-#define DEFAULT "\x1B[99m"                                                          // DEFAULT TEXT COLOR
+ ******************************************************************************/
+// DEAFULT TEXT color
+#define DEFAULT "\x1B[99m"
 
-// Display the **light green** color text on screen
-#define LGREEN "\x1B[32m" 		                                                    // LIGHT GREEN COLOR
+// display the LIGHT GREEN color text on screen
+#define LGREEN "\x1B[32m"
 
-// Display the **Medium green** color text on screen
-#define MGREEN "\x1B[2m" 		                                                    // MID GREEN COLOR
+// display the MEDIUM GREEN color text on screen
+#define MGREEN "\x1B[2m"
 
-// Display the **Dark green** color text on screen
-#define DGREEN "\x1B[90m"                                                           // DARK GREEN COLOR
+// display the DARK GREEN color text on screen
+#define DGREEN "\x1B[90m"
 
-// Display the **Light Red** color text on screen
-#define LRED "\x1B[91m"                                                             // LIGHT RED COLOR
+// display the LIGHT RED color text on screen
+#define LRED "\x1B[91m"
 
-// Display the **Dark red** color text on screen
-#define DRED "\x1B[31m"  		                                                    // DARK RED COLOR
+// display the DARK RED color text on screen
+#define DRED "\x1B[31m"
 
-// Display the **light white** color text on screen
-#define LWHITE "\x1B[37m" 		                                                    // LIGHT WHITE COLOR
+// display the LIGHT WHITE color text on screen
+#define LWHITE "\x1B[37m"
 
-// Display the **Dark white** color text on screen
-#define DWHITE "\x1B[97m"                                                           // DARK WHITE COLOR
+// display the DARK WHITE color text on screen
+#define DWHITE "\x1B[97m"
 
-// Dispay the **light blue** color text on screen
-#define LBLUE "\x1B[94m"                                                            // LIGHT BLUE COLOR
+// display the LIGHT BLUE color text on screen
+#define LBLUE "\x1B[94m"
 
-// Display the **dark blue** color text on screen
-#define DBLUE "\x1B[34m" 		                                                    // DARK BLUE COLOR
+// display the DARK BLUE color text on screen
+#define DBLUE "\x1B[34m"
 
-// Display the **light cyan** color text on screen
-#define LCYAN "\x1B[96m"                                                            // LIGHT CYAN COLOR
+// display the LIGHT CYAN color text on screen
+#define LCYAN "\x1B[96m"
 
-// Display the **dark cyan** color text on screen
-#define DCYAN "\x1B[36m" 		                                                    // DARK CYAN COLOR
+// display the DARK CYAN color text on screen
+#define DCYAN "\x1B[36m"
 
-// Display **orange color** text on screen
-#define ORANGE "\x1B[33m" 		        // ORANGE COLOR
+// display ORANGE COLOR text on screen
+#define ORANGE "\x1B[33m"
 
-// Display the **black color** text on screen
-#define BLACK "\x1B[30m" 		                                                    // BLACK COLOR
+// display the BLACK COLOR text on screen
+#define BLACK "\x1B[30m"
 
-// Display **magenta color** text on screen
-#define MAGENTA "\x1B[35m" 	                                                        // MAGENTA COLOR
+// display MAGENTA COLOR text on screen
+#define MAGENTA "\x1B[35m"
 
-// Display **yellow color** text on screen
-#define YELLOW "\x1B[92m"                                                           // YELLOW COLOR
+// display YELLOW COLOR text on screen
+#define YELLOW "\x1B[92m"
 
-// Display the **lemon color** text on screen
-#define LEMON "\x1B[93m"                                                            // LEMON COLOR
+// display the LEMON COLOR text on screen
+#define LEMON "\x1B[93m"
 
-// Display the **pink color** text on screen
-#define PINK "\x1B[95m"                                                             // PINK COLOR
+// display the PINK COLOR text on screen
+#define PINK "\x1B[95m"

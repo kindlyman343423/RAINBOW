@@ -2,39 +2,39 @@
  *                              FORMATTING TEXT                              *
  *****************************************************************************/
 
-// Reset the **color to normal**
-#define RESET "\x1B[0m"			                                                // RESET NORMAL COLOR
+// reset the COLOR TO NORMAL
+#define RESET "\x1B[0m"			                                                
 
-// Make the **text bold**
-#define BOLD "\x1B[1m" 			                                                // BOLD TEXT
+// make the TEXT BOLD
+#define BOLD "\x1B[1m" 			                                                
 
-// Make the **text italic** 
-#define ITALIC "\x1B[3m"  		                                                // ITALIC TEXT
+// make the TEXT ITALIC 
+#define ITALIC "\x1B[3m"  		                                                
 
-// Make the **text with underline** 
-#define UNDERLINE "\x1B[4m"  	                                                // UNDERLINE TEXT
+// make the TEXT WITH UNDERLINE 
+#define UNDERLINE "\x1B[4m"  	                                                
 
-// **Blink the text** displayed
-#define BLINK "\x1B[5m"                                                         // BLINK TEXT
+// BLINKING TEXT displayed
+#define BLINK "\x1B[5m"                                                         
 
-// **Hides the text** from the screen 
-#define HIDDEN "\x1B[8m"                                                        // HIDDEN TEXT
+// HIDES THE TEXT from the screen 
+#define HIDDEN "\x1B[8m"                                                        
 
-// **Strikethrough the text**
-#define CUT "\x1B[9m"                                                           // STRIKE THROUGH TEXT
+// STRIKETHROUGH THE TEXT
+#define CUT "\x1B[9m"                                                           
 
-// **Underline the text** with double lines
-#define DOUBLELINE "\x1B[21m"                                                   // DOUBLE UNDERLINE TEXT
+// UNDERLINE THE TEXT with double lines
+#define DOUBLELINE "\x1B[21m"                                                  
 
-// **Overline the text** when displayed
-#define OVERLINE "\x1B[53m"                                                     // OVERLINE TEXT
+// OVERLINE THE TEXT when displayed
+#define OVERLINE "\x1B[53m"                                                     
 
 
 /******************************************************************************
  *                                  HIGHLIGHTS                                *
  ******************************************************************************/
-// Change **normal highlight** to black when selected
+// Change NORMAL HIGHLIGHT to black when selected
 #define HIGHLIGHT "\x1B[7m"            
 
-// **Default color** display 
+// DEFAULT COLOR display 
 #define DEFAULTHIGHLIGHT "\x1B[98m"

@@ -16,8 +16,16 @@ FOR TESTING
 */
 // #define TEST "\x1B[106m"
 
+// ONE COMPONENT FILES
 #include "rainformat.h"             // contains formatting text and highlight types
 #include "raincolor.h"              // contains all text colors
 #include "rainbackground.h"         // contains all background colors
+
+// TWO COMPONENT FILES
 #include "rainformatcolor.h"        // contains formatting with colors
-#include "rainformatbackground.h"   // contains formatting with background
+#include "rainformatbg.h"           // contains formatting with background
+#include "raincolorbg.h"            // contains colors with background
+
+// rainformat + raincolor       => rainformatcolor
+// rainformat + rainbackground  => rainformatbg
+// raincolor + rainbackground   => raincolorbg

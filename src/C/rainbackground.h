@@ -1,44 +1,44 @@
 /*********************************************************************************
  *                              BACKGROUND COLORS                                *
  *********************************************************************************/
-// Display the **dark green** background color on screen
-#define BGDGREEN "\x1B[40m"                                                         // DARK GREEN BACKGROUND
+// display the DARK GREEN background color on screen
+#define BGDGREEN "\x1B[40m"                                                         
 
-// Display the **light green** background color on screen
-#define BGLGREEN "\x1B[42m"	                                                        // LIGHT GREEN BACKGROUND
+// display the LIGHT GREEN background color on screen
+#define BGLGREEN "\x1B[42m"	                                                
 
-// Display the **medium green** background color on screen
-#define BGMGREEN "\x1B[100m"                                                        // MID GREEN BACKGROUND
+// display the MEDIUM GREEN background color on screen
+#define BGMGREEN "\x1B[100m"                                                
 
-// Display the **dark red** background color on screen
-#define BGDRED "\x1B[41m"		                                                    // DARK RED BACKGROUND
+// display the DARK RED background color on screen
+#define BGDRED "\x1B[41m"		                                            
 
-// Display the **light red** background color on screen
-#define BGLRED "\x1B[101m"                                                          // LIGHT RED BACKGROUND
+// display the LIGHT RED background color on screen
+#define BGLRED "\x1B[101m"                                                  
 
-// Display the **dark orange** background color on screen
-#define BGDORANGE "\x1B[43m"	                                                    // DARK ORANGE BACKGROUND
+// display the DARK ORANGE background color on screen
+#define BGDORANGE "\x1B[43m"	                                            
 
-// Display the **light orange** background color on screen
-#define BGLORANGE "\x1B[102m"                                                       // LIGHT ORANGE BACKGROUND
+// display the LIGHT ORANGE background color on screen
+#define BGLORANGE "\x1B[102m"                                                   
 
-// Display the **light blue** background color on screen
-#define BGLBLUE "\x1B[44m"		                                                    // LIGHT BLUE BACKGROUND
+// display the LIGHT BLUE background color on screen
+#define BGLBLUE "\x1B[44m"		                                            
 
-// Display the **light white** background color on screen
-#define BGLWHITE "\x1B[47m"		                                                    // LIGHT WHITE BACKGROUND
+// display the LIGHT WHITE background color on screen
+#define BGLWHITE "\x1B[47m"		                                            
 
-// Display the **dark white** background color on screen
-#define BGDWHITE "\x1B[107m"                                                        // DARK WHITE BACKGROUND
+// display the DARK WHITE background color on screen
+#define BGDWHITE "\x1B[107m"                                                
 
-// Display the **lemon** background color on screen
-#define BGLEMON "\x1B[103m"                                                         // LEMON BACKGROUND
+// display the LEMON background color on screen
+#define BGLEMON "\x1B[103m"                                             
 
-// Display the **medium pink** background color on screen
-#define BGMPINK "\x1B[104m"                                                         // MID PINK
+// display the MEDIUM PINK background color on screen
+#define BGMPINK "\x1B[104m"                                     
 
-// Display the **dark pink** background color on screen
-#define BGDPINK "\x1B[105m"                                                         // DARK PINK
+// display the DARK PINK background color on screen
+#define BGDPINK "\x1B[105m"                                     
 
-// Display the **light pink** background color on screen
-#define BGLPINK "\x1B[106m"                                                         // LIGHT PINK
+// display the LIGHT PINK background color on screen
+#define BGLPINK "\x1B[106m"                                     
