@@ -461,14 +461,94 @@
 /********************
  *      DCYAN
  ********************/
-// Display the DARK CYAN text with  background
-#define DCYAN "\x1B[36m"
+// Display the DARK CYAN text with DARK GREEN background
+#define DCYAN_BGDGREEN "\x1B[36;40m"
+
+// Display the DARK CYAN text with LIGHT GREEN background
+#define DCYAN_BGLGREEN "\x1B[36;42m"
+
+// Display the DARK CYAN text with MEDIUM GREEN background
+#define DCYAN_BGMGREEN "\x1B[36;100m"
+
+// Display the DARK CYAN text with DARK RED background
+#define DCYAN_BGDRED "\x1B[36;41m"
+
+// Display the DARK CYAN text with LIGHT RED background
+#define DCYAN_BGLRED "\x1B[36;101m"
+
+// Display the DARK CYAN text with DARK ORANGE background
+#define DCYAN_BGDORANGE "\x1B[36;43m"
+
+// Display the DARK CYAN text with LIGHT ORANGE background
+#define DCYAN_BGLORANGE "\x1B[36;102m"
+
+// Display the DARK CYAN text with LIGHT BLUE background
+#define DCYAN_BGLBLUE "\x1B[36;44m"
+
+// Display the DARK CYAN text with LIGHT WHITE background
+#define DCYAN_BGLWHITE "\x1B[36;47m"
+
+// Display the DARK CYAN text with DARK WHITE background
+#define DCYAN_BGDWHITE "\x1B[36;107m"
+
+// Display the DARK CYAN text with LEMON background
+#define DCYAN_BGLEMON "\x1B[36;103m"
+
+// Display the DARK CYAN text with MEDIUM PINK background
+#define DCYAN_BGMPINK "\x1B[36;104m"
+
+// Display the DARK CYAN text with DARK PINK background
+#define DCYAN_BGDPINK "\x1B[36;105m"
+
+// Display the DARK CYAN text with LIGHT PINK background
+#define DCYAN_BGLPINK "\x1B[36;106m"
+
 
 /********************
  *      ORANGE
  ********************/
-// Display the ORANGE text with  background
-#define ORANGE "\x1B[33m"
+// Display the ORANGE text with DARK GREEN background
+#define ORANGE_BGDGREEN "\x1B[33;40m"
+
+// Display the ORANGE text with LIGHT GREEN background
+#define ORANGE_BGLGREEN "\x1B[33;42m"
+
+// Display the ORANGE text with MEDIUM GREEN background
+#define ORANGE_BGMGREEN "\x1B[33;100m"
+
+// Display the ORANGE text with DARK RED background
+#define ORANGE_BGDRED "\x1B[33;41m"
+
+// Display the ORANGE text with LIGHT RED background
+#define ORANGE_BGLRED "\x1B[33;101m"
+
+// Display the ORANGE text with DARK ORANGE background
+#define ORANGE_BGDORANGE "\x1B[33;43m"
+
+// Display the ORANGE text with LIGHT ORANGE background
+#define ORANGE_BGLORANGE "\x1B[33;102m"
+
+// Display the ORANGE text with LIGHT BLUE background
+#define ORANGE_BGLBLUE "\x1B[33;44m"
+
+// Display the ORANGE text with LIGHT WHITE background
+#define ORANGE_BGLWHITE "\x1B[33;47m"
+
+// Display the ORANGE text with DARK WHITE background
+#define ORANGE_BGDWHITE "\x1B[33;107m"
+
+// Display the ORANGE text with LEMON background
+#define ORANGE_BGLEMON "\x1B[33;103m"
+
+// Display the ORANGE text with MEDIUM PINK background
+#define ORANGE_BGMPINK "\x1B[33;104m"
+
+// Display the ORANGE text with DARK PINK background
+#define ORANGE_BGDPINK "\x1B[33;105m"
+
+// Display the ORANGE text with LIGHT PINK background
+#define ORANGE_BGLPINK "\x1B[33;106m"
+
 
 /********************
  *      BLACK
