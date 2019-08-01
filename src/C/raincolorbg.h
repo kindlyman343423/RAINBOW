@@ -231,8 +231,48 @@
 /********************
  *      LWHITE
  ********************/
-// Display the LIGHT WHITE text with  background
-#define LWHITE "\x1B[37m"
+// Display the LIGHT WHITE text with DARK GREEN background
+#define LWHITE_BGDGREEN "\x1B[37;40m"
+
+// Display the LIGHT WHITE text with  LIGHT GREEN background
+#define LWHITE_BGLGREEN "\x1B[37;42m"
+
+// Display the LIGHT WHITE text with MEDIUM GREEN background
+#define LWHITE_BGMGREEN "\x1B[37;100m"
+
+// Display the LIGHT WHITE text with DARK RED background
+#define LWHITE_BGDRED "\x1B[37;41m"
+
+// Display the LIGHT WHITE text with LIGHT RED background
+#define LWHITE_BGLRED "\x1B[37;101m"
+
+// Display the LIGHT WHITE text with DARK ORANGE background
+#define LWHITE_BGDORANGE "\x1B[37;43m"
+
+// Display the LIGHT WHITE text with LIGHT ORANGE background
+#define LWHITE_BGLORANGE "\x1B[37;102m"
+
+// Display the LIGHT WHITE text with LIGHT BLUE background
+#define LWHITE_BGLBLUE "\x1B[37;44m"
+
+// Display the LIGHT WHITE text with LIGHT WHITE background
+#define LWHITE_BGLWHITE "\x1B[37;47m"
+
+// Display the LIGHT WHITE text with DARK WHITE background
+#define LWHITE_BGDWHITE "\x1B[37;107m"
+
+// Display the LIGHT WHITE text with LIGHT LEMON background
+#define LWHITE_BGLEMON "\x1B[37;103m"
+
+// Display the LIGHT WHITE text with MEDIUM PINK background
+#define LWHITE_BGMPINK "\x1B[37;104m"
+
+// Display the LIGHT WHITE text with DARK PINK background
+#define LWHITE_BGDPINK "\x1B[37;105m"
+
+// Display the LIGHT WHITE text with LIGHT PINK background
+#define LWHITE_BGLPINK "\x1B[37;106m"
+
 
 /********************
  *      DWHITE
