@@ -55,7 +55,7 @@
  *      MEDIUM GREEN      *
  **************************/
 // display the BOLD MEDIUM GREEN color on screen
-#define BMGREEN "\x1B[1;2 
+#define BMGREEN "\x1B[1;2m" 
 
 // display the ITALIC MEDIUM GREEN color on screen
 #define IMGREEN "\x1B[3;2m"     
@@ -130,7 +130,7 @@
  *      LIGHT WHITE       *
  **************************/
 // display the BOLD LIGHT WHITE color on screen
-#define BLWHITE "\x1B[1;37m
+#define BLWHITE "\x1B[1;37m"
 
 // display the ITALIC LIGHT WHITE color on screen
 #define ILWHITE "\x1B[3;37m" 	
@@ -142,7 +142,7 @@
 #define BKLWHITE "\x1B[5;37m"
 
 // display the STRIKETHROUGH LIGHT WHITE color on screen
-#define CLWHITE "\x1B[9;37m
+#define CLWHITE "\x1B[9;37m"
 
 // display the DOUBLE LINE LIGHT WHITE color on screen
 #define DLLWHITE "\x1B[21;37m" 
@@ -155,7 +155,7 @@
  *      DARK WHITE        *
  **************************/
 // display the BOLD DARK WHITE color on screen
-#define BDWHITE "\x1B[1;97m
+#define BDWHITE "\x1B[1;97m"
 
 // display the ITALIC DARK WHITE color on screen
 #define IDWHITE "\x1B[3;97m" 	
@@ -167,7 +167,7 @@
 #define BKDWHITE "\x1B[5;97m"
 
 // display the STRIKETHROUGH DARK WHITE color on screen
-#define CDWHITE "\x1B[9;97m
+#define CDWHITE "\x1B[9;97m"
 
 // display the DOUBLE LINE DARK WHITE color on screen
 #define DLDWHITE "\x1B[21;97m" 
@@ -205,7 +205,7 @@
  *      DARK BLUE         *
  **************************/
 // display the BOLD DARK BLUE color on screen
-#define BDBLUE "\x1B[1;34m
+#define BDBLUE "\x1B[1;34m"
 
 // display the ITALIC DARK BLUE color on screen
 #define IDBLUE "\x1B[3;34m" 	
@@ -217,7 +217,7 @@
 #define BKDBLUE "\x1B[5;34m"
 
 // display the STRIKETHROUGH DARK BLUE color on screen
-#define CDBLUE "\x1B[9;34m
+#define CDBLUE "\x1B[9;34m"
 
 // display the DOUBLE LINE DARK BLUE color on screen
 #define DLDBLUE "\x1B[21;34m" 
@@ -255,7 +255,7 @@
  *      DARK CYAN         *
  **************************/
 // display the BOLD DARK CYAN color text on screen
-#define BDCYAN "\x1B[1;36m
+#define BDCYAN "\x1B[1;36m"
 
 // display the ITALIC DARK CYAN color text on screen
 #define IDCYAN "\x1B[3;36m" 	
@@ -267,7 +267,7 @@
 #define BKDCYAN "\x1B[5;36m"
 
 // display the STRIKETHROUGH DARK CYAN color text on screen
-#define CDCYAN "\x1B[9;36m
+#define CDCYAN "\x1B[9;36m"
 
 // display the DOUBLE LINE DARK CYAN color text on screen
 #define DLDCYAN "\x1B[21;36m" 
@@ -280,7 +280,7 @@
  *          ORANGE        *
  **************************/
 // display BOLD ORANGE COLOR text on screen
-#define BORANGE "\x1B[1;33m
+#define BORANGE "\x1B[1;33m"
 
 // display ITALIC ORANGE COLOR text on screen
 #define IORANGE "\x1B[3;33m" 	
@@ -292,7 +292,7 @@
 #define BKORANGE "\x1B[5;33m"
 
 // display STRIKETHROUGH ORANGE COLOR text on screen
-#define CORANGE "\x1B[9;33m
+#define CORANGE "\x1B[9;33m"
 
 // display DOUBLE LINE ORANGE COLOR text on screen
 #define DLORANGE "\x1B[21;33m" 
@@ -305,7 +305,7 @@
  *          BLACK         *
  **************************/
 // display the BOLD BLACK COLOR text on screen
-#define BBLACK "\x1B[1;30m
+#define BBLACK "\x1B[1;30m"
 
 // display the ITALIC BLACK COLOR text on screen
 #define IBLACK "\x1B[3;30m" 	
@@ -317,7 +317,7 @@
 #define BKBLACK "\x1B[5;30m"
 
 // display the STRIKETHROUGH BLACK COLOR text on screen
-#define CBLACK "\x1B[9;30m
+#define CBLACK "\x1B[9;30m"
 
 // display the DOUBLE LINE BLACK COLOR text on screen
 #define DLBLACK "\x1B[21;30m" 
