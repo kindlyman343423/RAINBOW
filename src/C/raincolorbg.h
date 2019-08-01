@@ -405,7 +405,8 @@
 // Display the DARK BLUE text with MEDIUM PINK background
 #define DBLUE_BGMPINK "\x1B[34;104m"
 
-// Display the DARK BLUE text with DARK PINK background
+// Display the DARK BLUE tex// Display the ORANGE text with  background
+#define ORANGE "\x1B[33m"t with DARK PINK background
 #define DBLUE_BGDPINK "\x1B[34;105m"
 
 // Display the DARK BLUE text with LIGHT PINK background
@@ -553,29 +554,227 @@
 /********************
  *      BLACK
  ********************/
-// Display the BLACK text with  background
-#define BLACK "\x1B[30m"
+// Display the BLACK text with DARK GREEN background
+#define BLACK_BGDGREEN "\x1B[30;40m"
+
+// Display the BLACK text with LIGHT GREEN background
+#define BLACK_BGLGREEN "\x1B[30;42m"
+
+// Display the BLACK text with MEDIUM GREEN background
+#define BLACK_BGMGREEN "\x1B[30;100m"
+
+// Display the BLACK text with DARK RED background
+#define BLACK_BGDRED "\x1B[30;41m"
+
+// Display the BLACK text with LIGHT RED background
+#define BLACK_BGLRED "\x1B[30;101m"
+
+// Display the BLACK text with DARK ORANGE background
+#define BLACK_BGDORANGE "\x1B[30;43m"
+
+// Display the BLACK text with LIGHT ORANGE background
+#define BLACK_BGLORANGE "\x1B[30;102m"
+
+// Display the BLACK text with LIGHT BLUE background
+#define BLACK_BGLBLUE "\x1B[30;44m"
+
+// Display the BLACK text with LIGHT WHITE background
+#define BLACK_BGLWHITE "\x1B[30;47m"
+
+// Display the BLACK text with DARK WHITE background
+#define BLACK_BGDWHITE "\x1B[30;107m"
+
+// Display the BLACK text with LEMON background
+#define BLACK_BGLEMON "\x1B[30;103m"
+
+// Display the BLACK text with MEDIUM PINK background
+#define BLACK_BGMPINK "\x1B[30;104m"
+
+// Display the BLACK text with DARK PINK background
+#define BLACK_BGDPINK "\x1B[30;105m"
+
+// Display the BLACK text with LIGHT PINK background
+#define BLACK_BGLPINK "\x1B[30;106m"
+
 
 /********************
  *      MAGENTA
  ********************/
-// Display the MAGENTA text with  background
-#define MAGENTA "\x1B[35m"
+// Display the MAGENTA text with DARK GREEN background
+#define MAGENTA_BGDGREEN "\x1B[35;40m"
+
+// Display the MAGENTA text with LIGHT GREEN background
+#define MAGENTA_BGLGREEN "\x1B[35;42m"
+
+// Display the MAGENTA text with MEDIUM GREEN background
+#define MAGENTA_BGMGREEN "\x1B[35;100m"
+
+// Display the MAGENTA text with DARK RED background
+#define MAGENTA_BGDRED "\x1B[35;41m"
+
+// Display the MAGENTA text with LIGHT RED background
+#define MAGENTA_BGLRED "\x1B[35;101m"
+
+// Display the MAGENTA text with DARK ORANGE background
+#define MAGENTA_BGDORANGE "\x1B[35;43m"
+
+// Display the MAGENTA text with LIGHT ORANGE background
+#define MAGENTA_BGLORANGE "\x1B[35;102m"
+
+// Display the MAGENTA text with LIGHT BLUE background
+#define MAGENTA_BGLBLUE "\x1B[35;44m"
+
+// Display the MAGENTA text with LIGHT WHITE background
+#define MAGENTA_BGLWHITE "\x1B[35;47m"
+
+// Display the MAGENTA text with DARK WHITE background
+#define MAGENTA_BGDWHITE "\x1B[35;107m"
+
+// Display the MAGENTA text with LEMON background
+#define MAGENTA_BGLEMON "\x1B[35;103m"
+
+// Display the MAGENTA text with MEDIUM PINK background
+#define MAGENTA_BGMPINK "\x1B[35;104m"
+
+// Display the MAGENTA text with DARK PINK background
+#define MAGENTA_BGDPINK "\x1B[35;105m"
+
+// Display the MAGENTA text with LIGHT PINK background
+#define MAGENTA_BGLPINK "\x1B[35;106m"
 
 /********************
  *      YELLOW
  ********************/
-// Display the YELLOW text with  background
-#define YELLOW "\x1B[92m"
+// Display the YELLOW text with DARK GREEN background
+#define YELLOW_BGDGREEN "\x1B[92;40m"
+
+// Display the YELLOW text with LIGHT GREEN background
+#define YELLOW_BGLGREEN "\x1B[92;42m"
+
+// Display the YELLOW text with MEDIUM GREEN background
+#define YELLOW_BGMGREEN "\x1B[92;100m"
+
+// Display the YELLOW text with DARK RED background
+#define YELLOW_BGDRED "\x1B[92;41m"
+
+// Display the YELLOW text with LIGHT RED background
+#define YELLOW_BGLRED "\x1B[92;41m"
+
+// Display the YELLOW text with DARK ORANGE background
+#define YELLOW_BGDORANGE "\x1B[92;43m"
+
+// Display the YELLOW text with LIGHT ORANGE background
+#define YELLOW_BGLORANGE "\x1B[92;102m"
+
+// Display the YELLOW text with LIGHT BLUE background
+#define YELLOW_BGLBLUE "\x1B[92;44m"
+
+// Display the YELLOW text with LIGHT WHITE background
+#define YELLOW_BGLWHITE "\x1B[92;47m"
+
+// Display the YELLOW text with DARK WHITE background
+#define YELLOW_BGDWHITE "\x1B[92;107m"
+
+// Display the YELLOW text with LEMON background
+#define YELLOW_BGLEMON "\x1B[92;103m"
+
+// Display the YELLOW text with MEDIUM PINK background
+#define YELLOW_BGMPINK "\x1B[92;104m"
+
+// Display the YELLOW text with DARK PINK background
+#define YELLOW_BGDPINK "\x1B[92;105m"
+
+// Display the YELLOW text with LIGHT PINK background
+#define YELLOW_BGLPINK "\x1B[92;106m"
+
 
 /********************
  *      LEMON
  ********************/
-// Display the LEMON text with  background
-#define LEMON "\x1B[93m"
+// Display the LEMON text with DARK GREEN background
+#define LEMON_BGDGREEN "\x1B[93;40m"
+
+// Display the LEMON text with LIGHT GREEN background
+#define LEMON_BGLGREEN "\x1B[93;42m"
+
+// Display the LEMON text with MEDIUM GREEN background
+#define LEMON_BGMGREEN "\x1B[93;100m"
+
+// Display the LEMON text with DARK RED background
+#define LEMON_BGDRED "\x1B[93;41m"
+
+// Display the LEMON text with LIGHT RED background
+#define LEMON_BGLRED "\x1B[93;101m"
+
+// Display the LEMON text with DARK ORANGE background
+#define LEMON_BGDORANGE "\x1B[93;43m"
+
+// Display the LEMON text with LIGHT ORANGE background
+#define LEMON_BGLORANGE "\x1B[93;102m"
+
+// Display the LEMON text with LIGHT BLUE background
+#define LEMON_BGLBLUE "\x1B[93;44m"
+
+// Display the LEMON text with LIGHT WHITE background
+#define LEMON_BGLWHITE "\x1B[93;47m"
+
+// Display the LEMON text with DARK WHITE background
+#define LEMON_BGDWHITE "\x1B[93;107m"
+
+// Display the LEMON text with LEMON background
+#define LEMON_BGLEMON "\x1B[93;103m"
+
+// Display the LEMON text with MEDIUM PINK background
+#define LEMON_BGMPINK "\x1B[93;104m"
+
+// Display the LEMON text with DARK PINK background
+#define LEMON_BGDPINK "\x1B[93;105m"
+
+// Display the LEMON text with LIGHT PINK background
+#define LEMON_BGLPINK "\x1B[93;106m"
+
 
 /********************
  *      PINK
  ********************/
-// Display the PINK text with  background
-#define PINK "\x1B[95m"
+// Display the PINK text with DARK GREEN background
+#define PINK_BGDGREEN "\x1B[95;40m"
+
+// Display the PINK text with LIGHT GREEN background
+#define PINK_BGLGREEN "\x1B[95;42m"
+
+// Display the PINK text with MEDIUM GREEN background
+#define PINK_BGMGREEN "\x1B[95;100m"
+
+// Display the PINK text with DARK RED background
+#define PINK_BGDRED "\x1B[95;41m"
+
+// Display the PINK text with LIGHT RED background
+#define PINK_BGLRED "\x1B[95;101m"
+
+// Display the PINK text with DARK ORANGE background
+#define PINK_BGDORANGE "\x1B[95;43m"
+
+// Display the PINK text with LIGHT ORANGE background
+#define PINK_BGLORANGE "\x1B[95;102m"
+
+// Display the PINK text with LIGHT BLUE background
+#define PINK_BGLBLUE "\x1B[95;44m"
+
+// Display the PINK text with LIGHT WHITE background
+#define PINK_BGLWHITE "\x1B[95;47m"
+
+// Display the PINK text with DARK WHITE background
+#define PINK_BGDWHITE "\x1B[95;107m"
+
+// Display the PINK text with LEMON background
+#define PINK_BGLEMON "\x1B[95;103m"
+
+// Display the PINK text with MEDIUM PINK background
+#define PINK_BGMPINK "\x1B[95;104m"
+
+// Display the PINK text with DARK PINK background
+#define PINK_BGDPINK "\x1B[95;105m"
+
+// Display the PINK text with LIGHT PINK background
+#define PINK_BGLPINK "\x1B[95;106m"
