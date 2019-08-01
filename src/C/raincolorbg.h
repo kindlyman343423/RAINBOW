@@ -369,14 +369,94 @@
 /********************
  *      DBLUE
  ********************/
-// Display the DARK BLUE text with  background
-#define DBLUE "\x1B[34m"
+// Display the DARK BLUE text with DARK GREEN background
+#define DBLUE_BGDGREEN "\x1B[34;40m"
+
+// Display the DARK BLUE text with LIGHT GREEN background
+#define DBLUE_BGLGREEN "\x1B[34;42m"
+
+// Display the DARK BLUE text with MEDIUM GREEN background
+#define DBLUE_BGMGREEN "\x1B[34;100m"
+
+// Display the DARK BLUE text with DARK RED background
+#define DBLUE_BGDRED "\x1B[34;41m"
+
+// Display the DARK BLUE text with LIGHT RED background
+#define DBLUE_BGLRED "\x1B[34;101m"
+
+// Display the DARK BLUE text with DARK ORANGE background
+#define DBLUE_BGDORANGE "\x1B[34;43m"
+
+// Display the DARK BLUE text with LIGHT ORANGE background
+#define DBLUE_BGLORANGE "\x1B[34;102m"
+
+// Display the DARK BLUE text with LIGHT BLUE background
+#define DBLUE_BGLBLUE "\x1B[34;44m"
+
+// Display the DARK BLUE text with LIGHT WHITE background
+#define DBLUE_BGLWHITE "\x1B[34;47m"
+
+// Display the DARK BLUE text with DARK WHITE background
+#define DBLUE_BGDWHITE "\x1B[34;107m"
+
+// Display the DARK BLUE text with LEMON background
+#define DBLUE_BGLEMON "\x1B[34;103m"
+
+// Display the DARK BLUE text with MEDIUM PINK background
+#define DBLUE_BGMPINK "\x1B[34;104m"
+
+// Display the DARK BLUE text with DARK PINK background
+#define DBLUE_BGDPINK "\x1B[34;105m"
+
+// Display the DARK BLUE text with LIGHT PINK background
+#define DBLUE_BGLPINK "\x1B[34;106m"
+
 
 /********************
  *      LCYAN
  ********************/
-// Display the LIGHT CYAN text with  background
-#define LCYAN "\x1B[96m" 
+// Display the LIGHT CYAN text with DARK GREEN background
+#define LCYAN_BGDGREEN "\x1B[96;40m" 
+
+// Display the LIGHT CYAN text with LIGHT GREEN background
+#define LCYAN_BGLGREEN "\x1B[96;42m"
+
+// Display the LIGHT CYAN text with MEDIUM GREEN background
+#define LCYAN_BGMGREEN "\x1B[96;100m"
+
+// Display the LIGHT CYAN text with DARK RED background
+#define LCYAN_BGDRED "\x1B[96;41m"
+
+// Display the LIGHT CYAN text with LIGHT RED background
+#define LCYAN_BGLRED "\x1B[96;101m"
+
+// Display the LIGHT CYAN text with DARK ORANGE background
+#define LCYAN_BGDORANGE "\x1B[96;43m"
+
+// Display the LIGHT CYAN text with LIGHT ORANGE background
+#define LCYAN_BGLORANGE "\x1B[96;102m"
+
+// Display the LIGHT CYAN text with LIGHT BLUE background
+#define LCYAN_BGLBLUE "\x1B[96;44m"
+
+// Display the LIGHT CYAN text with LIGHT WHITE background
+#define LCYAN_BGLWHITE "\x1B[96;47m"
+
+// Display the LIGHT CYAN text with DARK WHITE background
+#define LCYAN_BGDWHITE "\x1B[96;107m"
+
+// Display the LIGHT CYAN text with LEMON background
+#define LCYAN_BGLEMON "\x1B[96;103m"
+
+// Display the LIGHT CYAN text with MEDIUM PINK background
+#define LCYAN_BGMPINK "\x1B[96;104m"
+
+// Display the LIGHT CYAN text with DARK PINK background
+#define LCYAN_BGDPINK "\x1B[96;105m"
+
+// Display the LIGHT CYAN text with LIGHT PINK background
+#define LCYAN_BGLPINK "\x1B[96;106m"
+
 
 /********************
  *      DCYAN
