@@ -405,8 +405,7 @@
 // Display the DARK BLUE text with MEDIUM PINK background
 #define DBLUE_BGMPINK "\x1B[34;104m"
 
-// Display the DARK BLUE tex// Display the ORANGE text with  background
-#define ORANGE "\x1B[33m"t with DARK PINK background
+// Display the DARK BLUE text with DARK PINK background
 #define DBLUE_BGDPINK "\x1B[34;105m"
 
 // Display the DARK BLUE text with LIGHT PINK background

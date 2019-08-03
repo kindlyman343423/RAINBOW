@@ -1,0 +1,41 @@
+#include "rainbow.h"
+#include <stdio.h>
+
+void formattingText();
+void rainColors();
+void rainBackgrounds();
+
+void formattingColors();
+void formattingColorsLGREEN();
+void formattingColorsDGREEN();
+void formattingColorsMGREEN();
+void formattingColorsLRED();
+void formattingColorsDRED();
+void formattingColorsLWHITE();
+void formattingColorsDWHITE();
+void formattingColorsLBLUE();
+void formattingColorsDBLUE();
+void formattingColorsLCYAN();
+void formattingColorsDCYAN();
+void formattingColorsORANGE();
+void formattingColorsBLACK();
+void formattingColorsMAGENTA();
+void formattingColorsYELLOW();
+void formattingColorsLEMON();
+void formattingColorsPINK();
+
+void formattingBackgrounds();
+void formattingBackgroundsDGREEN();
+void formattingBackgroundsLGREEN();
+void formattingBackgroundsMGREEN();
+void formattingBackgroundsDRED();
+void formattingBackgroundsLRED();
+void formattingBackgroundsDORANGE();
+void formattingBackgroundsLORANGE();
+void formattingBackgroundsLBLUE();
+void formattingBackgroundsLWHITE();
+void formattingBackgroundsDWHITE();
+void formattingBackgroundsLEMON();
+void formattingBackgroundsDPINK();
+void formattingBackgroundsLPINK();
+void formattingBackgroundsMPINK();
