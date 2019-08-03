@@ -1,0 +1,6 @@
+# IGNORE GLOBAL FILES
+
+*.vscode
+*.idea
+*.exe
+*.o
