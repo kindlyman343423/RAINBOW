@@ -1,49 +1,29 @@
-# :rainbow:
-
-## RAINBOW
+# RAINBOW
 
 This is a library for using colors in C ,C++ & JAVA in your terminal and making the AWESOME UI for your CLI application. No need to write or remember color codes just include this library and enjoy using colors in your terminal.
-
-## :rainbow: AWESOME UI ON TERMINALS
-
-Go build yours!!! SEE [github wiki](https://github.com/GauravWalia19/RAINBOW/wiki)
 
 ## :rainbow: SUPPORTED OS
 
 * LINUX
 * MAC
 
-## :rainbow: PREQUISITES
-
-1. Any one language (C/C++/JAVA).
-2. Little bit knowledge of bash commands.
-
-## :rainbow: FEEL THE RAINBOW ON THE TERMINAL
-
-For compile and running in the specific language see [github wiki](https://github.com/GauravWalia19/RAINBOW/wiki).
-
-## :rainbow: DEPENDANCIES
-
-### 1. Specific language compiler
-
-* **C** -> **gcc compiler**
-* **C++** -> **g++ compiler**
-* **JAVA** -> **javac compiler**
-
-### 2. Text Editor
-
-* Gedit
-* VScode
-* Atom
-* Notepad++ etc.
-
-### 3. Linux/Unix Terminal
-
 ## :rainbow: SUPPORTED LANGUAGES
 
 1. C
 2. C++
 3. JAVA
+
+## :rainbow: REQUIREMENTS
+
+1. Specific language compiler i.e (C -> gcc compiler)
+2. Any Text Editor (Gedit/VScode/Atom, etc)
+3. Linux/Unix Terminal
+
+## :rainbow: USAGE
+
+For usage make sure you have the requirements mention above.
+
+Go build yours!!! SEE [github wiki](https://github.com/GauravWalia19/RAINBOW/wiki)
 
 ## :rainbow: SUPPORTED COLORS
 
@@ -57,7 +37,7 @@ cd src
 bash rainbow.bash
 ```
 
-## :rainbow: DOCS
+## :rainbow: DOCUMENTATION
 
 * [INSTALLATION](https://github.com/GauravWalia19/RAINBOW/wiki)
 * [TEXT COLORS](docs/textcolors.md)

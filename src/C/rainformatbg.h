@@ -204,10 +204,10 @@
 /********************************
  *     LIGHT WHITE BACKGROUND   *
  ********************************/
-// display the*BOLD TEXT WITH LIGHT WHITE COLOR BACKGROUND 
+// display the BOLD TEXT WITH LIGHT WHITE COLOR BACKGROUND 
 #define BBGLWHITE "\x1B[1;47m"		                 
 
-// display theITALIC TEXT WITH LIGHT WHITE COLOR BACKGROUND 
+// display the ITALIC TEXT WITH LIGHT WHITE COLOR BACKGROUND 
 #define IBGLWHITE "\x1B[3;47m"		                   
 
 // display the UNDERLINE TEXT WITH LIGHT WHITE COLOR BACKGROUND 
@@ -277,30 +277,6 @@
 
 
 /********************************
- *     MID PINK BACKGROUND   *
- ********************************/
-// display the BOLD TEXT WITH MEDIUM PINK BACKGROUND 
-#define BBGMPINK "\x1B[1;104m"                                 
-
-// display the ITALIC TEXT WITH MEDIUM PINK BACKGROUND 
-#define IBGMPINK "\x1B[3;104m"                                 
-
-// display the UNDERLINE TEXT WITH MEDIUM PINK BACKGROUND 
-#define ULBGMPINK "\x1B[4;104m"                                 
-
-// display the BLINK TEXT WITH MEDIUM PINK BACKGROUND 
-#define BKBGMPINK "\x1B[5;104m"                                
-
-// display the STRIKETHROUGH TEXT WITH MEDIUM PINK BACKGROUND 
-#define CBGMPINK "\x1B[9;104m"                                 
-
-// display the **doubleline text WITH MEDIUM PINK BACKGROUND 
-#define DLBGMPINK "\x1B[21;104m"                                 
-
-// display the OVER LINE TEXT WITH MEDIUM PINK BACKGROUND 
-#define OLBGMPINK "\x1B[53;104m"                                 
-
-/********************************
  *     DARK PINK BACKGROUND   *
  ********************************/
 // display the BOLD TEXT WITH DARK PINK COLOR BACKGROUND 
@@ -348,3 +324,27 @@
 
 // display the **text WITH LIGHT PINK COLOR BACKGROUND 
 #define OLBGLPINK "\x1B[53;106m"                         
+
+/********************************
+ *     MID PINK BACKGROUND      *
+ ********************************/
+// display the BOLD TEXT WITH MEDIUM PINK BACKGROUND 
+#define BBGMPINK "\x1B[1;104m"                                 
+
+// display the ITALIC TEXT WITH MEDIUM PINK BACKGROUND 
+#define IBGMPINK "\x1B[3;104m"                                 
+
+// display the UNDERLINE TEXT WITH MEDIUM PINK BACKGROUND 
+#define ULBGMPINK "\x1B[4;104m"                                 
+
+// display the BLINK TEXT WITH MEDIUM PINK BACKGROUND 
+#define BKBGMPINK "\x1B[5;104m"                                
+
+// display the STRIKETHROUGH TEXT WITH MEDIUM PINK BACKGROUND 
+#define CBGMPINK "\x1B[9;104m"                                 
+
+// display the DOUBLE LINE WITH MEDIUM PINK BACKGROUND 
+#define DLBGMPINK "\x1B[21;104m"                                 
+
+// display the OVER LINE TEXT WITH MEDIUM PINK BACKGROUND 
+#define OLBGMPINK "\x1B[53;104m"                                 

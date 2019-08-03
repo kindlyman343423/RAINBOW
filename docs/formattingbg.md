@@ -1,126 +1,225 @@
 # [:arrow_left:](COLORS.md) FORMATTING WITH BACKGROUND
 
+## DGREEN
+
  USED VARIABLE | COLOR CODE FOR C/C++ | COLOR CODE FOR JAVA | OUTPUT
 ---------------|----------------------|---------------------|--------
- BBGGREEN | \x1B[1;40m | \u001B[1;40m | [BOLD TEXT-GREENISH BG](#rocket-BBGGREEN)
- IBGGREEN | \x1B[3;40m | \u001B[3;40m | [ITALIC TEXT-GREENISH BG](#rocket-IBGGREEN)
- UBGGREEN | \x1B[4;40m | \u001B[4;40m | [UNDERLINE TEXT-GREENISH BG](#rocket-UBGGREEN)
- BBGRED | \x1B[1;41m | \u001B[1;41m | [BOLD TEXT-RED BG](#rocket-BBGRED)
- IBGRED | \x1B[3;41m | \u001B[3;41m | [ITALIC TEXT-RED BG](#rocket-IBGRED)
- UBGRED | \x1B[4;41m | \u001B[4;41m | [UNDERLINE TEXT-RED BG](#rocket-UBGRED)
- BBGLGREEN | \x1B[1;42m | \u001B[1;42m | [BOLD TEXT-LIGHT GREEN BG](#rocket-BBGLGREEN)
- IBGLGREEN | \x1B[3;42m | \u001B[3;42m | [ITALIC TEXT-LIGHT GREEN BG](#rocket-IBGLGREEN)
- UBGLGREEN | \x1B[4;42m | \u001B[4;42m | [UNDERLINE TEXT-LIGHT GREEN BG](#rocket-UBGLGREEN)
- BBGORANGE | \x1B[1;43m | \u001B[1;43m | [BOLD TEXT-ORANGE BG](#rocket-BBGORANGE)
- IBGORANGE | \x1B[3;43m | \u001B[3;43m | [ITALIC TEXT-ORANGE BG](#rocket-IBGORANGE)
- UBGORANGE | \x1B[4;43m | \u001B[4;43m | [UNDERLINE TEXT-ORANGE BG](#rocket-UBGORANGE)
- BBGLBLUE | \x1B[1;44m | \u001B[1;44m | [BOLD TEXT-LIGHT BLUE BG](#rocket-BBGLBLUE)
- IBGLBLUE | \x1B[3;44m | \u001B[3;44m | [ITALIC TEXT-LIGHT BLUE BG](#rocket-IBGLBLUE)
- UBGLBLUE | \x1B[4;44m | \u001B[4;44m | [UNDERLINE TEXT-LIGHT BLUE BG](#rocket-UBGLBLUE)
- BBGPINK | \x1B[1;45m | \u001B[1;45m | [BOLD TEXT-PINK BG](#rocket-BBGPINK)
- IBGPINK | \x1B[3;45m | \u001B[3;45m | [ITALIC TEXT-PINK BG](#rocket-IBGPINK)
- UBGPINK | \x1B[4;45m | \u001B[4;45m | [UNDERLINE TEXT-PINK BG](#rocket-UBGPINK)
- BBGDGREEN | \x1B[1;46m | \u001B[1;46m | [BOLD TEXT-DARK GREEN BG](#rocket-BBGDGREEN)
- IBGDGREEN | \x1B[3;46m | \u001B[3;46m | [ITALIC TEXT-DARK GREEN BG](#rocket-IBGDGREEN)
- UBGDGREEN | \x1B[4;46m | \u001B[4;46m | [UNDERLINE TEXT-DARK GREEN BG](#rocket-UBGDGREEN)
- BBGWHITE | \x1B[1;47m | \u001B[1;47m | [BOLD TEXT WHITE-GREEN BG](#rocket-BBGWHITE)
- IBGWHITE | \x1B[3;47m | \u001B[3;47m | [ITALIC TEXT WHITE-GREEN BG](#rocket-IBGWHITE)
- UBGWHITE | \x1B[4;47m | \u001B[4;47m | [UNDERLINEWHITE-GREEN BG](#rocket-UBGWHITE)
+ BBGDGREEN | \x1B[1;40m | \u001B[1;40m | [BOLD TEXT](#dgreen-output)
+ IBGDGREEN | \x1B[3;40m | \u001B[3;40m | [ITALIC TEXT](#dgreen-output)
+ ULBGDGREEN | \x1B[4;40m | \u001B[4;40m | [UNDERLINE TEXT](#dgreen-output)
+ BKBGDGREEN | \x1B[5;40m | \u001B[5;40m | [BLINKING TEXT](#dgreen-output)
+ CBGDGREEN | \x1B[9;40m | \u001B[9;40m | [STRIKETHROUGH TEXT](#dgreen-output)
+ DLBGDGREEN | \x1B[21;40m | \u001B[21;40m | [DOUBLE LINE TEXT](#dgreen-output)
+ OLBGDGREEN | \x1B[53;40m | \u001B[53;40m | [OVER LINE TEXT](#dgreen-output)
 
-## OUTPUT
+### DGREEN OUTPUT
 
-### :rocket: BBGGREEN
+![dark green image](img/FormattingBackgrounds/darkGreen.png)
 
-![BBGGREEN](../img/FORMATTING-BACKGROUND/BBGGREEN.png)
+## LGREEN
 
-### :rocket: IBGGREEN
+ USED VARIABLE | COLOR CODE FOR C/C++ | COLOR CODE FOR JAVA | OUTPUT
+---------------|----------------------|---------------------|--------
+ BBGLGREEN | \x1B[1;42m | \u001B[1;42m | [BOLD TEXT](#lgreen-output)
+ IBGLGREEN | \x1B[3;42m | \u001B[3;42m | [ITALIC TEXT](#lgreen-output)
+ ULBGLGREEN | \x1B[4;42m | \u001B[4;42m | [UNDERLINE TEXT](#lgreen-output)
+ BKBGLGREEN | \x1B[5;42m | \u001B[5;42m | [BLINKING TEXT](#lgreen-output)
+ CBGLGREEN | \x1B[9;42m | \u001B[9;42m | [STRIKETHROUGH TEXT](#lgreen-output)
+ DLBGLGREEN | \x1B[21;42m | \u001B[21;42m | [DOUBLE LINE TEXT](#lgreen-output)
+ OLBGLGREEN | \x1B[53;42m | \u001B[53;42m | [OVER LINE TEXT](#lgreen-output)
 
-![IBGGREEN](../img/FORMATTING-BACKGROUND/IBGGREEN.png)
+### LGREEN OUTPUT
 
-### :rocket: UBGGREEN
+![light green image](img/FormattingBackgrounds/lightGreen.png)
 
-![UBGGREEN](../img/FORMATTING-BACKGROUND/UBGGREEN.png)
+## MGREEN
 
-### :rocket: BBGRED
+ USED VARIABLE | COLOR CODE FOR C/C++ | COLOR CODE FOR JAVA | OUTPUT
+---------------|----------------------|---------------------|--------
+ BBGMGREEN | \x1B[1;100m | \u001B[1;100m | [BOLD TEXT](#mgreen-output)
+ IBGMGREEN | \x1B[3;100m | \u001B[3;100m | [ITALIC TEXT](#mgreen-output)
+ ULBGMGREEN | \x1B[4;100m | \u001B[4;100m | [UNDERLINE TEXT](#mgreen-output)
+ BKBGMGREEN | \x1B[5;100m | \u001B[5;100m | [BLINKING TEXT](#mgreen-output)
+ CBGMGREEN | \x1B[9;100m | \u001B[9;100m | [STRIKETHROUGH TEXT](#mgreen-output)
+ DLBGMGREEN | \x1B[21;100m | \u001B[21;100m | [DOUBLE LINE TEXT](#mgreen-output)
+ OLBGMGREEN | \x1B[53;100m | \u001B[53;100m | [OVER LINE TEXT](#mgreen-output)
 
-![BBGRED](../img/FORMATTING-BACKGROUND/BBGRED.png)
+### MGREEN OUTPUT
 
-### :rocket: IBGRED
+![medium green color](img/FormattingBackgrounds/mediumGreen.png)
 
-![IBGRED](../img/FORMATTING-BACKGROUND/IBGRED.png)
+## DRED
 
-### :rocket: UBGRED
+ USED VARIABLE | COLOR CODE FOR C/C++ | COLOR CODE FOR JAVA | OUTPUT
+---------------|----------------------|---------------------|--------
+ BBGDRED | \x1B[1;41m | \u001B[1;41m | [BOLD TEXT](#dred-output)
+ IBGDRED | \x1B[3;41m | \u001B[3;41m | [ITALIC TEXT](#dred-output)
+ ULBGDRED | \x1B[4;41m | \u001B[4;41m | [UNDERLINE TEXT](#dred-output)
+ BKBGDRED | \x1B[5;41m | \u001B[5;41m | [BLINK TEXT](#dred-output)
+ CBGDRED | \x1B[9;41m | \u001B[9;41m | [STRIKETHROUGH TEXT](#dred-output)
+ DLBGDRED | \x1B[21;41m | \u001B[21;41m | [DOUBLE LINE TEXT](#dred-output)
+ OLBGDRED | \x1B[53;41m | \u001B[53;41m | [OVER LINE TEXT](#dred-output)
 
-![UBGRED](../img/FORMATTING-BACKGROUND/UBGRED.png)
+### DRED OUTPUT
 
-### :rocket: BBGLGREEN
+![dark red image](img/FormattingBackgrounds/darkRed.png)
 
-![BBGLGREEN](../img/FORMATTING-BACKGROUND/BBGLGREEN.png)
+## LRED
 
-### :rocket: IBGLGREEN
+ USED VARIABLE | COLOR CODE FOR C/C++ | COLOR CODE FOR JAVA | OUTPUT
+---------------|----------------------|---------------------|--------
+ BBGLRED | \x1B[1;101m | \u001B[1;101m | [BOLD TEXT](#lred-output)
+ IBGLRED | \x1B[3;101m | \u001B[3;101m | [ITALIC TEXT](#lred-output)
+ ULBGLRED | \x1B[4;101m | \u001B[4;101m | [UNDERLINE TEXT](#lred-output)
+ BKBGLRED | \x1B[5;101m | \u001B[5;101m | [BLINKING TEXT](#lred-output)
+ CGLRED | \x1B[9;101m | \u001B[9;101m | [STRIKETHROUGH TEXT](#lred-output)
+ DLBGLRED | \x1B[21;101m | \u001B[21;101m | [DOUBLE LINE TEXT](#lred-output)
+ OLBGLRED | \x1B[53;101m | \u001B[53;101m | [OVER LINE TEXT](#lred-output)
 
-![IBGLGREEN](../img/FORMATTING-BACKGROUND/IBGLGREEN.png)
+### LRED OUTPUT
 
-### :rocket: UBGLGREEN
+![light red image](img/FormattingBackgrounds/lightRed.png)
 
-![UBGLGREEN](../img/FORMATTING-BACKGROUND/UBGLGREEN.png)
+## DORANGE
 
-### :rocket: BBGORANGE
+ USED VARIABLE | COLOR CODE FOR C/C++ | COLOR CODE FOR JAVA | OUTPUT
+---------------|----------------------|---------------------|--------
+ BBGDORANGE  | \x1B[1;43m | \u001B[1;43m | [BOLD TEXT](#dorange-output)
+ IBGDORANGE  | \x1B[3;43m | \u001B[3;43m | [ITALIC TEXT](#dorange-output)
+ ULBGDORANGE  | \x1B[4;43m | \u001B[4;43m | [UNDERLINE TEXT](#dorange-output)
+ BKBGDORANGE  | \x1B[5;43m | \u001B[5;43m | [BLINKING TEXT](#dorange-output)
+ CBGDORANGE  | \x1B[9;43m | \u001B[9;43m | [STRIKETHROUGH TEXT](#dorange-output)
+ DLBGDORANGE  | \x1B[21;43m | \u001B[21;43m | [DOUBLE LINE TEXT](#dorange-output)
+ OLBGDORANGE  | \x1B[53;43m | \u001B[53;43m | [OVER LINE TEXT](#dorange-output)
 
-![BBGORANGE](../img/FORMATTING-BACKGROUND/BBGORANGE.png)
+### DORANGE OUTPUT
 
-### :rocket: IBGORANGE
+![dark orange image](img/FormattingBackgrounds/darkOrange.png)
 
-![IBGORANGE](../img/FORMATTING-BACKGROUND/IBGORANGE.png)
+## LORANGE
 
-### :rocket: UBGORANGE
+ USED VARIABLE | COLOR CODE FOR C/C++ | COLOR CODE FOR JAVA | OUTPUT
+---------------|----------------------|---------------------|--------
+ BBGLORANGE | \x1B[1;102m | \u001B[1;102m | [BOLD TEXT](#lorange-output)
+ IBGLORANGE | \x1B[3;102m | \u001B[3;102m | [ITALIC TEXT](#lorange-output)
+ ULBGLORANGE | \x1B[4;102m | \u001B[4;102m | [UNDERLINE TEXT](#lorange-output)
+ BKBGLORANGE | \x1B[5;102m | \u001B[5;102m | [BLINKING TEXT](#lorange-output)
+ CBGLORANGE | \x1B[9;102m | \u001B[9;102m | [STRIKETHROUGH TEXT](#lorange-output)
+ DLBGLORANGE | \x1B[21;102m | \u001B[21;102m | [DOUBLE LINE TEXT](#lorange-output)
+ OLBGLORANGE | \x1B[53;102m | \u001B[53;102m | [OVER LINE TEXT](#lorange-output)
 
-![UBGORANGE](../img/FORMATTING-BACKGROUND/UBGORANGE.png)
+### LORANGE OUTPUT
 
-### :rocket: BBGLBLUE
+![light orange image](img/FormattingBackgrounds/lightOrange.png)
 
-![BBGLBLUE](../img/FORMATTING-BACKGROUND/BBGLBLUE.png)
+## LBLUE
 
-### :rocket: IBGLBLUE
+ USED VARIABLE | COLOR CODE FOR C/C++ | COLOR CODE FOR JAVA | OUTPUT
+---------------|----------------------|---------------------|--------
+ BBGLBLUE | \x1B[1;44m | \001B[1;44m | [BOLD TEXT](#lblue-output)
+ IBGLBLUE | \x1B[3;44m | \001B[3;44m | [ITALIC TEXT](#lblue-output)
+ ULBGLBLUE | \x1B[4;44m | \001B[4;44m | [UNDERLINE TEXT](#lblue-output)
+ BKBGLBLUE | \x1B[5;44m | \001B[5;44m | [BLINKING TEXT](#lblue-output)
+ CBGLBLUE | \x1B[9;44m | \001B[9;44m | [STRIKETHROUGH TEXT](#lblue-output)
+ DLBGLBLUE | \x1B[21;44m | \001B[21;44m | [DOUBLE LINE TEXT](#lblue-output)
+ OLBGLBLUE | \x1B[53;44m | \001B[53;44m | [OVER LINE TEXT](#lblue-output)
 
-![IBGLBLUE](../img/FORMATTING-BACKGROUND/IBGLBLUE.png)
+### LBLUE OUTPUT
 
-### :rocket: UBGLBLUE
+![light blue image](img/FormattingBackgrounds/lightBlue.png)
 
-![UBGLBLUE](../img/FORMATTING-BACKGROUND/UBGLBLUE.png)
+## LWHITE
 
-### :rocket: BBGPINK
+ USED VARIABLE | COLOR CODE FOR C/C++ | COLOR CODE FOR JAVA | OUTPUT
+---------------|----------------------|---------------------|--------
+ BBGLWHITE | \x1B[1;47m | \u001B[1;47m | [BOLD TEXT](#lwhite-output)
+ IBGLWHITE | \x1B[3;47m | \u001B[3;47m | [ITALIC TEXT](#lwhite-output)
+ ULBGLWHITE | \x1B[4;47m | \u001B[4;47m | [UNDERLINE TEXT](#lwhite-output)
+ BKBGLWHITE | \x1B[5;47m | \u001B[5;47m | [BLINKING TEXT](#lwhite-output)
+ CBGLWHITE | \x1B[9;47m | \u001B[9;47m | [STRIKETHROUGH TEXT](#lwhite-output)
+ DLBGLWHITE | \x1B[21;47m | \u001B[21;47m | [DOUBLE LINE TEXT](#lwhite-output)
+ OLBGLWHITE | \x1B[53;47m | \u001B[53;47m | [OVER LINE TEXT](#lwhite-output)
 
-![BBGPINK](../img/FORMATTING-BACKGROUND/BBGPINK.png)
+### LWHITE OUTPUT
 
-### :rocket: IBGPINK
+![light white image](img/FormattingBackgrounds/lightWhite.png)
 
-![BBGPINK](../img/FORMATTING-BACKGROUND/IBGPINK.png)
+## DWHITE
 
-### :rocket: UBGPINK
+ USED VARIABLE | COLOR CODE FOR C/C++ | COLOR CODE FOR JAVA | OUTPUT
+---------------|----------------------|---------------------|--------
+ BBGDWHITE | \x1B[1;107m | \u001B[1;107m | [BOLD TEXT](dwhite-output)
+ IBGDWHITE | \x1B[3;107m | \u001B[3;107m | [ITALIC TEXT](dwhite-output)
+ ULBGDWHITE | \x1B[4;107m | \u001B[4;107m | [UNDERLINE TEXT](dwhite-output)
+ BKBGDWHITE | \x1B[5;107m | \u001B[5;107m | [BLINKING TEXT](dwhite-output)
+ CBGDWHITE | \x1B[9;107m | \u001B[9;107m | [STRIKETHROUGH TEXT](dwhite-output)
+ DLBGDWHITE | \x1B[21;107m | \u001B[21;107m | [DOUBLE LINE TEXT](dwhite-output)
+ OLBGDWHITE | \x1B[53;107m | \u001B[53;107m | [OVER LINE TEXT](dwhite-output)
 
-![BBGPINK](../img/FORMATTING-BACKGROUND/UBGPINK.png)
+### DWHITE OUTPUT
 
-### :rocket: BBGDGREEN
+![dark white image](img/FormattingBackgrounds/darkWhite.png)
 
-![BBGDGREEN](../img/FORMATTING-BACKGROUND/BBGDGREEN.png)
+## LEMON
 
-### :rocket: IBGDGREEN
+ USED VARIABLE | COLOR CODE FOR C/C++ | COLOR CODE FOR JAVA | OUTPUT
+---------------|----------------------|---------------------|--------
+ BBGLEMON | \x1B[1;103m | \u001B[1;103m | [BOLD TEXT](#lemon-output)
+ IBGLEMON | \x1B[3;103m | \u001B[3;103m | [ITALIC TEXT](#lemon-output)
+ ULBGLEMON | \x1B[4;103m | \u001B[4;103m | [UNDERLINE TEXT](#lemon-output)
+ BKBGLEMON | \x1B[5;103m | \u001B[5;103m | [BLINKING TEXT](#lemon-output)
+ CBGLEMON | \x1B[9;103m | \u001B[9;103m | [STRIKETHROUGH TEXT](#lemon-output)
+ DLBGLEMON | \x1B[21;103m | \u001B[21;103m | [DOUBLE LINE TEXT](#lemon-output)
+ OLBGLEMON | \x1B[53;103m | \u001B[53;103m | [OVER LINE TEXT](#lemon-output)
 
-![IBGDGREEN](../img/FORMATTING-BACKGROUND/IBGDGREEN.png)
+### LEMON OUTPUT
 
-### :rocket: UBGDGREEN
+![lemon image](img/FormattingBackgrounds/lemon.png)
 
-![UBGDGREEN](../img/FORMATTING-BACKGROUND/UBGDGREEN.png)
+## DPINK
 
-### :rocket: BBGWHITE
+ USED VARIABLE | COLOR CODE FOR C/C++ | COLOR CODE FOR JAVA | OUTPUT
+---------------|----------------------|---------------------|--------
+ BBGDPINK | \x1B[1;105m | \u001B[1;105m | [BOLD TEXT](#dpink-output)
+ IBGDPINK | \x1B[3;105m | \u001B[3;105m | [ITALIC TEXT](#dpink-output)
+ ULBGDPINK | \x1B[4;105m | \u001B[4;105m | [UNDERLINE TEXT](#dpink-output)
+ BKBGDPINK | \x1B[5;105m | \u001B[5;105m | [BLINKING TEXT](#dpink-output)
+ CBGDPINK | \x1B[9;105m | \u001B[9;105m | [STRIKETHROUGH TEXT](#dpink-output)
+ DLBGDPINK | \x1B[21;105m | \u001B[21;105m | [DOUBLE LINE TEXT](#dpink-output)
+ OLBGDPINK | \x1B[53;105m | \u001B[53;105m | [OVER LINE TEXT](#dpink-output)
 
-![BBGWHITE](../img/FORMATTING-BACKGROUND/BBGWHITE.png)
+### DPINK OUTPUT
 
-### :rocket: IBGWHITE
+![dark pink image](img/FormattingBackgrounds/darkPink.png)
 
-![IBGWHITE](../img/FORMATTING-BACKGROUND/IBGWHITE.png)
+## LPINK
 
-### :rocket: UBGWHITE
+ USED VARIABLE | COLOR CODE FOR C/C++ | COLOR CODE FOR JAVA | OUTPUT
+---------------|----------------------|---------------------|--------
+ BBGLPINK | \x1B[1;106m | \001B[1;106m | [BOLD TEXT](lpink-output)
+ IBGLPINK | \x1B[3;106m | \001B[3;106m | [ITALIC TEXT](lpink-output)
+ ULBGLPINK | \x1B[4;106m | \001B[4;106m | [UNDERLINE TEXT](lpink-output)
+ BKBGLPINK | \x1B[5;106m | \001B[5;106m | [BLINKING TEXT](lpink-output)
+ CBGLPINK | \x1B[9;106m | \001B[9;106m | [STRIKETHROUGH TEXT](lpink-output)
+ DLBGLPINK | \x1B[21;106m | \001B[21;106m | [DOUBLE LINE TEXT](lpink-output)
+ OLBGLPINK | \x1B[53;106m | \001B[53;106m | [OVER LINE TEXT](lpink-output)
 
-![UBGWHITE](../img/FORMATTING-BACKGROUND/UBGWHITE.png)
+### LPINK OUTPUT
+
+![light pink image](img/FormattingBackgrounds/lightPink.png)
+
+## MPINK
+
+ USED VARIABLE | COLOR CODE FOR C/C++ | COLOR CODE FOR JAVA | OUTPUT
+---------------|----------------------|---------------------|--------
+ BBGMPINK | \x1B[1;104m | \u001B[1;104m | [BOLD TEXT](#mpink-output)
+ IBGMPINK | \x1B[3;104m | \u001B[3;104m | [ITALIC TEXT](#mpink-output)
+ ULBGMPINK | \x1B[4;104m | \u001B[4;104m | [UNDERLINE TEXT](#mpink-output)
+ BKBGMPINK | \x1B[5;104m | \u001B[5;104m | [BLINKING TEXT](#mpink-output)
+ CBGMPINK | \x1B[9;104m | \u001B[9;104m | [STRIKETHROUGH TEXT](#mpink-output)
+ DLBGMPINK | \x1B[21;104m | \u001B[21;104m | [DOUBLE LINE TEXT](#mpink-output)
+ OLBGMPINK | \x1B[53;104m | \u001B[53;104m | [OVER LINE TEXT](#mpink-output)
+
+### MPINK OUTPUT
+
+![medium pink image](img/FormattingBackgrounds/mediumPink.png)

@@ -19,4 +19,4 @@
 
 ## OUTPUT
 
-![background colors](/img/background-color.png)
+![background colors](img/BackgroundColors/background-color.png)

@@ -16,4 +16,4 @@
 
 ## OUTPUT
 
-![image](/img/formatting-text.png)
+![image](img/FormattingText/formatting-text.png)

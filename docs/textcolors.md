@@ -23,4 +23,4 @@
 
 ## OUTPUT
 
-![text-colors](/img/text-color.png)
+![text-colors](img/TextColors/text-color.png)

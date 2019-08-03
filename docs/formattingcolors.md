@@ -14,7 +14,7 @@
 
 ### LIGHT GREEN OUTPUT
 
-![light green image](/img/formatting-light-green-color.png)
+![light green image](img/FormattingColors/lightGreen.png)
 
 ## DARK GREEN
 
@@ -30,7 +30,7 @@
 
 ### DARK GREEN OUTPUT
 
-![dark green image](/img/formatting-dark-green-color.png)
+![dark green image](img/FormattingColors/darkGreen.png)
 
 ## MEDIUM GREEN
 
@@ -46,7 +46,7 @@
 
 ### MEDIUM GREEN OUTPUT
 
-![medium green image](/img/formatting-medium-green-color.png)
+![medium green image](img/FormattingColors/mediumGreen.png)
 
 ## LIGHT RED
 
@@ -62,7 +62,7 @@
 
 ### LIGHT RED OUTPUT
 
-![light red image](/img/formatting-light-red-color.png)
+![light red image](img/FormattingColors/lightRed.png)
 
 ## DARK RED
 
@@ -78,7 +78,7 @@
 
 ### DARK RED OUTPUT
 
-![dark red image](/img/formatting-dark-red-color.png)
+![dark red image](img/FormattingColors/darkRed.png)
 
 ## LIGHT WHITE
 
@@ -94,7 +94,7 @@
 
 ### LIGHT WHITE OUTPUT
 
-![light white image](/img/formatting-light-white-color.png)
+![light white image](img/FormattingColors/lightWhite.png)
 
 ## DARK WHITE
 
@@ -110,7 +110,7 @@
 
 ### DARK WHITE OUTPUT
 
-![dark white image](/img/formatting-dark-white-color.png)
+![dark white image](img/FormattingColors/darkWhite.png)
 
 ## LIGHT BLUE
 
@@ -126,7 +126,7 @@
 
 ### LIGHT BLUE OUTPUT
 
-![light blue image](/img/formatting-light-blue-color.png)
+![light blue image](img/FormattingColors/lightBlue.png)
 
 ## DARK BLUE
 
@@ -142,7 +142,7 @@
 
 ### DARK BLUE OUTPUT
 
-![dark blue image](/img/formatting-dark-blue-color.png)
+![dark blue image](img/FormattingColors/darkBlue.png)
 
 ## LIGHT CYAN
 
@@ -158,7 +158,7 @@
 
 ### LIGHT CYAN OUTPUT
 
-![light cyan image](/img/formatting-light-cyan-color.png)
+![light cyan image](img/FormattingColors/lightCyan.png)
 
 ## DARK CYAN
 
@@ -174,7 +174,7 @@
   
 ### DARK CYAN OUTPUT
 
-![dark cyan image](/img/formatting-dark-cyan-color.png)
+![dark cyan image](img/FormattingColors/darkCyan.png)
 
 ## ORANGE
 
@@ -190,7 +190,7 @@
 
 ### ORANGE OUTPUT
 
-![orange image](/img/formatting-orange-color.png)
+![orange image](img/FormattingColors/orange.png)
 
 ## BLACK
 
@@ -206,7 +206,7 @@
 
 ### BLACK OUTPUT
 
-![black image](/img/formatting-black-color.png)
+![black image](img/FormattingColors/black.png)
 
 ## MAGENTA
 
@@ -222,7 +222,7 @@
 
 ### MAGENTA OUTPUT
 
-![magenta image](/img/formatting-magenta-color.png)
+![magenta image](img/FormattingColors/magenta.png)
 
 ## YELLOW
 
@@ -238,7 +238,7 @@
 
 ### YELLOW OUTPUT
 
-![yellow image](/img/formatting-yellow-color.png)
+![yellow image](img/FormattingColors/yellow.png)
 
 ## LEMON
 
@@ -254,7 +254,7 @@
 
 ### LEMON OUTPUT
 
-![lemon image](/img/formatting-lemon-color.png)
+![lemon image](img/FormattingColors/lemon.png)
 
 ## PINK
 
@@ -270,4 +270,4 @@
 
 ### PINK OUTPUT
 
-![pink image](/img/formatting-pink-color.png)
+![pink image](img/FormattingColors/pink.png)
