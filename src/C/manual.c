@@ -563,7 +563,431 @@ void formattingBackgroundsMPINK()
 	printf("OLBGMPINK:\t%sHello World with over line text medium pink background%s\n\n",OLBGMPINK,RESET);
 }
 
+void colorBackgrounds()
+{
+	printf("---------------------------> DIFFERENT COLORS WITH DIFFERENT BACKGROUNDS <---------------------------\n\n");
+	printf("Enter any option for below manuals\n");
+	printf("1. LGREEN\n");
+	printf("2. MGREEN\n");
+	printf("3. DGREEN\n");
+	printf("4. LRED\n");
+	printf("5. DRED\n");
+	printf("6. LWHITE\n");
+	printf("7. DWHITE\n");
+	printf("8. LBLUE\n");
+	printf("9. DBLUE\n");
+	printf("10. LCYAN\n");
+	printf("11. DCYAN\n");
+	printf("12. ORANGE\n");
+	printf("13. BLACK\n");
+	printf("14. MAGENTA\n");
+	printf("15. YELLOW\n");
+	printf("16. LEMON\n");
+	printf("17. PINK\n");
+	printf("# ");
+	int colorBackgroundOption = 0;
+	scanf("%d",&colorBackgroundOption);
+	switch(colorBackgroundOption)
+	{
+		case 1:
+			colorBackgroundsLGREEN();
+			break;
+		case 2:
+			colorBackgroundsMGREEN();
+			break;
+		case 3:
+			colorBackgroundsDGREEN();
+			break;
+		case 4:
+			colorBackgroundsLRED();
+			break;
+		case 5:
+			colorBackgroundsDRED();
+			break;
+		case 6:
+			colorBackgroundsLWHITE();
+			break;
+		case 7:
+			colorBackgroundsDWHITE();
+			break;
+		case 8:
+			colorBackgroundsLBLUE();
+			break;
+		case 9:
+			colorBackgroundsDBLUE();
+			break;
+		case 10:
+			colorBackgroundsLCYAN();
+			break;
+		case 11:
+			colorBackgroundsDCYAN();
+			break;
+		case 12:
+			colorBackgroundsORANGE();
+			break;
+		case 13:
+			colorBackgroundsBLACK();
+			break;
+		case 14:
+			colorBackgroundsMAGENTA();
+			break;
+		case 15:
+			colorBackgroundsYELLOW();
+			break;
+		case 16:
+			colorBackgroundsLEMON();
+			break;
+		case 17:
+			colorBackgroundsPINK();
+			break;
+		default:
+			printf("%sNo colored background type available%s\n",BDRED,RESET);
+			break;
+	}
+}
 
+void colorBackgroundsLGREEN()
+{
+	// LGREEN
+	printf("LGREEN_BGDGREEN:\t%sHello World with light green color text & dark green background%s\n",	LGREEN_BGDGREEN,RESET);
+	printf("LGREEN_BGLGREEN:\t%sHello World with light green color text & light green background%s\n",	LGREEN_BGLGREEN,RESET);
+	printf("LGREEN_BGMGREEN:\t%sHello World with light green color text & medium green background%s\n",	LGREEN_BGMGREEN,RESET);
+	printf("LGREEN_BGDRED:\t\t%sHello World with light green color text & dark red background%s\n",		LGREEN_BGDRED,RESET);	
+	printf("LGREEN_BGLRED:\t\t%sHello World with light green color text & light red background%s\n",	LGREEN_BGLRED,RESET);
+	printf("LGREEN_BGDORANGE:\t%sHello World with light green color text & dark orange background%s\n",	LGREEN_BGDORANGE,RESET);
+	printf("LGREEN_BGLORANGE:\t%sHello World with light green color text & light orange background%s\n",LGREEN_BGLORANGE,RESET);
+	printf("LGREEN_BGLBLUE:\t\t%sHello World with light green color text & light blue background%s\n",	LGREEN_BGLBLUE,RESET);
+	printf("LGREEN_BGLWHITE:\t%sHello World with light green color text & light white background%s\n",	LGREEN_BGLWHITE,RESET);
+	printf("LGREEN_BGDWHITE:\t%sHello World with light green color text & dark white background%s\n",	LGREEN_BGDWHITE,RESET);
+	printf("LGREEN_BGLEMON:\t\t%sHello World with light green color text & lemon background%s\n",		LGREEN_BGLEMON,RESET);
+	printf("LGREEN_BGMPINK:\t\t%sHello World with light green color text & medium pink background%s\n",	LGREEN_BGMPINK,RESET);
+	printf("LGREEN_BGDPINK:\t\t%sHello World with light green color text & dark pink background%s\n",	LGREEN_BGDPINK,RESET);
+	printf("LGREEN_BGLPINK:\t\t%sHello World with light green color text & light pink background%s\n",	LGREEN_BGLPINK,RESET);
+	printf("\n");
+}
+
+void colorBackgroundsMGREEN()
+{
+	// MGREEN
+	printf("MGREEN_BGDGREEN:\t%sHello World with medium green color text & dark green background%s\n",	MGREEN_BGDGREEN,RESET);
+	printf("MGREEN_BGLGREEN:\t%sHello World with medium green color text & light green background%s\n",	MGREEN_BGLGREEN,RESET);
+	printf("MGREEN_BGMGREEN:\t%sHello World with medium green color text & medium green background%s\n",MGREEN_BGMGREEN,RESET);
+	printf("MGREEN_BGDRED:\t\t%sHello World with medium green color text & dark red background%s\n",	MGREEN_BGDRED,RESET);	
+	printf("MGREEN_BGLRED:\t\t%sHello World with medium green color text & light red background%s\n",	MGREEN_BGLRED,RESET);
+	printf("MGREEN_BGDORANGE:\t%sHello World with medium green color text & dark orange background%s\n",MGREEN_BGDORANGE,RESET);
+	printf("MGREEN_BGLORANGE:\t%sHello World with medium green color text & light orange background%s\n",MGREEN_BGLORANGE,RESET);
+	printf("MGREEN_BGLBLUE:\t\t%sHello World with medium green color text & light blue background%s\n",	MGREEN_BGLBLUE,RESET);
+	printf("MGREEN_BGLWHITE:\t%sHello World with medium green color text & light white background%s\n",	MGREEN_BGLWHITE,RESET);
+	printf("MGREEN_BGDWHITE:\t%sHello World with medium green color text & dark white background%s\n",	MGREEN_BGDWHITE,RESET);
+	printf("MGREEN_BGLEMON:\t\t%sHello World with medium green color text & lemon background%s\n",		MGREEN_BGLEMON,RESET);
+	printf("MGREEN_BGMPINK:\t\t%sHello World with medium green color text & medium pink background%s\n",MGREEN_BGMPINK,RESET);
+	printf("MGREEN_BGDPINK:\t\t%sHello World with medium green color text & dark pink background%s\n",	MGREEN_BGDPINK,RESET);
+	printf("MGREEN_BGLPINK:\t\t%sHello World with medium green color text & light pink background%s\n",	MGREEN_BGLPINK,RESET);
+	printf("\n");
+}
+
+void colorBackgroundsDGREEN()
+{
+	// DGREEN
+	printf("DGREEN_BGDGREEN:\t%sHello World with dark green color text & dark green background%s\n",	DGREEN_BGDGREEN,RESET);
+	printf("DGREEN_BGLGREEN:\t%sHello World with dark green color text & light green background%s\n",	DGREEN_BGLGREEN,RESET);
+	printf("DGREEN_BGMGREEN:\t%sHello World with dark green color text & medium green background%s\n",	DGREEN_BGMGREEN,RESET);
+	printf("DGREEN_BGDRED:\t\t%sHello World with dark green color text & dark red background%s\n",		DGREEN_BGDRED,RESET);	
+	printf("DGREEN_BGLRED:\t\t%sHello World with dark green color text & light red background%s\n",		DGREEN_BGLRED,RESET);
+	printf("DGREEN_BGDORANGE:\t%sHello World with dark green color text & dark orange background%s\n",	DGREEN_BGDORANGE,RESET);
+	printf("DGREEN_BGLORANGE:\t%sHello World with dark green color text & light orange background%s\n",	DGREEN_BGLORANGE,RESET);
+	printf("DGREEN_BGLBLUE:\t\t%sHello World with dark green color text & light blue background%s\n",	DGREEN_BGLBLUE,RESET);
+	printf("DGREEN_BGLWHITE:\t%sHello World with dark green color text & light white background%s\n",	DGREEN_BGLWHITE,RESET);
+	printf("DGREEN_BGDWHITE:\t%sHello World with dark green color text & dark white background%s\n",	DGREEN_BGDWHITE,RESET);
+	printf("DGREEN_BGLEMON:\t\t%sHello World with dark green color text & lemon background%s\n",		DGREEN_BGLEMON,RESET);
+	printf("DGREEN_BGMPINK:\t\t%sHello World with dark green color text & medium pink background%s\n",	DGREEN_BGMPINK,RESET);
+	printf("DGREEN_BGDPINK:\t\t%sHello World with dark green color text & dark pink background%s\n",	DGREEN_BGDPINK,RESET);
+	printf("DGREEN_BGLPINK:\t\t%sHello World with dark green color text & light pink background%s\n",	DGREEN_BGLPINK,RESET);
+	printf("\n");
+}
+
+void colorBackgroundsLRED()
+{
+	// LRED
+	printf("LRED_BGDGREEN:\t\t%sHello World with light red color text & dark green background%s\n",		LRED_BGDGREEN,RESET);
+	printf("LRED_BGLGREEN:\t\t%sHello World with light red color text & light green background%s\n",	LRED_BGLGREEN,RESET);
+	printf("LRED_BGMGREEN:\t\t%sHello World with light red color text & medium green background%s\n",	LRED_BGMGREEN,RESET);
+	printf("LRED_BGDRED:\t\t%sHello World with light red color text & dark red background%s\n",			LRED_BGDRED,RESET);	
+	printf("LRED_BGLRED:\t\t%sHello World with light red color text & light red background%s\n",		LRED_BGLRED,RESET);
+	printf("LRED_BGDORANGE:\t\t%sHello World with light red color text & dark orange background%s\n",	LRED_BGDORANGE,RESET);
+	printf("LRED_BGLORANGE:\t\t%sHello World with light red color text & light orange background%s\n",	LRED_BGLORANGE,RESET);
+	printf("LRED_BGLBLUE:\t\t%sHello World with light red color text & light blue background%s\n",		LRED_BGLBLUE,RESET);
+	printf("LRED_BGLWHITE:\t\t%sHello World with light red color text & light white background%s\n",	LRED_BGLWHITE,RESET);
+	printf("LRED_BGDWHITE:\t\t%sHello World with light red color text & dark white background%s\n",		LRED_BGDWHITE,RESET);
+	printf("LRED_BGLEMON:\t\t%sHello World with light red color text & lemon background%s\n",			LRED_BGLEMON,RESET);
+	printf("LRED_BGMPINK:\t\t%sHello World with light red color text & medium pink background%s\n",		LRED_BGMPINK,RESET);
+	printf("LRED_BGDPINK:\t\t%sHello World with light red color text & dark pink background%s\n",		LRED_BGDPINK,RESET);
+	printf("LRED_BGLPINK:\t\t%sHello World with light red color text & light pink background%s\n",		LRED_BGLPINK,RESET);
+	printf("\n");
+}
+
+void colorBackgroundsDRED()
+{
+	// DRED
+	printf("DRED_BGDGREEN:\t\t%sHello World with dark red color text & dark green background%s\n",		DRED_BGDGREEN,RESET);
+	printf("DRED_BGLGREEN:\t\t%sHello World with dark red color text & light green background%s\n",		DRED_BGLGREEN,RESET);
+	printf("DRED_BGMGREEN:\t\t%sHello World with dark red color text & medium green background%s\n",	DRED_BGMGREEN,RESET);
+	printf("DRED_BGDRED:\t\t%sHello World with dark red color text & dark red background%s\n",			DRED_BGDRED,RESET);	
+	printf("DRED_BGLRED:\t\t%sHello World with dark red color text & light red background%s\n",			DRED_BGLRED,RESET);
+	printf("DRED_BGDORANGE:\t\t%sHello World with dark red color text & dark orange background%s\n",	DRED_BGDORANGE,RESET);
+	printf("DRED_BGLORANGE:\t\t%sHello World with dark red color text & light orange background%s\n",	DRED_BGLORANGE,RESET);
+	printf("DRED_BGLBLUE:\t\t%sHello World with dark red color text & light blue background%s\n",		DRED_BGLBLUE,RESET);
+	printf("DRED_BGLWHITE:\t\t%sHello World with dark red color text & light white background%s\n",		DRED_BGLWHITE,RESET);
+	printf("DRED_BGDWHITE:\t\t%sHello World with dark red color text & dark white background%s\n",		DRED_BGDWHITE,RESET);
+	printf("DRED_BGLEMON:\t\t%sHello World with dark red color text & lemon background%s\n",			DRED_BGLEMON,RESET);
+	printf("DRED_BGMPINK:\t\t%sHello World with dark red color text & medium pink background%s\n",		DRED_BGMPINK,RESET);
+	printf("DRED_BGDPINK:\t\t%sHello World with dark red color text & dark pink background%s\n",		DRED_BGDPINK,RESET);
+	printf("DRED_BGLPINK:\t\t%sHello World with dark red color text & light pink background%s\n",		DRED_BGLPINK,RESET);
+	printf("\n");
+}
+
+void colorBackgroundsLWHITE()
+{
+	// LWHITE
+	printf("LWHITE_BGDGREEN:\t%sHello World with light white color text & dark green background%s\n",		LWHITE_BGDGREEN,RESET);
+	printf("LWHITE_BGLGREEN:\t%sHello World with light white color text & light green background%s\n",	LWHITE_BGLGREEN,RESET);
+	printf("LWHITE_BGMGREEN:\t%sHello World with light white color text & medium green background%s\n",	LWHITE_BGMGREEN,RESET);
+	printf("LWHITE_BGDRED:\t\t%sHello World with light white color text & dark red background%s\n",			LWHITE_BGDRED,RESET);	
+	printf("LWHITE_BGLRED:\t\t%sHello World with light white color text & light red background%s\n",		LWHITE_BGLRED,RESET);
+	printf("LWHITE_BGDORANGE:\t%sHello World with light white color text & dark orange background%s\n",	LWHITE_BGDORANGE,RESET);
+	printf("LWHITE_BGLORANGE:\t%sHello World with light white color text & light orange background%s\n",	LWHITE_BGLORANGE,RESET);
+	printf("LWHITE_BGLBLUE:\t\t%sHello World with light white color text & light blue background%s\n",		LWHITE_BGLBLUE,RESET);
+	printf("LWHITE_BGLWHITE:\t%sHello World with light white color text & light white background%s\n",	LWHITE_BGLWHITE,RESET);
+	printf("LWHITE_BGDWHITE:\t%sHello World with light white color text & dark white background%s\n",		LWHITE_BGDWHITE,RESET);
+	printf("LWHITE_BGLEMON:\t\t%sHello World with light white color text & lemon background%s\n",			LWHITE_BGLEMON,RESET);
+	printf("LWHITE_BGMPINK:\t\t%sHello World with light white color text & medium pink background%s\n",		LWHITE_BGMPINK,RESET);
+	printf("LWHITE_BGDPINK:\t\t%sHello World with light white color text & dark pink background%s\n",		LWHITE_BGDPINK,RESET);
+	printf("LWHITE_BGLPINK:\t\t%sHello World with light white color text & light pink background%s\n",		LWHITE_BGLPINK,RESET);
+	printf("\n");
+}
+
+void colorBackgroundsDWHITE()
+{
+	// DWHITE
+	printf("DWHITE_BGDGREEN:\t%sHello World with dark white color text & dark green background%s\n",	DWHITE_BGDGREEN,RESET);
+	printf("DWHITE_BGLGREEN:\t%sHello World with dark white color text & light green background%s\n",	DWHITE_BGLGREEN,RESET);
+	printf("DWHITE_BGMGREEN:\t%sHello World with dark white color text & medium green background%s\n",	DWHITE_BGMGREEN,RESET);
+	printf("DWHITE_BGDRED:\t\t%sHello World with dark white color text & dark red background%s\n",		DWHITE_BGDRED,RESET);	
+	printf("DWHITE_BGLRED:\t\t%sHello World with dark white color text & light red background%s\n",		DWHITE_BGLRED,RESET);
+	printf("DWHITE_BGDORANGE:\t%sHello World with dark white color text & dark orange background%s\n",	DWHITE_BGDORANGE,RESET);
+	printf("DWHITE_BGLORANGE:\t%sHello World with dark white color text & light orange background%s\n",	DWHITE_BGLORANGE,RESET);
+	printf("DWHITE_BGLBLUE:\t\t%sHello World with dark white color text & light blue background%s\n",	DWHITE_BGLBLUE,RESET);
+	printf("DWHITE_BGLWHITE:\t%sHello World with dark white color text & light white background%s\n",	DWHITE_BGLWHITE,RESET);
+	printf("DWHITE_BGDWHITE:\t%sHello World with dark white color text & dark white background%s\n",	DWHITE_BGDWHITE,RESET);
+	printf("DWHITE_BGLEMON:\t\t%sHello World with dark white color text & lemon background%s\n",		DWHITE_BGLEMON,RESET);
+	printf("DWHITE_BGMPINK:\t\t%sHello World with dark white color text & medium pink background%s\n",	DWHITE_BGMPINK,RESET);
+	printf("DWHITE_BGDPINK:\t\t%sHello World with dark white color text & dark pink background%s\n",	DWHITE_BGDPINK,RESET);
+	printf("DWHITE_BGLPINK:\t\t%sHello World with dark white color text & light pink background%s\n",	DWHITE_BGLPINK,RESET);
+	printf("\n");
+}
+
+void colorBackgroundsLBLUE()
+{
+	// LBLUE
+	printf("LBLUE_BGDGREEN:\t\t%sHello World with light blue color text & dark green background%s\n",	LBLUE_BGDGREEN,RESET);
+	printf("LBLUE_BGLGREEN:\t\t%sHello World with light blue color text & light green background%s\n",	LBLUE_BGLGREEN,RESET);
+	printf("LBLUE_BGMGREEN:\t\t%sHello World with light blue color text & medium green background%s\n",	LBLUE_BGMGREEN,RESET);
+	printf("LBLUE_BGDRED:\t\t%sHello World with light blue color text & dark red background%s\n",		LBLUE_BGDRED,RESET);	
+	printf("LBLUE_BGLRED:\t\t%sHello World with light blue color text & light red background%s\n",		LBLUE_BGLRED,RESET);
+	printf("LBLUE_BGDORANGE:\t%sHello World with light blue color text & dark orange background%s\n",	LBLUE_BGDORANGE,RESET);
+	printf("LBLUE_BGLORANGE:\t%sHello World with light blue color text & light orange background%s\n",	LBLUE_BGLORANGE,RESET);
+	printf("LBLUE_BGLBLUE:\t\t%sHello World with light blue color text & light blue background%s\n",	LBLUE_BGLBLUE,RESET);
+	printf("LBLUE_BGLWHITE:\t\t%sHello World with light blue color text & light white background%s\n",	LBLUE_BGLWHITE,RESET);
+	printf("LBLUE_BGDWHITE:\t\t%sHello World with light blue color text & dark white background%s\n",	LBLUE_BGDWHITE,RESET);
+	printf("LBLUE_BGLEMON:\t\t%sHello World with light blue color text & lemon background%s\n",			LBLUE_BGLEMON,RESET);
+	printf("LBLUE_BGMPINK:\t\t%sHello World with light blue color text & medium pink background%s\n",	LBLUE_BGMPINK,RESET);
+	printf("LBLUE_BGDPINK:\t\t%sHello World with light blue color text & dark pink background%s\n",		LBLUE_BGDPINK,RESET);
+	printf("LBLUE_BGLPINK:\t\t%sHello World with light blue color text & light pink background%s\n",	LBLUE_BGLPINK,RESET);
+	printf("\n");
+}
+
+void colorBackgroundsDBLUE()
+{
+	// DBLUE
+	printf("DBLUE_BGDGREEN:\t\t%sHello World with dark blue color text & dark green background%s\n",	DBLUE_BGDGREEN,RESET);
+	printf("DBLUE_BGLGREEN:\t\t%sHello World with dark blue color text & light green background%s\n",	DBLUE_BGLGREEN,RESET);
+	printf("DBLUE_BGMGREEN:\t\t%sHello World with dark blue color text & medium green background%s\n",	DBLUE_BGMGREEN,RESET);
+	printf("DBLUE_BGDRED:\t\t%sHello World with dark blue color text & dark red background%s\n",		DBLUE_BGDRED,RESET);	
+	printf("DBLUE_BGLRED:\t\t%sHello World with dark blue color text & light red background%s\n",		DBLUE_BGLRED,RESET);
+	printf("DBLUE_BGDORANGE:\t%sHello World with dark blue color text & dark orange background%s\n",	DBLUE_BGDORANGE,RESET);
+	printf("DBLUE_BGLORANGE:\t%sHello World with dark blue color text & light orange background%s\n",	DBLUE_BGLORANGE,RESET);
+	printf("DBLUE_BGLBLUE:\t\t%sHello World with dark blue color text & light blue background%s\n",		DBLUE_BGLBLUE,RESET);
+	printf("DBLUE_BGLWHITE:\t\t%sHello World with dark blue color text & light white background%s\n",	DBLUE_BGLWHITE,RESET);
+	printf("DBLUE_BGDWHITE:\t\t%sHello World with dark blue color text & dark white background%s\n",	DBLUE_BGDWHITE,RESET);
+	printf("DBLUE_BGLEMON:\t\t%sHello World with dark blue color text & lemon background%s\n",			DBLUE_BGLEMON,RESET);
+	printf("DBLUE_BGMPINK:\t\t%sHello World with dark blue color text & medium pink background%s\n",	DBLUE_BGMPINK,RESET);
+	printf("DBLUE_BGDPINK:\t\t%sHello World with dark blue color text & dark pink background%s\n",		DBLUE_BGDPINK,RESET);
+	printf("DBLUE_BGLPINK:\t\t%sHello World with dark blue color text & light pink background%s\n",		DBLUE_BGLPINK,RESET);
+	printf("\n");
+}
+
+void colorBackgroundsLCYAN()
+{
+	// LCYAN
+	printf("LCYAN_BGDGREEN:\t\t%sHello World with light cyan color text & dark green background%s\n",	LCYAN_BGDGREEN,RESET);
+	printf("LCYAN_BGLGREEN:\t\t%sHello World with light cyan color text & light green background%s\n",	LCYAN_BGLGREEN,RESET);
+	printf("LCYAN_BGMGREEN:\t\t%sHello World with light cyan color text & medium green background%s\n",	LCYAN_BGMGREEN,RESET);
+	printf("LCYAN_BGDRED:\t\t%sHello World with light cyan color text & dark red background%s\n",		LCYAN_BGDRED,RESET);	
+	printf("LCYAN_BGLRED:\t\t%sHello World with light cyan color text & light red background%s\n",		LCYAN_BGLRED,RESET);
+	printf("LCYAN_BGDORANGE:\t%sHello World with light cyan color text & dark orange background%s\n",	LCYAN_BGDORANGE,RESET);
+	printf("LCYAN_BGLORANGE:\t%sHello World with light cyan color text & light orange background%s\n",	LCYAN_BGLORANGE,RESET);
+	printf("LCYAN_BGLBLUE:\t\t%sHello World with light cyan color text & light blue background%s\n",	LCYAN_BGLBLUE,RESET);
+	printf("LCYAN_BGLWHITE:\t\t%sHello World with light cyan color text & light white background%s\n",	LCYAN_BGLWHITE,RESET);
+	printf("LCYAN_BGDWHITE:\t\t%sHello World with light cyan color text & dark white background%s\n",	LCYAN_BGDWHITE,RESET);
+	printf("LCYAN_BGLEMON:\t\t%sHello World with light cyan color text & lemon background%s\n",			LCYAN_BGLEMON,RESET);
+	printf("LCYAN_BGMPINK:\t\t%sHello World with light cyan color text & medium pink background%s\n",	LCYAN_BGMPINK,RESET);
+	printf("LCYAN_BGDPINK:\t\t%sHello World with light cyan color text & dark pink background%s\n",		LCYAN_BGDPINK,RESET);
+	printf("LCYAN_BGLPINK:\t\t%sHello World with light cyan color text & light pink background%s\n",	LCYAN_BGLPINK,RESET);
+	printf("\n");
+}
+
+void colorBackgroundsDCYAN()
+{
+	// DCYAN
+	printf("DCYAN_BGDGREEN:\t\t%sHello World with dark cyan color text & dark green background%s\n",	DCYAN_BGDGREEN,RESET);
+	printf("DCYAN_BGLGREEN:\t\t%sHello World with dark cyan color text & light green background%s\n",	DCYAN_BGLGREEN,RESET);
+	printf("DCYAN_BGMGREEN:\t\t%sHello World with dark cyan color text & medium green background%s\n",	DCYAN_BGMGREEN,RESET);
+	printf("DCYAN_BGDRED:\t\t%sHello World with dark cyan color text & dark red background%s\n",		DCYAN_BGDRED,RESET);	
+	printf("DCYAN_BGLRED:\t\t%sHello World with dark cyan color text & light red background%s\n",		DCYAN_BGLRED,RESET);
+	printf("DCYAN_BGDORANGE:\t%sHello World with dark cyan color text & dark orange background%s\n",	DCYAN_BGDORANGE,RESET);
+	printf("DCYAN_BGLORANGE:\t%sHello World with dark cyan color text & light orange background%s\n",	DCYAN_BGLORANGE,RESET);
+	printf("DCYAN_BGLBLUE:\t\t%sHello World with dark cyan color text & light blue background%s\n",		DCYAN_BGLBLUE,RESET);
+	printf("DCYAN_BGLWHITE:\t\t%sHello World with dark cyan color text & light white background%s\n",	DCYAN_BGLWHITE,RESET);
+	printf("DCYAN_BGDWHITE:\t\t%sHello World with dark cyan color text & dark white background%s\n",	DCYAN_BGDWHITE,RESET);
+	printf("DCYAN_BGLEMON:\t\t%sHello World with dark cyan color text & lemon background%s\n",			DCYAN_BGLEMON,RESET);
+	printf("DCYAN_BGMPINK:\t\t%sHello World with dark cyan color text & medium pink background%s\n",	DCYAN_BGMPINK,RESET);
+	printf("DCYAN_BGDPINK:\t\t%sHello World with dark cyan color text & dark pink background%s\n",		DCYAN_BGDPINK,RESET);
+	printf("DCYAN_BGLPINK:\t\t%sHello World with dark cyan color text & light pink background%s\n",		DCYAN_BGLPINK,RESET);
+	printf("\n");
+}
+
+void colorBackgroundsORANGE()
+{
+	// ORANGE
+	printf("ORANGE_BGDGREEN:\t%sHello World with orange color text & dark green background%s\n",	ORANGE_BGDGREEN,RESET);
+	printf("ORANGE_BGLGREEN:\t%sHello World with orange color text & light green background%s\n",	ORANGE_BGLGREEN,RESET);
+	printf("ORANGE_BGMGREEN:\t%sHello World with orange color text & medium green background%s\n",ORANGE_BGMGREEN,RESET);
+	printf("ORANGE_BGDRED:\t\t%sHello World with orange color text & dark red background%s\n",		ORANGE_BGDRED,RESET);	
+	printf("ORANGE_BGLRED:\t\t%sHello World with orange color text & light red background%s\n",		ORANGE_BGLRED,RESET);
+	printf("ORANGE_BGDORANGE:\t%sHello World with orange color text & dark orange background%s\n",	ORANGE_BGDORANGE,RESET);
+	printf("ORANGE_BGLORANGE:\t%sHello World with orange color text & light orange background%s\n",	ORANGE_BGLORANGE,RESET);
+	printf("ORANGE_BGLBLUE:\t\t%sHello World with orange color text & light blue background%s\n",	ORANGE_BGLBLUE,RESET);
+	printf("ORANGE_BGLWHITE:\t%sHello World with orange color text & light white background%s\n",	ORANGE_BGLWHITE,RESET);
+	printf("ORANGE_BGDWHITE:\t%sHello World with orange color text & dark white background%s\n",	ORANGE_BGDWHITE,RESET);
+	printf("ORANGE_BGLEMON:\t\t%sHello World with orange color text & lemon background%s\n",		ORANGE_BGLEMON,RESET);
+	printf("ORANGE_BGMPINK:\t\t%sHello World with orange color text & medium pink background%s\n",	ORANGE_BGMPINK,RESET);
+	printf("ORANGE_BGDPINK:\t\t%sHello World with orange color text & dark pink background%s\n",	ORANGE_BGDPINK,RESET);
+	printf("ORANGE_BGLPINK:\t\t%sHello World with orange color text & light pink background%s\n",	ORANGE_BGLPINK,RESET);
+	printf("\n");
+}
+
+void colorBackgroundsBLACK()
+{
+	// BLACK
+	printf("BLACK_BGDGREEN:\t\t%sHello World with black color text & dark green background%s\n",	BLACK_BGDGREEN,RESET);
+	printf("BLACK_BGLGREEN:\t\t%sHello World with black color text & light green background%s\n",	BLACK_BGLGREEN,RESET);
+	printf("BLACK_BGMGREEN:\t\t%sHello World with black color text & medium green background%s\n",	BLACK_BGMGREEN,RESET);
+	printf("BLACK_BGDRED:\t\t%sHello World with black color text & dark red background%s\n",		BLACK_BGDRED,RESET);	
+	printf("BLACK_BGLRED:\t\t%sHello World with black color text & light red background%s\n",		BLACK_BGLRED,RESET);
+	printf("BLACK_BGDORANGE:\t%sHello World with black color text & dark orange background%s\n",	BLACK_BGDORANGE,RESET);
+	printf("BLACK_BGLORANGE:\t%sHello World with black color text & light orange background%s\n",	BLACK_BGLORANGE,RESET);
+	printf("BLACK_BGLBLUE:\t\t%sHello World with black color text & light blue background%s\n",		BLACK_BGLBLUE,RESET);
+	printf("BLACK_BGLWHITE:\t\t%sHello World with black color text & light white background%s\n",	BLACK_BGLWHITE,RESET);
+	printf("BLACK_BGDWHITE:\t\t%sHello World with black color text & dark white background%s\n",	BLACK_BGDWHITE,RESET);
+	printf("BLACK_BGLEMON:\t\t%sHello World with black color text & lemon background%s\n",			BLACK_BGLEMON,RESET);
+	printf("BLACK_BGMPINK:\t\t%sHello World with black color text & medium pink background%s\n",	BLACK_BGMPINK,RESET);
+	printf("BLACK_BGDPINK:\t\t%sHello World with black color text & dark pink background%s\n",		BLACK_BGDPINK,RESET);
+	printf("BLACK_BGLPINK:\t\t%sHello World with black color text & light pink background%s\n",		BLACK_BGLPINK,RESET);
+	printf("\n");
+}
+
+void colorBackgroundsMAGENTA()
+{
+	// MAGENTA
+	printf("MAGENTA_BGDGREEN:\t%sHello World with magenta color text & dark green background%s\n",		MAGENTA_BGDGREEN,RESET);
+	printf("MAGENTA_BGLGREEN:\t%sHello World with magenta color text & light green background%s\n",		MAGENTA_BGLGREEN,RESET);
+	printf("MAGENTA_BGMGREEN:\t%sHello World with magenta color text & medium green background%s\n",	MAGENTA_BGMGREEN,RESET);
+	printf("MAGENTA_BGDRED:\t\t%sHello World with magenta color text & dark red background%s\n",		MAGENTA_BGDRED,RESET);	
+	printf("MAGENTA_BGLRED:\t\t%sHello World with magenta color text & light red background%s\n",		MAGENTA_BGLRED,RESET);
+	printf("MAGENTA_BGDORANGE:\t%sHello World with magenta color text & dark orange background%s\n",	MAGENTA_BGDORANGE,RESET);
+	printf("MAGENTA_BGLORANGE:\t%sHello World with magenta color text & light orange background%s\n",	MAGENTA_BGLORANGE,RESET);
+	printf("MAGENTA_BGLBLUE:\t%sHello World with magenta color text & light blue background%s\n",		MAGENTA_BGLBLUE,RESET);
+	printf("MAGENTA_BGLWHITE:\t%sHello World with magenta color text & light white background%s\n",		MAGENTA_BGLWHITE,RESET);
+	printf("MAGENTA_BGDWHITE:\t%sHello World with magenta color text & dark white background%s\n",		MAGENTA_BGDWHITE,RESET);
+	printf("MAGENTA_BGLEMON:\t%sHello World with magenta color text & lemon background%s\n",			MAGENTA_BGLEMON,RESET);
+	printf("MAGENTA_BGMPINK:\t%sHello World with magenta color text & medium pink background%s\n",		MAGENTA_BGMPINK,RESET);
+	printf("MAGENTA_BGDPINK:\t%sHello World with magenta color text & dark pink background%s\n",		MAGENTA_BGDPINK,RESET);
+	printf("MAGENTA_BGLPINK:\t%sHello World with magenta color text & light pink background%s\n",		MAGENTA_BGLPINK,RESET);
+	printf("\n");
+}
+
+void colorBackgroundsYELLOW()
+{
+	// YELLOW
+	printf("YELLOW_BGDGREEN:\t%sHello World with yellow color text & dark green background%s\n",	YELLOW_BGDGREEN,RESET);
+	printf("YELLOW_BGLGREEN:\t%sHello World with yellow color text & light green background%s\n",	YELLOW_BGLGREEN,RESET);
+	printf("YELLOW_BGMGREEN:\t%sHello World with yellow color text & medium green background%s\n",	YELLOW_BGMGREEN,RESET);
+	printf("YELLOW_BGDRED:\t\t%sHello World with yellow color text & dark red background%s\n",		YELLOW_BGDRED,RESET);	
+	printf("YELLOW_BGLRED:\t\t%sHello World with yellow color text & light red background%s\n",		YELLOW_BGLRED,RESET);
+	printf("YELLOW_BGDORANGE:\t%sHello World with yellow color text & dark orange background%s\n",	YELLOW_BGDORANGE,RESET);
+	printf("YELLOW_BGLORANGE:\t%sHello World with yellow color text & light orange background%s\n",	YELLOW_BGLORANGE,RESET);
+	printf("YELLOW_BGLBLUE:\t\t%sHello World with yellow color text & light blue background%s\n",	YELLOW_BGLBLUE,RESET);
+	printf("YELLOW_BGLWHITE:\t%sHello World with yellow color text & light white background%s\n",	YELLOW_BGLWHITE,RESET);
+	printf("YELLOW_BGDWHITE:\t%sHello World with yellow color text & dark white background%s\n",	YELLOW_BGDWHITE,RESET);
+	printf("YELLOW_BGLEMON:\t\t%sHello World with yellow color text & lemon background%s\n",		YELLOW_BGLEMON,RESET);
+	printf("YELLOW_BGMPINK:\t\t%sHello World with yellow color text & medium pink background%s\n",	YELLOW_BGMPINK,RESET);
+	printf("YELLOW_BGDPINK:\t\t%sHello World with yellow color text & dark pink background%s\n",	YELLOW_BGDPINK,RESET);
+	printf("YELLOW_BGLPINK:\t\t%sHello World with yellow color text & light pink background%s\n",	YELLOW_BGLPINK,RESET);
+	printf("\n");
+}
+
+void colorBackgroundsLEMON()
+{
+	// LEMON
+	printf("LEMON_BGDGREEN:\t\t%sHello World with lemon color text & dark green background%s\n",	LEMON_BGDGREEN,RESET);
+	printf("LEMON_BGLGREEN:\t\t%sHello World with lemon color text & light green background%s\n",	LEMON_BGLGREEN,RESET);
+	printf("LEMON_BGMGREEN:\t\t%sHello World with lemon color text & medium green background%s\n",	LEMON_BGMGREEN,RESET);
+	printf("LEMON_BGDRED:\t\t%sHello World with lemon color text & dark red background%s\n",		LEMON_BGDRED,RESET);	
+	printf("LEMON_BGLRED:\t\t%sHello World with lemon color text & light red background%s\n",		LEMON_BGLRED,RESET);
+	printf("LEMON_BGDORANGE:\t%sHello World with lemon color text & dark orange background%s\n",	LEMON_BGDORANGE,RESET);
+	printf("LEMON_BGLORANGE:\t%sHello World with lemon color text & light orange background%s\n",	LEMON_BGLORANGE,RESET);
+	printf("LEMON_BGLBLUE:\t\t%sHello World with lemon color text & light blue background%s\n",		LEMON_BGLBLUE,RESET);
+	printf("LEMON_BGLWHITE:\t\t%sHello World with lemon color text & light white background%s\n",	LEMON_BGLWHITE,RESET);
+	printf("LEMON_BGDWHITE:\t\t%sHello World with lemon color text & dark white background%s\n",	LEMON_BGDWHITE,RESET);
+	printf("LEMON_BGLEMON:\t\t%sHello World with lemon color text & lemon background%s\n",			LEMON_BGLEMON,RESET);
+	printf("LEMON_BGMPINK:\t\t%sHello World with lemon color text & medium pink background%s\n",	LEMON_BGMPINK,RESET);
+	printf("LEMON_BGDPINK:\t\t%sHello World with lemon color text & dark pink background%s\n",		LEMON_BGDPINK,RESET);
+	printf("LEMON_BGLPINK:\t\t%sHello World with lemon color text & light pink background%s\n",		LEMON_BGLPINK,RESET);
+	printf("\n");
+}
+
+void colorBackgroundsPINK()
+{
+	// PINK
+	printf("PINK_BGDGREEN:\t\t%sHello World with pink color text & dark green background%s\n",	PINK_BGDGREEN,RESET);
+	printf("PINK_BGLGREEN:\t\t%sHello World with pink color text & light green background%s\n",	PINK_BGLGREEN,RESET);
+	printf("PINK_BGMGREEN:\t\t%sHello World with pink color text & medium green background%s\n",PINK_BGMGREEN,RESET);
+	printf("PINK_BGDRED:\t\t%sHello World with pink color text & dark red background%s\n",		PINK_BGDRED,RESET);	
+	printf("PINK_BGLRED:\t\t%sHello World with pink color text & light red background%s\n",		PINK_BGLRED,RESET);
+	printf("PINK_BGDORANGE:\t\t%sHello World with pink color text & dark orange background%s\n",	PINK_BGDORANGE,RESET);
+	printf("PINK_BGLORANGE:\t\t%sHello World with pink color text & light orange background%s\n",	PINK_BGLORANGE,RESET);
+	printf("PINK_BGLBLUE:\t\t%sHello World with pink color text & light blue background%s\n",	PINK_BGLBLUE,RESET);
+	printf("PINK_BGLWHITE:\t\t%sHello World with pink color text & light white background%s\n",	PINK_BGLWHITE,RESET);
+	printf("PINK_BGDWHITE:\t\t%sHello World with pink color text & dark white background%s\n",	PINK_BGDWHITE,RESET);
+	printf("PINK_BGLEMON:\t\t%sHello World with pink color text & lemon background%s\n",		PINK_BGLEMON,RESET);
+	printf("PINK_BGMPINK:\t\t%sHello World with pink color text & medium pink background%s\n",	PINK_BGMPINK,RESET);
+	printf("PINK_BGDPINK:\t\t%sHello World with pink color text & dark pink background%s\n",	PINK_BGDPINK,RESET);
+	printf("PINK_BGLPINK:\t\t%sHello World with pink color text & light pink background%s\n",	PINK_BGLPINK,RESET);
+	printf("\n");
+}
+
+
+// MAIN CODE
 int main()
 {	
 	printf("===============================> RAINBOW MANUAL <===============================\n\n");
@@ -573,6 +997,7 @@ int main()
 	printf("3. Background Colors\n");
 	printf("4. Formatting with Colors\n");
 	printf("5. Formatting with Backgrounds\n");
+	printf("6. Colors with different backgrounds\n");
 	printf("# ");
 	int answer = 0;
 	scanf("%d",&answer);
@@ -594,6 +1019,9 @@ int main()
 		case 5:
 			formattingBackgrounds();
 		 	break;
+		case 6:
+			colorBackgrounds();
+			break;
 		default:
 			printf("%sInvalid Manual Option !!!%s\n\n",BDRED,RESET);
 			break;
