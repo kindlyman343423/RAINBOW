@@ -8,26 +8,36 @@ echo -e "Customize your file: $1 according to needs"
 # sed -e '1ihello world' c.sh > hello.txt
 
 # echo "rainbow.h"
-# sed -e '1ihello world' sample.c > hello.c
+
+# sed  '1s;^;DATA-Line-1\n;' sample.c > hello.c
+
 option=0
 
-while [ $option -ne 6 ]
+while [ $option -ne 8 ]
 do
-    echo -e "1. rainformat.h"
-    echo -e "2. raincolor.h"
-    echo -e "3. rainbackground.h"
-    echo -e "4. rainformatcolor.h"
-    echo -e "5. rainformatbackground.h"
-    echo -e "6. done"
+    echo -e "1. rainFormat.h"
+    echo -e "2. rainColor.h"
+    echo -e "3. rainBackground.h"
+    echo -e "4. rainFormatColor.h"
+    echo -e "5. rainFormatBG.h"
+    echo -e "6. rainColorBG.h"
+    echo -e "7. rainbow.h"
+    echo -e "8. done"
 
     echo "Select option: "
     read option
 
     case $option in
-    1) sed -e '1i#include "rainformat.h"' $1;echo "added rainformat.h to $1";;
-    2) echo "added raincolor.h to $1";;
-    3) echo "added rainbackground.h to $1";;
-    4) echo "added rainformatcolor.h to $1";;
-    5) echo "added rainformatbackground.h to $1";;
+    1) sed  '1s;^;#include "rainFormat.h"\n;' $1 > custom.c; echo "added rainFormat.h to $1";;
+    2) sed  '1s;^;#include "rainColor.h"\n;' $1 > custom.c; echo "added rainColor.h to $1";;
+    3) sed  '1s;^;#include "rainBackground.h"\n;' $1 > custom.c; echo "added rainBackground.h to $1";;
+    4) sed  '1s;^;#include "rainFormatColor.h"\n;' $1 > custom.c; echo "added rainFormatColor.h to $1";;
+    5) sed  '1s;^;#include "rainFormatBG.h"\n;' $1 > custom.c; echo "added rainFormatBG.h to $1";;
+    6) sed  '1s;^;#include "rainColorBG.h"\n;' $1 > custom.c; echo "added rainColorBG.h to $1";;
+    7) sed  '1s;^;#include "rainbow.h"\n;' $1 > custom.c; echo "added rainbow.h to $1";;
     esac
+
+    cp custom.c $1
 done
+
+echo -e "CUTOMIZE DONE !!!"

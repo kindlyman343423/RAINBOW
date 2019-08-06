@@ -1018,7 +1018,7 @@ int main()
 			break;
 		case 5:
 			formattingBackgrounds();
-		 	break;
+			break;
 		case 6:
 			colorBackgrounds();
 			break;
