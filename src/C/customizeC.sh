@@ -1,15 +1,18 @@
 #!bin/bash
 
+# check for file emptyness
+if [ -z "$1" ]; then
+    echo -e "try: bash customizeC.sh filename.c"
+    exit
+fi
+
+# check for file extension
+if [ ${1: -2} != ".c" ];then
+    echo -e "try: bash customizeC.sh filename.c"
+    exit
+fi
+
 echo -e "Customize your file: $1 according to needs"
-# gcc sample.c -o a.out
-# ./a.out
-
-# echo $1
-# sed -e '1ihello world' c.sh > hello.txt
-
-# echo "rainbow.h"
-
-# sed  '1s;^;DATA-Line-1\n;' sample.c > hello.c
 
 option=0
 
@@ -37,7 +40,15 @@ do
     7) sed  '1s;^;#include "rainbow.h"\n;' $1 > custom.c; echo "added rainbow.h to $1";;
     esac
 
-    cp custom.c $1
+    if [ -f custom.c ]; then
+        cp custom.c $1
+    fi
 done
 
-echo -e "CUTOMIZE DONE !!!"
+if [ -f custom.c ]; then
+rm custom.c
+else
+echo "cache removed"
+fi
+
+echo -e "CUSTOMIZE DONE !!!"
