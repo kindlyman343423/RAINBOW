@@ -422,145 +422,145 @@ void formattingBackgroundsDGREEN()
 
 void formattingBackgroundsLGREEN()
 {
-	// printf("BBGLGREEN:\tHello World with bold text light green background\n",BBGLGREEN,RESET);
-	// printf("IBGLGREEN:\tHello World with italic text light green background\n",IBGLGREEN,RESET);
-	// printf("ULBGLGREEN:\tHello World with underline text light green background\n",ULBGLGREEN,RESET);
-	// printf("BKBGLGREEN:\tHello World with blinking text light green background\n",BKBGLGREEN,RESET);
-	// printf("CBGLGREEN:\tHello World with cut text light green background\n",CBGLGREEN,RESET);
-	// printf("DLBGLGREEN:\tHello World with double line text light green background\n\n",DLBGLGREEN,RESET);
-	// printf("OLBGLGREEN:\tHello World with over line text light green background\n\n",OLBGLGREEN,RESET);
+	cout << "BBGLGREEN:" 	<< BBGLGREEN 	<< "\tHello World with bold text light green background" 			<< RESET << endl;
+	cout << "IBGLGREEN:" 	<< IBGLGREEN 	<< "\tHello World with italic text light green background" 			<< RESET << endl;
+	cout << "ULBGLGREEN:" 	<< ULBGLGREEN 	<< "\tHello World with underline text light green background" 		<< RESET << endl;
+	cout << "BKBGLGREEN:" 	<< BKBGLGREEN 	<< "\tHello World with blinking text light green background" 		<< RESET << endl;
+	cout << "CBGLGREEN:" 	<< CBGLGREEN 	<< "\tHello World with cut text light green background" 			<< RESET << endl;
+	cout << "DLBGLGREEN:" 	<< DLBGLGREEN 	<< "\tHello World with double line text light green background\n" 	<< RESET << endl;
+	cout << "OLBGLGREEN:" 	<< OLBGLGREEN 	<< "\tHello World with over line text light green background\n" 	<< RESET << endl;
 }
 
 void formattingBackgroundsMGREEN()
 {
-	// printf("BBGMGREEN:\tHello World with bold text medium green background\n",BBGMGREEN,RESET);
-	// printf("IBGMGREEN:\tHello World with italic text medium green background\n",IBGMGREEN,RESET);
-	// printf("ULBGMGREEN:\tHello World with underline text medium green background\n",ULBGMGREEN,RESET);
-	// printf("BKBGMGREEN:\tHello World with blinking text medium green background\n",BKBGMGREEN,RESET);
-	// printf("CBGMGREEN:\tHello World with cut text medium green background\n",CBGMGREEN,RESET);
-	// printf("DLBGMGREEN:\tHello World with double line text medium green background\n\n",DLBGMGREEN,RESET);
-	// printf("OLBGMGREEN:\tHello World with over line text medium green background\n\n",OLBGMGREEN,RESET);
+	cout << "BBGMGREEN:" 	<< BBGMGREEN  << "\tHello World with bold text medium green background" 		<< RESET << endl;
+	cout << "IBGMGREEN:" 	<< IBGMGREEN  << "\tHello World with italic text medium green background" 		<< RESET << endl;
+	cout << "ULBGMGREEN:" 	<< ULBGMGREEN << "\tHello World with underline text medium green background" 	<< RESET << endl;
+	cout << "BKBGMGREEN:" 	<< BKBGMGREEN << "\tHello World with blinking text medium green background"		<< RESET << endl;
+	cout << "CBGMGREEN:" 	<< CBGMGREEN  << "\tHello World with cut text medium green background" 			<< RESET << endl;
+	cout << "DLBGMGREEN:" 	<< DLBGMGREEN << "\tHello World with double line text medium green background\n"<< RESET << endl;
+	cout << "OLBGMGREEN:" 	<< OLBGMGREEN << "\tHello World with over line text medium green background\n" 	<< RESET << endl;
 }
 
 void formattingBackgroundsDRED()
 {
-	// printf("BBGDRED:\tHello World with bold text dark red background\n",BBGDRED,RESET);
-	// printf("IBGDRED:\tHello World with italic text dark red background\n",IBGDRED,RESET);
-	// printf("ULBGDRED:\tHello World with underline text dark red background\n",ULBGDRED,RESET);
-	// printf("BKBGDRED:\tHello World with blinking text dark red background\n",BKBGDRED,RESET);
-	// printf("CBBGDRED:\tHello World with cut text dark red background\n",CBGDRED,RESET);
-	// printf("DLBGDRED:\tHello World with doubleline text dark red background\n\n",DLBGDRED,RESET);
-	// printf("OLBGDRED:\tHello World with overline text dark red background\n\n",OLBGDRED,RESET);
+	cout << "BBGDRED:"	<< BBGDRED << "\tHello World with bold text dark red background" 		<< RESET << endl;
+	cout << "IBGDRED:" 	<< IBGDRED << "\tHello World with italic text dark red background" 		<< RESET << endl;
+	cout << "ULBGDRED:" << ULBGDRED << "\tHello World with underline text dark red background" 	<< RESET << endl;
+	cout << "BKBGDRED:"	<< BKBGDRED << "\tHello World with blinking text dark red background" 	<< RESET << endl;
+	cout << "CBGDRED:" 	<< CBGDRED << "\tHello World with cut text dark red background" 		<< RESET << endl;
+	cout << "DLBGDRED:" << DLBGDRED << "\tHello World with doubleline text dark red background\n"<< RESET << endl;
+	cout << "OLBGDRED:" << OLBGDRED << "\tHello World with overline text dark red background\n" << RESET << endl;
 }
 
 void formattingBackgroundsLRED()
 {
-	// printf("BBGLRED:\tHello World with bold text light red background\n",BBGLRED,RESET);
-	// printf("IBGLRED:\tHello World with italic text light red background\n",IBGLRED,RESET);
-	// printf("ULBGLRED:\tHello World with underline text light red background\n",ULBGLRED,RESET);
-	// printf("BKBGLRED:\tHello World with blinking text light red background\n",BKBGLRED,RESET);
-	// printf("CBBGLRED:\tHello World with cut text light red background\n",CBGLRED,RESET);
-	// printf("DLBGLRED:\tHello World with double line text light red background\n\n",DLBGLRED,RESET);
-	// printf("OLBGLRED:\tHello World with overline text light red background\n\n",OLBGLRED,RESET);
+	cout << "BBGLRED:" 	<< BBGLRED 	<< "\tHello World with bold text light red background" 			<< RESET << endl;
+	cout << "IBGLRED:" 	<< IBGLRED 	<< "\tHello World with italic text light red background" 		<< RESET << endl;
+	cout << "ULBGLRED:" << ULBGLRED << "\tHello World with underline text light red background" 	<< RESET << endl;
+	cout << "BKBGLRED:" << BKBGLRED << "\tHello World with blinking text light red background"	 	<< RESET << endl;
+	cout << "CBBGLRED:" << CBGLRED 	<< "\tHello World with cut text light red background" 			<< RESET << endl;
+	cout << "DLBGLRED:" << DLBGLRED << "\tHello World with double line text light red background\n" << RESET << endl;
+	cout << "OLBGLRED:" << OLBGLRED << "\tHello World with overline text light red background\n" 	<< RESET << endl;
 }
 
 void formattingBackgroundsDORANGE()
 {
-	// printf("BBGDORANGE:\tHello World with bold text dark orange background\n",BBGDORANGE,RESET);
-	// printf("IBGDORANGE:\tHello World with italic text dark orange background\n",IBGDORANGE,RESET);
-	// printf("ULBGDORANGE:\tHello World with underline text dark orange background\n",ULBGDORANGE,RESET);
-	// printf("BKBGDORANGE:\tHello World with blinking text dark orange background\n",BKBGDORANGE,RESET);
-	// printf("CBGDORANGE:\tHello World with cut text dark orange background\n",CBGDORANGE,RESET);
-	// printf("DLBGDORANGE:\tHello World with doubleline text dark orange background\n\n",DLBGDORANGE,RESET);
-	// printf("OLBGDORANGE:\tHello World with overline text dark orange background\n\n",OLBGDORANGE,RESET);
+	cout << "BBGDORANGE:" 	<< BBGDORANGE 	<< "\tHello World with bold text dark orange background" 		<< RESET << endl;
+	cout << "IBGDORANGE:" 	<< IBGDORANGE 	<< "\tHello World with italic text dark orange background" 		<< RESET << endl;
+	cout << "ULBGDORANGE:" 	<< ULBGDORANGE 	<< "\tHello World with underline text dark orange background" 	<< RESET << endl;
+	cout << "BKBGDORANGE:" 	<< BKBGDORANGE 	<< "\tHello World with blinking text dark orange background" 	<< RESET << endl;
+	cout << "CBGDORANGE:" 	<< CBGDORANGE 	<< "\tHello World with cut text dark orange background" 		<< RESET << endl;
+	cout << "DLBGDORANGE:" 	<< DLBGDORANGE 	<< "\tHello World with doubleline text dark orange background\n"<< RESET << endl;
+	cout << "OLBGDORANGE:" 	<< OLBGDORANGE 	<< "\tHello World with overline text dark orange background\n" 	<< RESET << endl;
 }
 
 void formattingBackgroundsLORANGE()
 {
-	// printf("BBGLORANGE:\tHello World with bold text light orange background\n",BBGLORANGE,RESET);
-	// printf("IBGLORANGE:\tHello World with italic text light orange background\n",IBGLORANGE,RESET);
-	// printf("ULBGLORANGE:\tHello World with underline text light orange background\n",ULBGLORANGE,RESET);
-	// printf("BKBGLORANGE:\tHello World with blinking text light orange background\n",BKBGLORANGE,RESET);
-	// printf("CBGLORANGE:\tHello World with cut text light orange background\n",CBGLORANGE,RESET);
-	// printf("DLBGLORANGE:\tHello World with doubleline text light orange background\n\n",DLBGLORANGE,RESET);
-	// printf("OLBGLORANGE:\tHello World with overline text light orange background\n\n",OLBGLORANGE,RESET);
+	cout << "BBGLORANGE:" 	<< BBGLORANGE 	<< "\tHello World with bold text light orange background" 		<< RESET << endl;
+	cout << "IBGLORANGE:" 	<< IBGLORANGE 	<< "\tHello World with italic text light orange background" 	<< RESET << endl;
+	cout << "ULBGLORANGE:"	<< ULBGLORANGE 	<< "\tHello World with underline text light orange background" 	<< RESET << endl;
+	cout << "BKBGLORANGE:" 	<< BKBGLORANGE 	<< "\tHello World with blinking text light orange background" 	<< RESET << endl;
+	cout << "CBGLORANGE:" 	<< CBGLORANGE 	<< "\tHello World with cut text light orange background" 		<< RESET << endl;
+	cout << "DLBGLORANGE:" 	<< DLBGLORANGE 	<< "\tHello World with doubleline text light orange background\n"<< RESET << endl;
+	cout << "OLBGLORANGE:" 	<< OLBGLORANGE 	<< "\tHello World with overline text light orange background\n" << RESET << endl;
 }
 
 void formattingBackgroundsLBLUE()
 {
-	// printf("BBGLBLUE:\tHello World with bold text light blue background\n",BBGLBLUE,RESET);
-	// printf("IBGLBLUE:\tHello World with italic text light blue background\n",IBGLBLUE,RESET);
-	// printf("ULBGLBLUE:\tHello World with underline text light blue background\n",ULBGLBLUE,RESET);
-	// printf("BKBGLBLUE:\tHello World with blinking text light blue background\n",BKBGLBLUE,RESET);
-	// printf("CBGLBLUE:\tHello World with cut text light blue background\n",CBGLBLUE,RESET);
-	// printf("DLBGLBLUE:\tHello World with double line text light blue background\n\n",DLBGLBLUE,RESET);
-	// printf("OLBGLBLUE:\tHello World with overline text light blue background\n\n",OLBGLBLUE,RESET);
+	cout << "BBGLBLUE:" 	<< BBGLBLUE	<< "\tHello World with bold text light blue background" 		<< RESET << endl;
+	cout << "IBGLBLUE:" 	<< IBGLBLUE	<< "\tHello World with italic text light blue background" 		<< RESET << endl;
+	cout << "ULBGLBLUE:" 	<< ULBGLBLUE<< "\tHello World with underline text light blue background"	<< RESET << endl;
+	cout << "BKBGLBLUE:" 	<< BKBGLBLUE<< "\tHello World with blinking text light blue background" 	<< RESET << endl;
+	cout << "CBGLBLUE:"		<< CBGLBLUE	<< "\tHello World with cut text light blue background" 			<< RESET << endl;
+	cout << "DLBGLBLUE:"	<< DLBGLBLUE<< "\tHello World with double line text light blue background\n"<< RESET << endl;
+	cout << "OLBGLBLUE:" 	<< OLBGLBLUE<< "\tHello World with overline text light blue background\n" 	<< RESET << endl;
 }
 
 void formattingBackgroundsLWHITE()
 {
-	// printf("BBGLWHITE:\tHello World with bold text light white background\n",BBGLWHITE,RESET);
-	// printf("IBGLWHITE:\tHello World with italic text light white background\n",IBGLWHITE,RESET);
-	// printf("ULBGLWHITE:\tHello World with underline text light white background\n",ULBGLWHITE,RESET);
-	// printf("BKBGLWHITE:\tHello World with blinking text light white background\n",BKBGLWHITE,RESET);
-	// printf("CBGLWHITE:\tHello World with cut text light white background\n",CBGLWHITE,RESET);
-	// printf("DLBGLWHITE:\tHello World with double line text light white background\n\n",DLBGLWHITE,RESET);
-	// printf("OLBGLWHITE:\tHello World with overline text light white background\n\n",OLBGLWHITE,RESET);
+	cout << "BBGLWHITE:"	<< BBGLWHITE 	<< "\tHello World with bold text light white background" 		<< RESET << endl;
+	cout << "IBGLWHITE:" 	<< IBGLWHITE 	<< "\tHello World with italic text light white background" 		<< RESET << endl;
+	cout << "ULBGLWHITE:" 	<< ULBGLWHITE 	<< "\tHello World with underline text light white background"	<< RESET << endl;
+	cout << "BKBGLWHITE:" 	<< BKBGLWHITE 	<< "\tHello World with blinking text light white background" 	<< RESET << endl;
+	cout << "CBGLWHITE:" 	<< CBGLWHITE	<< "\tHello World with cut text light white background" 		<< RESET << endl;
+	cout << "DLBGLWHITE:" 	<< DLBGLWHITE	<< "\tHello World with double line text light white background\n"<< RESET << endl;
+	cout << "OLBGLWHITE:" 	<< OLBGLWHITE 	<< "\tHello World with overline text light white background\n" 	<< RESET << endl;
 }
 
 void formattingBackgroundsDWHITE()
 {
-	// printf("BBGDWHITE:\tHello World with bold text dark white background\n",BBGDWHITE,RESET);
-	// printf("IBGDWHITE:\tHello World with italic text dark white background\n",IBGDWHITE,RESET);
-	// printf("ULBGDWHITE:\tHello World with underline text dark white background\n",ULBGDWHITE,RESET);
-	// printf("BKBGDWHITE:\tHello World with blinking text dark white background\n",BKBGDWHITE,RESET);
-	// printf("CBGDWHITE:\tHello World with cut text dark white background\n",CBGDWHITE,RESET);
-	// printf("DLBGDWHITE:\tHello World with double line text dark white background\n\n",DLBGDWHITE,RESET);
-	// printf("OLBGDWHITE:\tHello World with overline text dark white background\n\n",OLBGDWHITE,RESET);
+	cout << "BBGDWHITE:" 	<< BBGDWHITE 	<< "\tHello World with bold text dark white background" 		<< RESET << endl;
+	cout << "IBGDWHITE:" 	<< IBGDWHITE 	<< "\tHello World with italic text dark white background" 		<< RESET << endl;
+	cout << "ULBGDWHITE:" 	<< ULBGDWHITE 	<< "\tHello World with underline text dark white background" 	<< RESET << endl;
+	cout << "BKBGDWHITE:" 	<< BKBGDWHITE 	<< "\tHello World with blinking text dark white background" 	<< RESET << endl;
+	cout << "CBGDWHITE:" 	<< CBGDWHITE 	<< "\tHello World with cut text dark white background" 			<< RESET << endl;
+	cout << "DLBGDWHITE:" 	<< DLBGDWHITE 	<< "\tHello World with double line text dark white background\n"<< RESET << endl;
+	cout << "OLBGDWHITE:" 	<< OLBGDWHITE 	<< "\tHello World with overline text dark white background\n" 	<< RESET << endl;
 }
 
 void formattingBackgroundsLEMON()
 {
-	// printf("BBGLEMON:\tHello World with bold text lemon background\n",BBGLEMON,RESET);
-	// printf("IBGLEMON:\tHello World with italic text lemon background\n",IBGLEMON,RESET);
-	// printf("ULBGLEMON:\tHello World with underline text lemon background\n",ULBGLEMON,RESET);
-	// printf("BKBGLEMON:\tHello World with blinking text lemon background\n",BKBGLEMON,RESET);
-	// printf("CBGLEMON:\tHello World with cut text lemon background\n",CBGLEMON,RESET);
-	// printf("DLBGLEMON:\tHello World with double line text lemon background\n\n",DLBGLEMON,RESET);
-	// printf("OLBGLEMON:\tHello World with over line text lemon background\n\n",OLBGLEMON,RESET);
+	cout << "BBGLEMON:" 	<< BBGLEMON << "\tHello World with bold text lemon background" 			<< RESET << endl;
+	cout << "IBGLEMON:" 	<< IBGLEMON << "\tHello World with italic text lemon background" 		<< RESET << endl;
+	cout << "ULBGLEMON:" 	<< ULBGLEMON<< "\tHello World with underline text lemon background" 	<< RESET << endl;
+	cout << "BKBGLEMON:" 	<< BKBGLEMON<< "\tHello World with blinking text lemon background" 		<< RESET << endl;
+	cout << "CBGLEMON:" 	<< CBGLEMON	<< "\tHello World with cut text lemon background" 			<< RESET << endl;
+	cout << "DLBGLEMON:" 	<< DLBGLEMON<< "\tHello World with double line text lemon background\n" << RESET << endl;
+	cout << "OLBGLEMON:" 	<< OLBGLEMON<< "\tHello World with over line text lemon background\n" 	<< RESET << endl;
 }
 
 void formattingBackgroundsDPINK()
 {
-	// printf("BBGDPINK:\tHello World with bold text dark pink background\n",BBGDPINK,RESET);
-	// printf("IBGDPINK:\tHello World with italic text dark pink background\n",IBGDPINK,RESET);
-	// printf("ULBGDPINK:\tHello World with underline text dark pink background\n",ULBGDPINK,RESET);
-	// printf("BKBGDPINK:\tHello World with blinking text dark pink background\n",BKBGDPINK,RESET);
-	// printf("CBGDPINK:\tHello World with cut text dark pink background\n",CBGDPINK,RESET);
-	// printf("DLBGDPINK:\tHello World with double line text dark pink background\n\n",DLBGDPINK,RESET);
-	// printf("OLBGDPINK:\tHello World with over line text dark pink background\n\n",OLBGDPINK,RESET);
+	cout << "BBGDPINK:" << BBGDPINK << "\tHello World with bold text dark pink background" 			<< RESET << endl;
+	cout << "IBGDPINK:" << IBGDPINK << "\tHello World with italic text dark pink background" 		<< RESET << endl;
+	cout << "ULBGDPINK:"<< ULBGDPINK<< "\tHello World with underline text dark pink background" 	<< RESET << endl;
+	cout << "BKBGDPINK:"<< BKBGDPINK<< "\tHello World with blinking text dark pink background" 		<< RESET << endl;
+	cout << "CBGDPINK:" << CBGDPINK	<< "\tHello World with cut text dark pink background" 			<< RESET << endl;
+	cout << "DLBGDPINK:"<< DLBGDPINK<< "\tHello World with double line text dark pink background\n" << RESET << endl;
+	cout << "OLBGDPINK:"<< OLBGDPINK<< "\tHello World with over line text dark pink background\n" 	<< RESET << endl;
 }
 
 void formattingBackgroundsLPINK()
 {
-	// printf("BBGLPINK:\tHello World with bold text light pink background\n",BBGLPINK,RESET);
-	// printf("IBGLPINK:\tHello World with italic text light pink background\n",IBGLPINK,RESET);
-	// printf("ULBGLPINK:\tHello World with underline text light pink background\n",ULBGLPINK,RESET);
-	// printf("BKBGLPINK:\tHello World with blinking text light pink background\n",BKBGLPINK,RESET);
-	// printf("CBGLPINK:\tHello World with cut text light pink background\n",CBGLPINK,RESET);
-	// printf("DLBGLPINK:\tHello World with double line text light pink background\n\n",DLBGLPINK,RESET);
-	// printf("OLBGLPINK:\tHello World with over line text light pink background\n\n",OLBGLPINK,RESET);
+	// cout << "BBGLPINK:\tHello World with bold text light pink background\n",BBGLPINK,RESET << endl;
+	// cout << "IBGLPINK:\tHello World with italic text light pink background\n",IBGLPINK,RESET << endl;
+	// cout << "ULBGLPINK:\tHello World with underline text light pink background\n",ULBGLPINK,RESET << endl;
+	// cout << "BKBGLPINK:\tHello World with blinking text light pink background\n",BKBGLPINK,RESET << endl;
+	// cout << "CBGLPINK:\tHello World with cut text light pink background\n",CBGLPINK,RESET << endl;
+	// cout << "DLBGLPINK:\tHello World with double line text light pink background\n\n",DLBGLPINK,RESET << endl;
+	// cout << "OLBGLPINK:\tHello World with over line text light pink background\n\n",OLBGLPINK,RESET << endl;
 }
 
 void formattingBackgroundsMPINK()
 {
-	// printf("BBGMPINK:\tHello World with bold text medium pink background\n",BBGMPINK,RESET);
-	// printf("IBGMPINK:\tHello World with italic text medium pink background\n",IBGMPINK,RESET);
-	// printf("ULBGMPINK:\tHello World with underline text medium pink background\n",ULBGMPINK,RESET);
-	// printf("BKBGMPINK:\tHello World with blinking text medium pink background\n",BKBGMPINK,RESET);
-	// printf("CBGMPINK:\tHello World with cut text medium pink background\n",CBGMPINK,RESET);
-	// printf("DLBGMPINK:\tHello World with double line text medium pink background\n\n",DLBGMPINK,RESET);
-	// printf("OLBGMPINK:\tHello World with over line text medium pink background\n\n",OLBGMPINK,RESET);
+	// cout << "BBGMPINK:\tHello World with bold text medium pink background\n",BBGMPINK,RESET << endl;
+	// cout << "IBGMPINK:\tHello World with italic text medium pink background\n",IBGMPINK,RESET << endl;
+	// cout << "ULBGMPINK:\tHello World with underline text medium pink background\n",ULBGMPINK,RESET << endl;
+	// cout << "BKBGMPINK:\tHello World with blinking text medium pink background\n",BKBGMPINK,RESET << endl;
+	// cout << "CBGMPINK:\tHello World with cut text medium pink background\n",CBGMPINK,RESET << endl;
+	// cout << "DLBGMPINK:\tHello World with double line text medium pink background\n\n",DLBGMPINK,RESET << endl;
+	// cout << "OLBGMPINK:\tHello World with over line text medium pink background\n\n",OLBGMPINK,RESET << endl;
 }
 
 void colorBackgrounds()
@@ -570,20 +570,20 @@ void colorBackgrounds()
 	cout << "1. LGREEN" << endl;
 	cout << "2. MGREEN" << endl;
 	cout << "3. DGREEN" << endl;
-	cout << "4. LRED" << endl;
-	cout << "5. DRED" << endl;
+	cout << "4. LRED" 	<< endl;
+	cout << "5. DRED" 	<< endl;
 	cout << "6. LWHITE" << endl;
 	cout << "7. DWHITE" << endl;
-	cout << "8. LBLUE" << endl;
-	cout << "9. DBLUE" << endl;
+	cout << "8. LBLUE" 	<< endl;
+	cout << "9. DBLUE" 	<< endl;
 	cout << "10. LCYAN" << endl;
 	cout << "11. DCYAN" << endl;
-	cout << "12. ORANGE" << endl;
+	cout << "12. ORANGE"<< endl;
 	cout << "13. BLACK" << endl;
-	cout << "14. MAGENTA" << endl;
+	cout << "14. MAGENTA"<< endl;
 	cout << "15. YELLOW" << endl;
-	cout << "16. LEMON" << endl;
-	cout << "17. PINK" << endl;
+	cout << "16. LEMON"  << endl;
+	cout << "17. PINK" 	 << endl;
 	cout << "# ";
 	int colorBackgroundOption = 0;
 	cin >> colorBackgroundOption;
