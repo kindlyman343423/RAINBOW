@@ -1,12 +1,47 @@
 package rainbow.rainformatbg;
 
-public class MediumPinkRFB
+public class MediumPinkRFB implements IRainFormatBG
 {
-    public final String BBGMPINK   = "\u001B[1;104m";   
-    public final String IBGMPINK   = "\u001B[3;104m";   
-    public final String ULBGMPINK  = "\u001B[4;104m";  
-    public final String BKBGMPINK  = "\u001B[5;104m";
-    public final String CBGMPINK   = "\u001B[9;104m";
-    public final String DLBGMPINK  = "\u001B[21;104m";
-    public final String OLBGMPINK  = "\u001B[53;104m";
+    public final String BOLD        = "\u001B[1;104m";   
+    public final String ITALIC      = "\u001B[3;104m";   
+    public final String UNDERLINE   = "\u001B[4;104m";  
+    public final String BLINK       = "\u001B[5;104m";
+    public final String CUT         = "\u001B[9;104m";
+    public final String DOUBLELINE  = "\u001B[21;104m";
+    public final String OVERLINE    = "\u001B[53;104m";
+
+    @Override
+    public String getBold() {
+        return this.BOLD;
+    }
+
+    @Override
+    public String getItalic() {
+        return this.ITALIC;
+    }
+
+    @Override
+    public String getUnderline() {
+        return this.UNDERLINE;
+    }
+
+    @Override
+    public String getBlink() {
+        return this.BLINK;
+    }
+
+    @Override
+    public String getStrikeThrough() {
+        return this.CUT;
+    }
+
+    @Override
+    public String getDoubleLine() {
+        return this.DOUBLELINE;
+    }
+
+    @Override
+    public String getOverLine() {
+        return this.OVERLINE;
+    }
 }

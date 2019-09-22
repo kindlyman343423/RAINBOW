@@ -1,12 +1,47 @@
 package rainbow.rainformatbg;
 
-public class LightOrangeRFB
+public class LightOrangeRFB implements IRainFormatBG
 {
-    public final String BBGLORANGE   = "\u001B[1;102m";   
-    public final String IBGLORANGE   = "\u001B[3;102m";   
-    public final String ULBGLORANGE  = "\u001B[4;102m";  
-    public final String BKBGLORANGE  = "\u001B[5;102m";
-    public final String CBGLORANGE   = "\u001B[9;102m";
-    public final String DLBGLORANGE  = "\u001B[21;102m";
-    public final String OLBGLORANGE  = "\u001B[53;102m";
+    public final String BOLD        = "\u001B[1;102m";   
+    public final String ITALIC      = "\u001B[3;102m";   
+    public final String UNDERLINE   = "\u001B[4;102m";  
+    public final String BLINK       = "\u001B[5;102m";
+    public final String CUT         = "\u001B[9;102m";
+    public final String DOUBLELINE  = "\u001B[21;102m";
+    public final String OVERLINE    = "\u001B[53;102m";
+
+    @Override
+    public String getBold() {
+        return this.BOLD;
+    }
+
+    @Override
+    public String getItalic() {
+        return this.ITALIC;
+    }
+
+    @Override
+    public String getUnderline() {
+        return this.UNDERLINE;
+    }
+
+    @Override
+    public String getBlink() {
+        return this.BLINK;
+    }
+
+    @Override
+    public String getStrikeThrough() {
+        return this.CUT;
+    }
+
+    @Override
+    public String getDoubleLine() {
+        return this.DOUBLELINE;
+    }
+
+    @Override
+    public String getOverLine() {
+        return this.OVERLINE;
+    }
 }

@@ -1,12 +1,47 @@
 package rainbow.rainformatbg;
 
-public class MediumGreenRFB
+public class MediumGreenRFB implements IRainFormatBG
 {
-    public final String BBGMGREEN   = "\u001B[1;100m";   
-    public final String IBGMGREEN   = "\u001B[3;100m";   
-    public final String ULBGMGREEN  = "\u001B[4;100m";  
-    public final String BKBGMGREEN  = "\u001B[5;100m";
-    public final String CBGMGREEN   = "\u001B[9;100m";
-    public final String DLBGMGREEN  = "\u001B[21;100m";
-    public final String OLBGMGREEN  = "\u001B[53;100m";
+    public final String BOLD        = "\u001B[1;100m";   
+    public final String ITALIC      = "\u001B[3;100m";   
+    public final String UNDERLINE   = "\u001B[4;100m";  
+    public final String BLINK       = "\u001B[5;100m";
+    public final String CUT         = "\u001B[9;100m";
+    public final String DOUBLELINE  = "\u001B[21;100m";
+    public final String OVERLINE    = "\u001B[53;100m";
+
+    @Override
+    public String getBold() {
+        return this.BOLD;
+    }
+
+    @Override
+    public String getItalic() {
+        return this.ITALIC;
+    }
+
+    @Override
+    public String getUnderline() {
+        return this.UNDERLINE;
+    }
+
+    @Override
+    public String getBlink() {
+        return this.BLINK;
+    }
+
+    @Override
+    public String getStrikeThrough() {
+        return this.CUT;
+    }
+
+    @Override
+    public String getDoubleLine() {
+        return this.DOUBLELINE;
+    }
+
+    @Override
+    public String getOverLine() {
+        return this.OVERLINE;
+    }
 }
