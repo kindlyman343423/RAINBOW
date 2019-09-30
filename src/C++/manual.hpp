@@ -1,5 +1,6 @@
-#include "rainbow.h"
-#include <stdio.h>
+#include "rainbow.hpp"
+#include <iostream>
+using namespace std;
 
 void formattingText();
 void rainColors();

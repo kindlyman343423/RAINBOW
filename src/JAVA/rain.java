@@ -1,34 +1,5 @@
 public class rain
 {
-    //COLOR MANUAL
-
-    //FORMATTING TEXT
-    public final String RESET = "\u001B[0m";	    //RESET NORMAL COLOR
-    public final String BOLD = "\u001B[1m";		    //BOLD
-    public final String ITALIC = "\u001B[3m";  		//ITALIC TEXT
-    public final String UNDERLINE = "\u001B[4m";  	//UNDERLINE TEXT
-
-    //TEXT COLORS
-    public final String DGREEN = "\u001B[2m"; 		//green color
-    public final String BLACK = "\u001B[30m"; 		//BLACK COLOR
-    public final String RED = "\u001B[31m";  		//RED COLOR
-    public final String LGREEN = "\u001B[32m"; 		//GREEN COLOR
-    public final String YELLOW = "\u001B[33m"; 		//YELLOW COLOR
-    public final String BLUE = "\u001B[34m"; 		//BLUE COLOR
-    public final String MAGENTA = "\u001B[35m"; 	//MAGENTA COLOR
-    public final String CYAN = "\u001B[36m"; 		//CYAN COLOR
-    public final String WHITE = "\u001B[37m"; 		//WHITE COLOR
-
-    //BACKGROUND COLORS
-    public final String BGGREEN = "\u001B[40m";  //GREEN BACKGROUND
-    public final String BGRED = "\u001B[41m";		//RED BACKGROUND
-    public final String BGLGREEN = "\u001B[42m";	//LIGHT GREEN BACKGROUND
-    public final String BGORANGE ="\u001B[43m";	    //ORANGE BACKGROUND
-    public final String BGLBLUE = "\u001B[44m";		//LIGHT BLUE BACKGROUND
-    public final String BGPINK = "\u001B[45m";		//PINK BACKGROUND
-    public final String BGDGREEN = "\u001B[46m";	//DARK GREEN BACKGROUND
-    public final String BGWHITE = "\u001B[47m";		//WHITE-GREEN BACKGROUND
-
     //FORMATTING WITH COLORS
     public final String BDGREEN = "\u001B[1;2m";     //BOLD DARK GREEN COLOR
     public final String IDGREEN ="\u001B[3;2m";      //ITALIC DARK GREEN COLOR

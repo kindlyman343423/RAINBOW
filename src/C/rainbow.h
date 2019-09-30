@@ -22,10 +22,11 @@ FOR TESTING
 #include "rainBackground.h"         // contains all background colors
 
 // TWO COMPONENT FILES
-#include "rainFormatColor.h"        // contains formatting with colors
-#include "rainFormatBG.h"           // contains formatting with background
-#include "rainColorBG.h"            // contains colors with background
-
 // rainformat + raincolor       => rainformatcolor
+#include "rainFormatColor.h"        // contains formatting with colors
+
 // rainformat + rainbackground  => rainformatbg
+#include "rainFormatBG.h"           // contains formatting with background
+
 // raincolor + rainbackground   => raincolorbg
+#include "rainColorBG.h"            // contains colors with background

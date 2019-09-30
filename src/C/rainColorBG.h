@@ -155,7 +155,7 @@
 #define LRED_BGLRED "\x1B[91;101m"
 
 // Display the LIGHT RED text with DARK ORANGE background
-#define LRED_BGORANGE "\x1B[91;43m"
+#define LRED_BGDORANGE "\x1B[91;43m"
 
 // Display the LIGHT RED text with LIGHT ORANGE background
 #define LRED_BGLORANGE "\x1B[91;102m"
@@ -170,7 +170,7 @@
 #define LRED_BGDWHITE "\x1B[91;107m"
 
 // Display the LIGHT RED text with LEMON background
-#define LRED_LEMON "\x1B[91;103m"
+#define LRED_BGLEMON "\x1B[91;103m"
 
 // Display the LIGHT RED text with MEDIUM PINK background
 #define LRED_BGMPINK "\x1B[91;104m"
